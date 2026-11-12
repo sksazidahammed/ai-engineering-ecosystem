@@ -1,7 +1,7 @@
 # Productivity and Workflows
 
-**Catalogue version:** 1.11
-**Last updated:** 2026-11-12 21:07 IST (UTC+05:30)
+**Catalogue version:** 1.12
+**Last updated:** 2026-11-12 21:35 IST (UTC+05:30)
 
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
@@ -32,6 +32,24 @@
 
 - **License:** AGPL-3.0, as indicated by the upstream README. Review the license obligations before modifying or offering a hosted derivative.
 
-## 📝 Note For Reader
+## OpenLore
+
+- **Project link:** [Official source](https://github.com/aakarim/OpenLore)
+
+- **Type:** Agent-native knowledge repository and self-hostable server that exposes shared files through SSH, SFTP/SSHFS, MCP and a web interface.
+
+- **Purpose:** Gives multiple agents, repositories and people a common, inspectable knowledge surface using ordinary Markdown and files rather than a separate vector database or ingestion pipeline.
+
+- **Workflow / architecture:** Mounts document sets into an identity-scoped virtual filesystem. Read-only access is the default; configured identities can receive scoped publishing or write permissions. Writes are validated and committed atomically with conflict checks.
+
+- **Installation:** The README documents Homebrew installation and Linux/Windows quick-start paths. A local server exposes SSH on port 2222 and web/MCP on port 8080 by default; hosted deployment requires persistent storage and deployment-specific network configuration.
+
+- **Integrations:** The README documents Claude Code, Codex, Cursor, OpenCode, CI jobs and other shell-capable agents through MCP or SSH.
+
+- **License:** Apache-2.0. Third-party components retain their own notices and licenses.
+
+- **Security:** The normal shell is a constrained in-memory Go interpreter rather than an operating-system shell. Nevertheless, identity grants, public endpoints, SSH/OAuth configuration, write permissions, persistent storage and deployment secrets need careful configuration. Keep sensitive docsets private and grant least privilege.
+
+- **Assessment:** Useful when several agents or people need shared, governed project knowledge. For one agent in one repository, ordinary version-controlled Markdown may be simpler.
 
 This category is reserved for AI tools that support personal or team workflows, task management, document operations, knowledge organization, and cross-application automation, where those tools do not fit more specific catalogues. Workflow automation can move or modify data across connected services. Before enabling it, inspect the scopes requested, confirm where data is stored, and test with non-sensitive data.
