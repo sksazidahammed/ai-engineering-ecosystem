@@ -14,8 +14,7 @@
 
 ## OpenMontage
 
-
-- **Repository:** [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage)
+- **Project link:** [Official source](https://github.com/OpenMontageInc/OpenMontage)
 
 - **Type:** Agentic video-production application for planning and producing videos from natural-language direction.
 
@@ -27,8 +26,7 @@
 
 ## HyperFrames
 
-
-- **Repository:** [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+- **Project link:** [Official source](https://github.com/heygen-com/hyperframes)
 
 - **Type:** HTML/CSS/media-to-video framework with command-line and coding-agent workflows.
 
@@ -42,8 +40,7 @@
 
 ## Humanizer
 
-
-- **Repository:** [blader/humanizer](https://github.com/blader/humanizer)
+- **Project link:** [Official source](https://github.com/blader/humanizer)
 
 - **Type:** Writing skill that revises AI-generated prose to remove formulaic patterns and improve naturalness.
 
@@ -51,8 +48,7 @@
 
 ## I Have ADHD
 
-
-- **Repository:** [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
+- **Project link:** [Official source](https://github.com/ayghri/i-have-adhd)
 
 - **Type:** Coding-agent style skill that prioritizes the next action, numbered steps, concise output and one concrete next step.
 
@@ -60,8 +56,7 @@
 
 ## Marketing Skills
 
-
-- **Repository:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+- **Project link:** [Official source](https://github.com/coreyhaines31/marketingskills)
 
 - **Type:** Collection of agent skills for conversion optimization, copywriting, SEO, analytics and growth engineering.
 
@@ -73,8 +68,7 @@
 
 ## Harper
 
-
-- **Official repository:** [automattic/harper](https://github.com/automattic/harper)
+- **Project link:** [Official source](https://github.com/automattic/harper)
 
 - **Type:** English grammar checker and language tooling, including editor integrations and WebAssembly support.
 
@@ -84,6 +78,6 @@
 
 - **Assessment:** Useful for proofreading and writing feedback; it is not a generative writing assistant or a general-purpose multilingual grammar checker.
 
-## Reader notes
+## 📝 Note For Reader
 
 Writing and content tools may produce inaccurate claims, synthetic media, or content that resembles existing work. Check factual statements, attribution, privacy implications, and the applicable license or platform rules before publishing generated output.
