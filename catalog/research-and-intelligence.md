@@ -10,7 +10,7 @@
 | Understand Anything | Multi-agent codebase/document knowledge graph and interactive exploration dashboard | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Verified identity; analysis uses coding-agent integration |
 | Last 30 Days | Agent-led research skill for recent web and social-source synthesis | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Verified identity; integrations may require credentials |
 | Career Ops | AI job-search agent for role evaluation and application support | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Verified identity; handles sensitive CV and career data |
-| REA | Reverse-engineering MCP and agent toolkit for applications, websites and native binaries | [morluto/rea](https://github.com/morluto/rea) | Verified identity; advanced native analysis may require Hopper/Ghidra/IDA/Kuna |
+| REA — Reverse Engineer Anything | Reverse-engineering MCP and agent toolkit for applications, websites and native binaries | [morluto/rea](https://github.com/morluto/rea) | Verified identity; advanced native analysis may require Hopper/Ghidra/IDA/Kuna |
 | Open India Law | Structured Indian primary-law corpus and data-extraction pipelines | [Vaquill-AI/open-india-law](https://github.com/Vaquill-AI/open-india-law) | Apache-2.0 repository; coverage and source-document terms require checking |
 | Repolyze | AI-assisted GitHub repository analysis and reporting web application | [OssiumOfficial/Repolyze](https://github.com/OssiumOfficial/Repolyze) | Repository README states ownership moved to Ossium; API keys and external model processing apply |
 
