@@ -81,3 +81,17 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - GSD's submitted repository is archived; use the successor link and re-check its current release and license.
 - Caveman has split licensing (MIT skill/adoption components and BSL-1.1 runtime components); review the component-level license.
 - Transfer exposes a local HTTP file server; restrict access to trusted LAN devices and stop the server when not in use.
+
+
+## Version 1.5 — 2026-11-12 19:44 IST (UTC+05:30)
+
+### Catalogue structure and consistency
+- Standardized category-page navigation so every category begins with a scannable project table before detailed project explanations.
+- Added summary tables to Local AI and Agent Applications, Cybersecurity and Security Auditing, Productivity and Workflows, Media/Audio/Video, Networking and System Utilities, AI Project Collections, and Model Infrastructure and Gateways.
+- Reconciled the Agent Frameworks and Orchestration index with its detailed entries, replacing stale candidate labels and placeholder repository links.
+- Repaired escaped newline artifacts in category content and removed a duplicated Reader notes heading where present.
+- Updated directory and catalogue metadata to version 1.5. No projects were added or removed; the distinct-record count is unchanged.
+
+### Reader notes
+- Tables are navigation summaries; detailed sections remain the source for setup, licensing, operational limitations and security caveats.
+- Repository identity and README review do not imply hands-on testing or production validation.
