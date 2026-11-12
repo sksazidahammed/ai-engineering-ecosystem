@@ -9,9 +9,9 @@ This index consolidates the initial user-submitted collection. A candidate statu
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
 |---|---|---|---|
-| Superpowers | Agent skills / development workflow | [obra/superpowers](https://github.com/obra/superpowers) | Candidate — review pending |
-| Matt Pocock Skills | Agent skills | [mattpocock/skills](https://github.com/mattpocock/skills) | Candidate — review pending |
-| Everything Claude Code (ECC) | Coding-agent configuration / skills | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Candidate — review pending |
+| Superpowers | Multi-agent software-development methodology and composable skills | [obra/superpowers](https://github.com/obra/superpowers) | Verified identity; supports multiple coding-agent hosts |
+| Matt Pocock Skills | Composable engineering and productivity skills for coding agents | [mattpocock/skills](https://github.com/mattpocock/skills) | Verified identity; manual vs automatic update paths differ |
+| Everything Claude Code (ECC) | Agent-harness configuration, skills, agents, hooks and tooling | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Verified identity; inspect hooks and official install channels |
 | Karpathy-Inspired Skills | Claude Code plugin / agent instruction pack, with Cursor project rule | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | Verified identity; upstream lineage note required |
 | Ponytail | Coding-agent skill / workflow focused on concise, maintainable code and stronger review | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | Verified identity; benchmark claims are upstream-reported |
 | Addy Osmani Agent Skills | Production-oriented engineering skills and lifecycle commands for coding agents | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Verified identity; install portability caveat recorded |
@@ -25,8 +25,8 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Agent Reach | CLI / agent web-research infrastructure | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Verified |
 | Awesome Free LLM APIs | Dynamic directory of free-tier LLM API providers, models and quotas | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Verified identity; quota and provider claims change frequently |
 | Understand Anything | Multi-agent codebase/document knowledge-graph builder with interactive dashboard | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Verified identity; model use depends on analysis workflow |
-| Last 30 Days | Research skill / workflow | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Candidate — review pending |
-| Career Ops | Career workflow / agent project | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Candidate — review pending |
+| Last 30 Days | Agent-led research skill aggregating recent social/web engagement into a brief | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Verified identity; source integrations may need credentials |
+| Career Ops | Open-source AI job-search agent for evaluating listings and tailoring applications | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Verified identity; handles sensitive CV/career data |
 | REA | Reverse-engineering agent toolkit and MCP server for binaries, apps and runtime behavior | [morluto/rea](https://github.com/morluto/rea) | Verified identity; native analysis may require external tools |
 
 ## Agent frameworks and orchestration
@@ -90,8 +90,8 @@ This index consolidates the initial user-submitted collection. A candidate statu
 |---|---|---|---|
 | UI UX Pro Max | UI/UX design skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Candidate — review pending |
 | Taste Skill | Design-focused agent skill for generating higher-quality company websites and interfaces | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Verified identity; MIT stated upstream |
-| Archify | Unclear; identity needs confirmation | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Candidate — review pending |
-| Impeccable | Design / frontend skill collection | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Candidate — review pending |
+| Archify | Agent skill that turns prompts and plans into interactive HTML visualizations | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Verified identity; Apache-2.0 stated upstream |
+| Impeccable | Design vocabulary and critique/audit commands for coding agents | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Verified identity; strongest on iterative interface refinement |
 | PPT Master | AI-assisted native PowerPoint generation from source documents | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Verified identity; MIT stated upstream |
 | Diagram Design | Agent skill generating branded HTML/SVG diagrams across many diagram types | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Verified identity; MIT stated upstream |
 
@@ -111,7 +111,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | HyperFrames | HTML/CSS/media-to-video framework with deterministic MP4 rendering and agent workflows | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Verified identity; Apache-2.0 stated upstream |
 | Humanizer | Agent skill for editing AI-written prose toward more natural, direct language | [blader/humanizer](https://github.com/blader/humanizer) | Verified identity; does not claim reliable AI-detector evasion |
 | I Have ADHD | Coding-agent output-style skill emphasizing action-first, concise, structured responses | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | Verified identity; not a diagnostic or clinical tool |
-| Marketing Skills | Marketing skills collection | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Candidate — review pending |
+| Marketing Skills | Agent skills for CRO, copywriting, SEO, analytics and growth engineering | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Verified identity; MIT stated upstream |
 
 ## Karpathy-inspired skills: provenance note
 
@@ -123,7 +123,7 @@ The submissions “Skills by Anthropic” and “Agent Skills” referred to the
 
 ## Count and deduplication
 
-The master index currently contains 47 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
+The master index currently contains 48 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
 ## Reader notes
 
