@@ -21,7 +21,11 @@
 
 - **Type:** Local project knowledge-graph builder distributed as a CLI and agent skill.
 
-- **Function:** Maps code and supported project materials into a traversable graph, with an interactive HTML view, Markdown report and machine-readable graph output. The README distinguishes source-extracted edges from inferred edges.
+- **Function:** Maps code and supported project materials into a traversable knowledge graph and produces three outputs: an interactive `graph.html` view, a `GRAPH_REPORT.md` summary, and a machine-readable `graph.json`. The README distinguishes source-extracted edges from inferred edges.
+
+- **Integrations:** The current README describes installation across 20+ coding assistants, including Claude Code, Cursor, Codex, Gemini CLI and GitHub Copilot.
+
+- **Architecture:** Code is parsed locally with tree-sitter AST and does not require an LLM or embeddings. Semantic processing for documents and media can use the assistant's model or a configured API key; Graphify Cloud is a separate hosted service.
 
 - **Install:** `uv tool install graphifyy` followed by `graphify install`; Python 3.10+ is listed.
 
