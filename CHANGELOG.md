@@ -247,26 +247,29 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - Updated README, master catalogue, changelog, rulebook baseline and all 13 category pages to version 1.14.
 
 
+
 ## Version 1.15 — 2026-11-13 02:25 IST (UTC+05:30)
 
-### Added
-- Expanded the directory by 45 distinct repositories from the latest intake, across coding and development, agent frameworks, research, cybersecurity, design, productivity, local AI, system utilities and model infrastructure.
-- Added Gortex, Gentle-AI, Engram, FreeLLMAPI, Ghidra, llama.cpp, OpenSSL, Herdr, Astryx, Google Agent Skills, GBrain, Rune's native UI framework was reviewed but not added in this pass, Agent Browser, Agent Desktop, Auto Ontology, Agent Skills Specification, OpenClaw, TokenEconomizer reviewed for later classification, PixelFX, LearnHarness, Worktrunk, Kimi K3 in C reviewed for technical plausibility and not promoted, and additional desktop/design workflows.
-- Refreshed the existing Understand Anything, Archify and Hallmark records without creating duplicates; retained the existing OpenMausBot record.
-- Deduplicated repeated Hallmark submission. The batch contains no second OpenMausBot record. Additional README-reviewed entries added in this pass include Rune and Anthropic Knowledge Work Plugins.
+### Added and refreshed
+- Added 46 distinct repositories from the latest intake across coding and development, agent frameworks, research, cybersecurity, design, productivity, local AI, networking/system utilities and model infrastructure.
+- New entries include Gortex, Gentle-AI, Engram, FreeLLMAPI, Ghidra, llama.cpp, OpenSSL, Herdr, Astryx, Google Agent Skills, GBrain, Rune, Agent Browser, Agent Desktop, Auto Ontology, Agent Skills Specification, OpenClaw, TokenEconomizer, PixelFX, LearnHarness, Worktrunk, Kimi K3 in C, T3 Code, Macro, CLI-Anything, Anthropic Knowledge Work Plugins and the listed desktop/design utilities.
+- Refreshed the existing Understand Anything and Archify records without duplicating them. Added Hallmark once despite its repeated submission. Retained the existing OpenMausBot record without adding a second copy.
+- Added explicit distinctions between skill collections, skill specifications, skill-management CLIs, agent runtimes, model inference engines, security infrastructure and ordinary desktop utilities.
 
 ### Important caveats
-- Some repository license details were not confirmed from the inspected README excerpts; entries explicitly say to inspect upstream LICENSE files rather than assuming permissive terms.
+- Some license details remain unconfirmed from the inspected README excerpts; those entries explicitly direct readers to inspect upstream LICENSE files rather than assuming permissive terms.
 - OpenBot is PolyForm Noncommercial 1.0.0; it is not a general commercial-use open-source license.
 - Ghidra versions have release-specific security advisories; use supported releases and inspect upstream notices.
 - OpenSSL licensing is version-dependent; inspect the exact release's license files.
-- FreeLLMAPI aggregates third-party provider tiers; quota totals are not guaranteed. FreeToken and llama.cpp runtimes do not determine the license of model weights.
+- FreeLLMAPI aggregates third-party provider tiers; quota totals are not guaranteed. FreeToken and llama.cpp runtimes do not determine model-weight licensing.
+- The Kimi K3 in C README reports a 1.56 TB checkpoint and 8.24 GB peak resident memory; these figures are upstream-reported and were not reproduced.
 - Desktop/browser agents can access authenticated sessions, files and commands. Apply least privilege and review permissions.
 
 ### Verification scope
-- Fetched upstream README files for the submitted repositories and used those as primary identity/function evidence. License badges/statements were recorded where visible; unresolved license details are marked for direct inspection.
+- Fetched upstream README files for the submitted repositories and inspected the LICENSE file for CLI-Anything. Recorded license statements/badges where visible; unresolved license details are marked for direct inspection.
 - No hands-on installation, performance, security or legal testing is claimed.
-- Existing records were checked for obvious duplicate overlap. The master catalogue count is updated to 106 distinct records; category table/detail parity and cross-page duplicate checks remain subject to post-write audit.
+- Audited all 13 category pages: summary-table row count matches explanation-heading count, order matches, each project section begins with a Project link bullet, and each page has exactly one final Note For Reader heading. A repository-URL duplicate scan across category pages found no duplicate placements.
+- Updated the master catalogue to 107 distinct project records.
 
 ### Maintenance
-- Updated all 13 category pages, master catalogue and README metadata to version 1.15.
+- Updated all 13 category pages, master catalogue, README and rulebook baseline to version 1.15.
