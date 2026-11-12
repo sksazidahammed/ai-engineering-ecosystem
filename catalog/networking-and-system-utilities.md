@@ -11,8 +11,7 @@
 
 ## net-merge
 
-
-- **Repository:** [net-merge/net-merge](https://github.com/net-merge/net-merge)
+- **Project link:** [Official source](https://github.com/net-merge/net-merge)
 
 - **Type:** Multi-network connection aggregation utility.
 
@@ -24,8 +23,7 @@
 
 ## Plexo
 
-
-- **Repository:** [anmolkapil/plexo](https://github.com/anmolkapil/plexo)
+- **Project link:** [Official source](https://github.com/anmolkapil/plexo)
 
 - **Type:** Desktop download manager / multi-network download acceleration application.
 
@@ -37,8 +35,7 @@
 
 ## Transfer
 
-
-- **Repository:** [matan-h/Transfer](https://github.com/matan-h/Transfer)
+- **Project link:** [Official source](https://github.com/matan-h/Transfer)
 
 - **Type:** Android local file-server application for transferring files between devices on the same Wi-Fi network.
 
@@ -48,6 +45,6 @@
 
 - **Assessment:** Useful for direct phone-to-PC transfers without cloud storage or cables; it is not an internet-hosted cloud drive.
 
-## Reader notes
+## 📝 Note For Reader
 
 Network aggregation products can route traffic through relays or remote infrastructure. Review privacy, traffic encryption, relay ownership, routing behavior, bandwidth limits and whether all traffic or only supported downloads is affected. Benchmark with controlled tests before relying on advertised speed gains.
