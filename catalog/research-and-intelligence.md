@@ -14,7 +14,7 @@
 | Open India Law | Structured Indian primary-law corpus and data-extraction pipelines | [Vaquill-AI/open-india-law](https://github.com/Vaquill-AI/open-india-law) | Apache-2.0 repository; coverage and source-document terms require checking |
 | Repolyze | AI-assisted GitHub repository analysis and reporting web application | [OssiumOfficial/Repolyze](https://github.com/OssiumOfficial/Repolyze) | Repository README states ownership moved to Ossium; API keys and external model processing apply |
 | Auto Ontology | Enterprise metadata-to-ontology and agent context library | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | Apache-2.0 stated upstream |
-| LearnHarness | Adaptive agent-assisted learning and knowledge modeling application | [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness) | License not confirmed in this intake |
+| TokenEconomizer | Research implementation for experience-driven coding-agent token and cost control | [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) | Apache-2.0 stated upstream; research claims are experimental |
 
 ## Graphify
 
@@ -166,19 +166,19 @@
 
 - **Privacy / Security / Limitations:** Generated ontology definitions require domain-owner validation. Review database permissions, metadata exposure and lineage accuracy before allowing agents to issue business queries.
 
-## LearnHarness
+## TokenEconomizer
 
-- **Project link:** [Official source](https://github.com/amosblomqvist/learnharness)
+- **Project link:** [Official source](https://github.com/microsoft/TokenEconomizer)
 
-- **Type / Classification:** Adaptive agent-assisted learning and knowledge modeling application.
+- **Type / Classification:** Research implementation for experience-driven coding-agent token and cost control.
 
-- **Purpose / Capabilities:** Builds a model of what a learner understands and how they reason, then adapts lessons and practice while retaining a knowledge graph across sessions.
+- **Purpose / Capabilities:** Presents a black-box, experience-driven approach to reducing coding-agent token use and inference cost, with an accompanying research paper and Python implementation. It evaluates cost-control behavior from observed task outcomes rather than relying only on fixed prompt heuristics.
 
-- **Installation / Requirements:** Download and setup details are linked from the README; verify current supported platforms and provider configuration.
+- **Installation / Requirements:** Python 3.10+ is stated in the README; follow the repository's experiment and setup instructions. Reproduction may require compatible agent/model access and benchmark resources.
 
-- **License / Cost:** License and provider costs not confirmed in this intake.
+- **License / Cost:** Apache-2.0 stated upstream; model/API usage may incur separate costs.
 
-- **Privacy / Security / Limitations:** Treat generated assessments as learning guidance rather than validated psychometric measurement; protect learner data.
+- **Privacy / Security / Limitations:** Treat reported savings and benchmark outcomes as research results, not guaranteed production improvements. Reproduce on representative workloads and monitor task success, regression rate and total cost.
 
 ## 📝 Note For Reader
 
