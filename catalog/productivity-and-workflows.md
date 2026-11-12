@@ -10,8 +10,7 @@
 
 ## OpenReply
 
-
-- **Repository:** [diwenne/openreply](https://github.com/diwenne/openreply)
+- **Project link:** [Official source](https://github.com/diwenne/openreply)
 
 - **Type:** Self-hosted Instagram comment-to-DM automation application.
 
@@ -25,8 +24,7 @@
 
 ## OpnForm
 
-
-- **Repository:** [opnform/opnform](https://github.com/opnform/opnform)
+- **Project link:** [Official source](https://github.com/opnform/opnform)
 
 - **Type:** Open-source no-code form builder, with hosted and self-hosted deployment options.
 
@@ -34,8 +32,6 @@
 
 - **License:** AGPL-3.0, as indicated by the upstream README. Review the license obligations before modifying or offering a hosted derivative.
 
-## Reader notes
+## 📝 Note For Reader
 
-This category is reserved for AI tools that support personal or team workflows, task management, document operations, knowledge organization, and cross-application automation, where those tools do not fit more specific catalogues.
-
-Workflow automation can move or modify data across connected services. Before enabling it, inspect the scopes requested, confirm where data is stored, and test with non-sensitive data.
+This category is reserved for AI tools that support personal or team workflows, task management, document operations, knowledge organization, and cross-application automation, where those tools do not fit more specific catalogues. Workflow automation can move or modify data across connected services. Before enabling it, inspect the scopes requested, confirm where data is stored, and test with non-sensitive data.
