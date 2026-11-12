@@ -77,6 +77,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Project | Type | Source | Status |
 |---|---|---|---|
 | OmniRoute | Self-hosted LLM API gateway with multi-provider routing and fallback | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | Verified identity; free-tier availability and quota claims are volatile |
+| Awesome Free LLM APIs | Directory of free-tier LLM API providers and limits | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Repository identity verified; not an API provider or quota guarantee |
 | OpenJev | Open-source typed-decision inference server with model-serving adapters | [razorback16/openjev](https://github.com/razorback16/openjev) | Apache-2.0 code; hosted quota and model availability are provider-dependent |
 
 ## Cybersecurity and security auditing
