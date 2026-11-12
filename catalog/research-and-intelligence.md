@@ -1,7 +1,7 @@
 # Research and Intelligence
 
-**Catalogue version:** 1.11
-**Last updated:** 2026-11-12 21:07 IST (UTC+05:30)
+**Catalogue version:** 1.12
+**Last updated:** 2026-11-12 21:35 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -12,6 +12,8 @@
 | Last 30 Days | Agent-led research skill for recent web and social-source synthesis | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Verified identity; integrations may require credentials |
 | Career Ops | AI job-search agent for role evaluation and application support | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Verified identity; handles sensitive CV and career data |
 | REA | Reverse-engineering MCP and agent toolkit for applications, websites and native binaries | [morluto/rea](https://github.com/morluto/rea) | Verified identity; advanced native analysis may require Hopper/Ghidra/IDA/Kuna |
+| Open India Law | Structured Indian primary-law corpus and data-extraction pipelines | [Vaquill-AI/open-india-law](https://github.com/Vaquill-AI/open-india-law) | Apache-2.0 repository; coverage and source-document terms require checking |
+| Repolyze | AI-assisted GitHub repository analysis and reporting web application | [OssiumOfficial/Repolyze](https://github.com/OssiumOfficial/Repolyze) | Repository README states ownership moved to Ossium; API keys and external model processing apply |
 
 ## Graphify
 
@@ -93,15 +95,19 @@
 
 - **Project link:** [Official source](https://github.com/career-ops-hq/career-ops)
 
-- **Type:** Open-source AI job-search and application-support agent.
+- **Type:** Open-source, local-first AI job-search agent distributed through an npm CLI and designed to work inside supported AI coding/agent CLIs.
 
-- **Capabilities:** Evaluates job listings against a candidate profile, checks whether roles remain open, and assists with CV tailoring and application-answer drafting.
+- **Workflow:** Evaluates job postings against a candidate's CV and preferences, checks whether a listing appears active, scores role fit, researches relevant context, and drafts tailored CV material, cover letters, outreach notes and application answers.
 
-- **User control:** The upstream workflow is designed to leave final application submission under the user's control.
+- **Human control:** The README explicitly states that the tool does not submit applications or send emails; the user reviews and performs the final actions. Generated CV claims still require manual fact-checking.
 
-- **Privacy:** CVs and career histories are sensitive personal data. Review storage locations, connected services and data-sharing behavior before uploading information.
+- **Installation:** The upstream quick start uses `npx @santifer/career-ops init`. Review the current supported CLI and model-provider setup in the README before installation.
 
-- **Assessment:** Useful for organizing job searches and drafting application material; verify role status and every generated claim before submitting.
+- **Privacy and data flow:** The project describes local application data storage and no first-party telemetry/backend. CV content is still sent from the user's machine to the AI provider they configure; provider retention and training policies therefore matter.
+
+- **License / cost:** MIT. The project says it is free for candidates; model-provider usage and optional external search services may have separate limits or costs.
+
+- **Assessment:** Useful for structured, selective job applications rather than mass auto-apply. Treat role-fit scores as decision support, verify listing legitimacy and every generated statement, and never submit unreviewed material.
 
 ## REA — Reverse Engineer Anything
 
@@ -120,6 +126,38 @@
 - **Security and legal scope:** Analyze only software and systems you own or are explicitly authorized to inspect. Reverse engineering may involve proprietary software, sensitive data and legal restrictions.
 
 - **Assessment:** A specialized analysis toolkit; native workflows can require additional paid or separately licensed tools.
+
+## Open India Law
+
+- **Project link:** [Official source](https://github.com/Vaquill-AI/open-india-law)
+
+- **Type:** Structured Indian primary-law dataset and open-source scraping / normalization pipeline.
+
+- **Coverage stated upstream:** Supreme Court and 25 High Court judgments, tribunal and regulator matters, and Central, State and Union Territory legislation indexed down to individual sections. The README's counts are a dated project snapshot and will change as data is updated.
+
+- **Data access:** Publishes Parquet files for data pipelines, a browser for Acts and regulations, and links to source PDFs. The README says district and trial-court decisions are not included; much tribunal material is indexed by case but not yet full-text searchable.
+
+- **Sources and traceability:** The project says its corpus is built from official government sources and legislation provisions carry source URLs. Check each record's source link and date before relying on it.
+
+- **License:** Apache-2.0 for the repository code. Do not assume that this automatically relicenses government documents or third-party source material; review the source and reuse terms for the specific documents.
+
+- **Assessment:** Valuable for legal research, corpus analysis and building retrieval systems focused on Indian law. It is a data resource, not legal advice; verify current law and primary documents before making legal decisions.
+
+## Repolyze
+
+- **Project link:** [Official source](https://github.com/OssiumOfficial/Repolyze)
+
+- **Type:** AI-assisted GitHub repository analysis web application.
+
+- **Capabilities:** Produces codebase health scoring, architecture and data-flow visualizations, dependency and technology-stack analysis, security observations, improvement suggestions, and downloadable or shareable reports.
+
+- **Workflow / requirements:** The README documents a Next.js application requiring Node.js 18+, pnpm (recommended), GitHub access credentials and an OpenRouter API key for local development.
+
+- **Data handling:** The README claims that code is not stored and analysis occurs in real time. However, repository contents are processed by the configured AI provider; review the provider's data controls before analyzing private or sensitive code. A GitHub token also grants access according to its configured scopes.
+
+- **License / ownership:** The submitted MxCorpIn repository README says the project is now owned and maintained by Ossium and links to [OssiumOfficial/Repolyze](https://github.com/OssiumOfficial/Repolyze). Its README advertises MIT; confirm the current canonical repository's license before reuse.
+
+- **Assessment:** Useful for an initial codebase overview and onboarding. AI-generated health scores and security findings are heuristics, not a substitute for static analysis, dependency scanning, code review or a professional security audit.
 
 ## 📝 Note For Reader
 
