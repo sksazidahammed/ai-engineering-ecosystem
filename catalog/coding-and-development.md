@@ -1,7 +1,7 @@
 # Coding and Development
 
-**Catalogue version:** 1.5
-**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+**Catalogue version:** 1.6  
+**Last updated:** 2026-11-12 19:50 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -38,17 +38,15 @@
 - **Type:** Coding-agent skill/workflow emphasizing minimal necessary code, reuse of existing project components, validation, and deeper code review/audit.
 - **Assessment:** Relevant to reducing overengineering and unnecessary token/code volume without intentionally removing tests, error handling, security or accessibility. Its benchmark figures and comparative claims are reported by the project; they have not been independently reproduced in this directory.
 
-## Additional verified projects
-
-### Superpowers
+## Superpowers
 
 A complete development methodology built from composable skills and startup instructions. Its workflow emphasizes requirements discovery, design/specification, implementation planning, test-driven development, subagent execution and review. It supports multiple agent hosts; install separately per host. Review requested permissions and hooks before enabling autonomous workflows.
 
-### Matt Pocock Skills
+## Matt Pocock Skills
 
 A collection of small, composable skills for practical software engineering and productivity. The README documents setup flows for Claude Code, Codex, Copilot, Gemini CLI and the Agent Skills CLI. The project distinguishes marketplace plugins with automatic updates from copied skill files that require manual updating; avoid installing both variants simultaneously.
 
-### Everything Claude Code (ECC)
+## Everything Claude Code (ECC)
 
 An agent-harness configuration system spanning skills, agents, rules, hooks, commands and tooling. The repository lists MIT licensing and publishes multiple install surfaces/packages. Use only official repository, npm and marketplace channels named by upstream. Because hooks and agent tools can execute commands or access project context, inspect them before installation.
 
