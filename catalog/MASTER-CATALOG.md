@@ -1,7 +1,7 @@
 # Master Catalogue
 
-**Catalogue version:** 1.11
-**Last updated:** 2026-11-12 21:07 IST (UTC+05:30)
+**Catalogue version:** 1.12
+**Last updated:** 2026-11-12 21:35 IST (UTC+05:30)
 
 This index consolidates the initial user-submitted collection. A candidate status is intentional: it prevents an ambiguous name or unverified URL from being mistaken for an approved recommendation.
 
@@ -40,6 +40,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | GSD Core | Spec-driven development and context-engineering workflow; successor to archived GSD repository | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | Successor identified; original submitted repository archived |
 | BMAD Method | Agile AI-driven software-development methodology with role-based agents and workflow modules | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Verified identity; stable v6 and preview v7 have different maturity |
 | MiroFish | Multi-agent swarm simulation / scenario exploration engine | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | Verified identity; predictive validity not established |
+| Foreman | Runtime for semantic supervision of coding-agent workers | [thruwire/foreman](https://github.com/thruwire/foreman) | MIT; requires a decision-model provider and worker runtime |
 
 ## Media, audio and video
 
@@ -70,12 +71,14 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Project | Type | Source | Status |
 |---|---|---|---|
 | Awesome LLM Apps | Curated collection of AI agents, skills and RAG applications | [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps) | Verified identity; contents change frequently |
+| Awesome AI Apps | Curated collection of agent, voice, MCP, memory, RAG and fine-tuning projects | [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | MIT repository license; examples have their own dependencies and terms |
 
 ## Model infrastructure and gateways
 
 | Project | Type | Source | Status |
 |---|---|---|---|
 | OmniRoute | Self-hosted LLM API gateway with multi-provider routing and fallback | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | Verified identity; free-tier availability and quota claims are volatile |
+| OpenJev | Open-source typed-decision inference server with model-serving adapters | [razorback16/openjev](https://github.com/razorback16/openjev) | Apache-2.0 code; hosted quota and model availability are provider-dependent |
 
 ## Cybersecurity and security auditing
 
@@ -94,6 +97,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Impeccable | Design vocabulary and critique/audit commands for coding agents | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Verified identity; strongest on iterative interface refinement |
 | PPT Master | AI-assisted native PowerPoint generation from source documents | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Verified identity; MIT stated upstream |
 | Diagram Design | Agent skill generating branded HTML/SVG diagrams across many diagram types | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Verified identity; MIT stated upstream |
+| Aria Icons | Searchable icon catalogue, CLI and MCP server for coding agents | [LeulAria/Aria-Icons](https://github.com/LeulAria/Aria-Icons) | MIT code; individual icon collections retain their own licenses |
 
 ## Productivity and workflows
 
@@ -102,6 +106,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | OpenReply | Self-hosted Instagram comment-to-DM automation application | [diwenne/openreply](https://github.com/diwenne/openreply) | Verified identity; Meta policy and hosting requirements apply |
 | OpnForm | Open-source form builder with MCP integration | [opnform/opnform](https://github.com/opnform/opnform) | Verified identity; AGPL-3.0 stated upstream |
 | Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |
+| OpenLore | Agent-native shared knowledge repository with SSH, MCP and governed file access | [aakarim/OpenLore](https://github.com/aakarim/OpenLore) | Apache-2.0; access policy and deployment configuration require care |
 
 ## Writing and content
 
@@ -113,6 +118,14 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | I Have ADHD | Coding-agent output-style skill emphasizing action-first, concise, structured responses | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | Verified identity; not a diagnostic or clinical tool |
 | Marketing Skills | Agent skills for CRO, copywriting, SEO, analytics and growth engineering | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Verified identity; MIT stated upstream |
 
+## Data platforms and infrastructure
+
+| Project | Type | Official source | Status |
+|---|---|---|---|
+| ingestr | CLI and Python library for data ingestion between sources and destinations | [bruin-data/ingestr](https://github.com/bruin-data/ingestr) | FSL-1.1-ALv2; Apache-2.0 future grant after two years |
+| HydraDB | Distributed graph database built on S3-compatible object storage | [hydra-db/hydradb](https://github.com/hydra-db/hydradb) | Elastic License 2.0; hosted-service restrictions apply |
+| Nhost | Open-source backend platform / Firebase alternative | [nhost/nhost](https://github.com/nhost) | MIT repository license; hosted and self-hosted operations differ |
+
 ## Karpathy-inspired skills: provenance note
 
 The submitted repository is [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills). Its README describes four coding-agent principles and includes Claude Code plugin and per-project instruction installation paths, plus a Cursor rule. Notably, its documented Claude Code marketplace installation command references `forrestchang/andrej-karpathy-skills`, and its raw `CLAUDE.md` example also points to that owner. Treat the multica-ai repository as the submitted distribution/maintenance location, but verify the upstream source and current marketplace instructions before installation. The repository states an MIT license.
@@ -123,7 +136,7 @@ The submissions “Skills by Anthropic” and “Agent Skills” referred to the
 
 ## Count and deduplication
 
-The master index currently contains 48 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
+The master index currently contains 58 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
 ## 📝 Note For Reader
 
