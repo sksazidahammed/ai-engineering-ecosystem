@@ -208,3 +208,22 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ### Verification
 - Checked all submitted repositories' README and LICENSE files where available; no hands-on installation, performance or security testing was claimed.
 - Preserved the existing 48 records and added ten new distinct records; no duplicates were created for Career Ops or Graphify.
+
+
+## Version 1.13 — 2026-11-12 21:55 IST (UTC+05:30)
+
+### Added
+- Added [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) to **Local AI and Agent Applications** as an agent-skill suite plus a separate Python HTTP service.
+- Documented its deterministic Unicode cleanup, statistical text-rewrite layer, file metadata/provenance handling, HTTP API, supported agent hosts, and service setup.
+- Recorded MIT repository licensing and distinguished optional external tools, model backends and third-party service terms.
+
+### Limitations and responsible-use notes
+- The upstream README describes intended use as privacy and hygiene for content the user owns.
+- C2PA soft bindings and data-driven/backdoor marks are out of scope; optional detectors and pixel/audio/video backends require separate configuration.
+- Audio watermark processing is destructive and video removal is partial; a clean result does not prove human authorship or guarantee a negative detector result.
+- The service handles submitted file contents. Remote deployments require network restrictions, HTTPS and API-key protection; do not expose the default HTTP service publicly without hardening.
+- Catalogue entry is based on upstream README, skill, license and security-policy review. No hands-on functional or security test is claimed.
+
+### Maintenance
+- Updated the master catalogue count to 59 distinct project records.
+- Updated README, master catalogue, changelog, and all 13 category pages to version 1.13.
