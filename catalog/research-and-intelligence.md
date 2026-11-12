@@ -1,11 +1,12 @@
 # Research and Intelligence
 
 **Catalogue version:** 1.6  
-**Last updated:** 2026-11-12 19:50 IST (UTC+05:30)
+**Last updated:** 2026-11-12 19:52 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
 | Graphify | Local knowledge-graph builder and coding-agent skill | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Verified identity; cloud service is separate |
+| Awesome Free LLM APIs | Dynamic directory of free-tier LLM API providers, models and limits | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Verified identity; provider quotas and access change frequently |
 | Agent Reach | CLI / agent web-research infrastructure | [Official repository](https://github.com/Panniantong/Agent-Reach) | Verified |
 | Understand Anything | Multi-agent codebase/document knowledge graph and interactive exploration dashboard | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Verified identity; analysis uses coding-agent integration |
 | Last 30 Days | Agent-led research skill for recent web and social-source synthesis | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Verified identity; integrations may require credentials |
