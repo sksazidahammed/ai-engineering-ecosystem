@@ -3,7 +3,7 @@
 A curated, continuously maintained catalogue of AI engineering tools, agent skills, plugins, MCP servers, frameworks, and workflows.
 
 **Directory version:** 1.3  
-**Last updated:** 2026-11-12 19:02 IST (UTC+05:30)  
+**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)  
 **Repository:** [sksazidahammed/ai-engineering-ecosystem](https://github.com/sksazidahammed/ai-engineering-ecosystem)
 
 ## Start here
@@ -20,5 +20,6 @@ A curated, continuously maintained catalogue of AI engineering tools, agent skil
 | [Productivity and workflows](catalog/productivity-and-workflows.md) | Forms, social automation and cross-application workflows |
 | [Media, audio and video](catalog/media-audio-video.md) | Screen capture, speech recognition, video generation and animation |
 | [Local AI and agent applications](catalog/local-ai-and-agent-applications.md) | Local model runtimes and desktop agent applications |
-| [Networking and system utilities](catalog/networking-and-system-utilities.md) | Network aggregation and system-level connectivity utilities |
-| [AI project collections](catalog/ai-project-collections.md) | Curated examples, templates and learning repositories |\n| [Model infrastructure and gateways](catalog/model-infrastructure-and-gateways.md) | LLM API routing, provider aggregation and free-tier directories |
+| [Networking and system utilities](catalog/networking-and-system-utilities.md) | Network aggregation, local-network file transfer and system-level connectivity utilities |
+| [AI project collections](catalog/ai-project-collections.md) | Curated examples, templates and learning repositories |
+| [Model infrastructure and gateways](catalog/model-infrastructure-and-gateways.md) | LLM API routing, provider aggregation and free-tier directories |
