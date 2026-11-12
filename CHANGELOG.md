@@ -61,3 +61,22 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ### Reader notes
 - Repository README claims, benchmark figures, provider counts and quota estimates are attributed to upstream and are not independently performance-tested.
 - A free API tier may impose regional, identity, phone, card, rate-limit, data-use or commercial restrictions. Verify current terms with each provider before use.
+
+
+## Version 1.4 — 2026-11-12 19:26 IST (UTC+05:30)
+
+### Reconciliation and corrections
+- Reconciled the user's recovered repository list against the existing catalogue. Most links were already represented as provisional records, so they were corrected and upgraded rather than duplicated.
+- Added Transfer as a new distinct record under Networking and System Utilities.
+- Resolved REA, Understand Anything, Headroom and Caveman to their actual repository identities and functions.
+- Corrected repository owners/links for Taste Skill, PPT Master, Humanizer and HyperFrames; replaced the Diagram Design placeholder with its submitted repository.
+- Marked the original gsd-build/get-shit-done repository as archived and linked the active successor, open-gsd/gsd-core.
+- Added project-level summaries and material caveats for Superpowers, Matt Pocock Skills, ECC, BMAD Method, Claude-Mem, gstack, Career Ops, Last 30 Days, marketing/writing skills, design tools and video tools.
+- Repaired malformed literal \\n sequences that had broken Markdown tables and navigation in affected catalogue files.
+- Added a unique-record count note to the master catalogue. Counts refer to distinct catalogue records, not raw submission links or historical version additions.
+
+### Reader notes
+- Repository README and license statements are attributed to upstream; this update does not constitute hands-on security, performance or functional testing.
+- GSD's submitted repository is archived; use the successor link and re-check its current release and license.
+- Caveman has split licensing (MIT skill/adoption components and BSL-1.1 runtime components); review the component-level license.
+- Transfer exposes a local HTTP file server; restrict access to trusted LAN devices and stop the server when not in use.
