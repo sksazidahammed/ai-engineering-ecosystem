@@ -190,6 +190,8 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - Refreshed the existing Career Ops entry with its current local-first workflow, human-submission boundary and AI-provider data-flow caveat.
 - Rechecked the existing Graphify entry against its current CLI/agent-skill README and Apache-2.0 license; it remains a single existing record.
 - Confirmed Career Ops and Graphify were already catalogued, so neither was duplicated.
+- During the cross-category duplicate audit, found three pre-existing duplicate placements: Awesome Free LLM APIs, OpenMontage and HyperFrames. Kept each project in its primary category only and moved the free-API directory to Model Infrastructure and Gateways.
+- Corrected the REA table label to match its detailed explanation heading exactly.
 - Updated Repolyze's canonical project link to OssiumOfficial/Repolyze because the submitted repository README states that ownership moved to Ossium.
 - Added OpenJev under Model Infrastructure and Gateways, Aria Icons under Design and Frontend, OpenLore under Productivity and Workflows, Foreman under Agent Frameworks and Orchestration, Open India Law and Repolyze under Research and Intelligence, and Awesome AI Apps under AI Project Collections.
 - Updated the master catalogue's unique-record count from 48 to 58.
