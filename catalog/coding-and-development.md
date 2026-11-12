@@ -17,6 +17,8 @@
 
 - **Project link:** [Official source](https://github.com/obra/superpowers)
 
+- **Project link:** [Official source](https://github.com/obra/superpowers)
+
 - **Type:** Composable software-development methodology and agent-skill collection.
 
 - **Purpose:** Guides coding agents through requirements discovery, design/specification, implementation planning, test-driven development, subagent execution and review.
@@ -31,6 +33,8 @@
 
 - **Project link:** [Official source](https://github.com/mattpocock/skills)
 
+- **Project link:** [Official source](https://github.com/mattpocock/skills)
+
 - **Type:** Collection of small, composable skills for software engineering and developer productivity.
 
 - **Compatibility:** The README documents setup flows for Claude Code, Codex, Copilot, Gemini CLI and the Agent Skills CLI.
@@ -42,6 +46,8 @@
 - **Assessment:** Useful when selecting individual, focused engineering workflows rather than adopting a single large agent framework.
 
 ## Everything Claude Code (ECC)
+
+- **Project link:** [Official source](https://github.com/affaan-m/ECC)
 
 - **Project link:** [Official source](https://github.com/affaan-m/ECC)
 
@@ -61,6 +67,8 @@
 
 - **Project link:** [Official source](https://github.com/multica-ai/andrej-karpathy-skills)
 
+- **Project link:** [Official source](https://github.com/multica-ai/andrej-karpathy-skills)
+
 - **Type:** Claude Code plugin / reusable agent-instruction pack; also includes a Cursor project rule.
 
 - **Purpose:** Reduce common coding-agent failure modes through four principles: think before coding, simplicity first, surgical changes, and goal-driven execution with verifiable success criteria.
@@ -77,11 +85,15 @@
 
 - **Project link:** [Official source](https://github.com/dietrichgebert/ponytail)
 
+- **Project link:** [Official source](https://github.com/dietrichgebert/ponytail)
+
 - **Type:** Coding-agent skill/workflow emphasizing minimal necessary code, reuse of existing project components, validation, and deeper code review/audit.
 
 - **Assessment:** Relevant to reducing overengineering and unnecessary token/code volume without intentionally removing tests, error handling, security or accessibility. Its benchmark figures and comparative claims are reported by the project; they have not been independently reproduced in this directory.
 
 ## Addy Osmani Agent Skills
+
+- **Project link:** [Official source](https://github.com/addyosmani/agent-skills)
 
 - **Project link:** [Official source](https://github.com/addyosmani/agent-skills)
 
@@ -96,6 +108,8 @@
 - **Assessment:** Broad engineering-lifecycle coverage and useful quality gates. Treat `/build auto` as an autonomy feature that still requires review of the plan, permissions and resulting commits.
 
 ## Anthropic Agent Skills
+
+- **Project link:** [Official source](https://github.com/anthropics/skills)
 
 - **Project link:** [Official source](https://github.com/anthropics/skills)
 
