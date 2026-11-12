@@ -1,7 +1,7 @@
 # Productivity and Workflows
 
-**Catalogue version:** 1.6  
-**Last updated:** 2026-11-12 19:52 IST (UTC+05:30)
+**Catalogue version:** 1.7  
+**Last updated:** 2026-11-12 (IST)
 
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
