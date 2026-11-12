@@ -1,12 +1,14 @@
 # Cybersecurity and Security Auditing
 
-**Catalogue version:** 1.14
-**Last updated:** 2026-11-13 00:55 IST (UTC+05:30)
+**Catalogue version:** 1.15
+**Last updated:** 2026-11-13 02:25 IST (UTC+05:30)
 
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
 | Cloudflare Security Audit Skill | Coding-agent workflow for repository security auditing | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Repository identity verified; not a standalone scanner |
 | PentAGI | Self-hosted multi-agent penetration-testing platform | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Repository identity verified; authorized testing only |
+| Ghidra | Software reverse-engineering framework | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | Review current upstream LICENSE and release-specific security notices |
+| OpenSSL | Cryptographic toolkit and TLS/DTLS/QUIC implementation library | [openssl/openssl](https://github.com/openssl/openssl) | Dual OpenSSL/Apache-2.0 licensing is version-dependent; inspect LICENSE files |
 
 ## Cloudflare Security Audit Skill
 
@@ -48,6 +50,34 @@
 - **Risk classification:** High-impact dual-use security tooling. Sandbox claims do not remove the need for authorization, network isolation, scope limits, and operator oversight. Run only against systems you own or are explicitly authorized to test. Never point autonomous exploitation workflows at public or third-party targets without written authorization.
 
 - **Assessment:** A specialized red-team / pentest automation platform, not a general coding assistant. Infrastructure and model costs may apply.
+
+## Ghidra
+
+- **Project link:** [Official source](https://github.com/NationalSecurityAgency/ghidra)
+
+- **Type / Classification:** Software reverse-engineering framework.
+
+- **Purpose / Capabilities:** NSA-maintained software reverse-engineering framework for disassembly, decompilation, graphing and scripting across processor architectures and executable formats. Supports interactive and automated analysis.
+
+- **Installation / Requirements:** Runs on Windows, macOS and Linux. Java/Python scripting and extension development are documented upstream; follow the release-specific installation guide.
+
+- **License / Cost:** Confirm current repository license and third-party component terms from the LICENSE files.
+
+- **Privacy / Security / Limitations:** Use current supported releases: upstream README explicitly warns that some versions contain known vulnerabilities. Analyze only software you own or are authorized to inspect; treat untrusted binaries and plugins as hostile.
+
+## OpenSSL
+
+- **Project link:** [Official source](https://github.com/openssl/openssl)
+
+- **Type / Classification:** Cryptographic toolkit and TLS/DTLS/QUIC implementation library.
+
+- **Purpose / Capabilities:** Provides implementations of TLS, DTLS and QUIC plus a general-purpose cryptographic library and command-line utilities. It is foundational infrastructure, not an AI tool.
+
+- **Installation / Requirements:** Build/install instructions and platform support are maintained in the official project documentation; system package managers may provide distribution-specific builds.
+
+- **License / Cost:** OpenSSL project licensing has changed across major versions; inspect the exact release's LICENSE and NOTICE files before redistribution.
+
+- **Privacy / Security / Limitations:** Cryptographic configuration and patch level are security-critical. Prefer supported releases, track advisories, and avoid custom cryptographic designs or unreviewed builds.
 
 ## 📝 Note For Reader
 
