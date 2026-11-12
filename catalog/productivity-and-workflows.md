@@ -52,4 +52,6 @@
 
 - **Assessment:** Useful when several agents or people need shared, governed project knowledge. For one agent in one repository, ordinary version-controlled Markdown may be simpler.
 
-This category is reserved for AI tools that support personal or team workflows, task management, document operations, knowledge organization, and cross-application automation, where those tools do not fit more specific catalogues. Workflow automation can move or modify data across connected services. Before enabling it, inspect the scopes requested, confirm where data is stored, and test with non-sensitive data.
+## 📝 Note For Reader
+
+This category is reserved for AI tools/ that support personal or team workflows, task management, document operations, knowledge organization, and cross-application automation, where those tools do not fit more specific catalogues. Workflow automation can move or modify data across connected services. Before enabling it, inspect the scopes requested, confirm where data is stored, and test with non-sensitive data.
