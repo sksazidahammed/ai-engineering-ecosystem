@@ -1,7 +1,7 @@
 # Design and Frontend
 
-**Catalogue version:** 1.14
-**Last updated:** 2026-11-13 00:55 IST (UTC+05:30)
+**Catalogue version:** 1.15
+**Last updated:** 2026-11-13 02:25 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -12,6 +12,9 @@
 | PPT Master | AI-assisted native PowerPoint generation from documents | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Verified identity; MIT stated upstream |
 | Diagram Design | Agent skill for branded HTML/SVG diagrams | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Verified identity; MIT stated upstream |
 | Aria Icons | Searchable icon catalogue, CLI and MCP server for coding agents | [LeulAria/Aria-Icons](https://github.com/LeulAria/Aria-Icons) | MIT code; individual icon collections retain their own licenses |
+| Astryx | Customizable React design system built with StyleX | [meta/astryx](https://github.com/meta/astryx) | MIT stated upstream; project is currently described as beta |
+| DesignCraft | Native desktop publishing and page-layout application | [storytold/designcraft](https://github.com/storytold/designcraft) | License not confirmed in this intake |
+| Hallmark | Design skill for reducing generic AI-generated interface patterns | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Existing record; README reviewed; license details should be rechecked |
 
 ## UI UX Pro Max
 
@@ -100,6 +103,48 @@
 - **License:** MIT applies to the repository's code. The icon assets do not share one universal license: each upstream collection may have MIT, Apache, CC0, attribution, copyleft or other terms. Check collection metadata and attribution requirements before shipping icons.
 
 - **Assessment:** Useful for consistent icon discovery and agent-assisted insertion. Do not treat the MIT code license as permission to redistribute every icon asset without checking its source license.
+
+## Astryx
+
+- **Project link:** [Official source](https://github.com/meta/astryx)
+
+- **Type / Classification:** Customizable React design system built with StyleX.
+
+- **Purpose / Capabilities:** A customizable design system for React applications, built on React 19+ and StyleX, with documentation, Storybook and an interactive sandbox.
+
+- **Installation / Requirements:** Use the npm package and current documentation; React 19+ is stated upstream. Review beta API stability before adopting it.
+
+- **License / Cost:** MIT stated upstream; verify package and asset notices as applicable.
+
+- **Privacy / Security / Limitations:** Beta APIs may change. Validate accessibility, theming, bundle impact and component behavior against the target product.
+
+## DesignCraft
+
+- **Project link:** [Official source](https://github.com/storytold/designcraft)
+
+- **Type / Classification:** Native desktop publishing and page-layout application.
+
+- **Purpose / Capabilities:** A Rust-based desktop publishing and page-layout studio for creating and arranging publication layouts, with native desktop builds and a WebAssembly browser version.
+
+- **Installation / Requirements:** Check current release downloads and platform requirements in the repository and official ArtCraft site.
+
+- **License / Cost:** License not confirmed in this intake; inspect bundled fonts, templates and assets separately.
+
+- **Privacy / Security / Limitations:** Do not confuse this with an AI design skill: it is a page-layout application. Verify export fidelity and print-production requirements before professional use.
+
+## Hallmark
+
+- **Project link:** [Official source](https://github.com/Nutlope/hallmark)
+
+- **Type / Classification:** Design skill for reducing generic AI-generated interface patterns.
+
+- **Purpose / Capabilities:** A design skill for Claude Code, Codex, Cursor and OpenCode. It applies theme selection, layout guidance and browser-based lint/review gates to reduce common AI-generated design patterns.
+
+- **Installation / Requirements:** Install using the current upstream instructions and a compatible coding agent; browser-based review requires the documented browser tooling.
+
+- **License / Cost:** Existing catalogue record retained; confirm current LICENSE before reuse.
+
+- **Privacy / Security / Limitations:** A design skill cannot guarantee good design or factual accuracy. Keep accessibility, responsive behavior and functional testing as independent release gates.
 
 ## 📝 Note For Reader
 
