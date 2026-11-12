@@ -1,7 +1,7 @@
 # Research and Intelligence
 
-**Catalogue version:** 1.5
-**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+**Catalogue version:** 1.6  
+**Last updated:** 2026-11-12 19:50 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -30,7 +30,7 @@
 - **Freshness:** The repository says its catalogue is refreshed daily. Its README snapshot advertises hundreds of API entries; counts and quotas are dynamic and should be checked at the provider before relying on them.
 - **Assessment:** A discovery and comparison resource, not an API provider and not a guarantee of unlimited free inference. Check card/phone requirements, regional eligibility, data retention, rate limits, model terms and commercial-use restrictions. Never paste secrets into third-party config generators unless you trust their handling.
 
-## Verified entry: Agent Reach
+## Agent Reach
 
 - **Type:** CLI and agent-facing internet research infrastructure.
 - **Purpose:** Provides an agent with search/read access to multiple online sources through a unified command-line workflow.
@@ -40,21 +40,19 @@
 - **Operational caveats:** Some sources require login or API credentials. Some integrations are described by the project as experimental. The project is primarily read-oriented; verify the current support matrix and requirements in its documentation before use.
 - **Security note:** Browser-session reuse exposes the agent to the privileges of that session. Prefer a separate, low-privilege account and avoid sharing a primary personal browser profile.
 
-## Additional verified projects
-
-### Understand Anything
+## Understand Anything
 
 A coding-agent plugin that analyzes a codebase or knowledge base, builds a graph of files, functions, classes and dependencies, and presents an interactive dashboard for exploration and Q&A. The README documents Claude Code and several other coding-agent integrations. A generated graph is an aid to understanding, not proof that every inferred relationship is correct. Its viewer can display already-generated graph data locally without additional model calls.
 
-### REA — Reverse Engineer Anything
+## REA — Reverse Engineer Anything
 
 An agent-facing MCP toolkit for inspecting applications, websites, JavaScript/Electron projects, .NET assemblies and native binaries. It can combine static and runtime analysis and present evidence behind findings. Setup uses `npx rea-agents setup`; advanced native workflows may depend on installed reverse-engineering tools such as Hopper, Ghidra, IDA or Kuna. The repository states MIT licensing. Treat targets as authorized-only; reverse engineering can involve proprietary software, sensitive data and legal restrictions.
 
-### Last 30 Days
+## Last 30 Days
 
 An agent-led research skill that searches multiple social and web sources (including Reddit, Hacker News, YouTube and other platforms) and synthesizes recent attention into a brief. The README describes optional integrations that require user sessions, credentials or API access. “Zero config” applies only to the listed immediately available sources; some integrations need setup and may be subject to platform access limits. Engagement signals are not a substitute for source verification.
 
-### Career Ops
+## Career Ops
 
 An open-source AI job-search agent that evaluates listings against a candidate profile, checks whether roles remain open, and assists with CV tailoring and application-answer drafting. The upstream workflow is designed to keep the final submission under user control. It can process highly sensitive CV and career data; review local storage, connected services and generated application claims before use.
 
