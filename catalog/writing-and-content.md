@@ -1,13 +1,13 @@
 # Writing and Content
 
-**Catalogue version:** 1.4
-**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)
+**Catalogue version:** 1.5
+**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
 | OpenMontage | Agentic video-production system | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | Verified identity; AGPL-3.0 stated upstream |
 | HyperFrames | HTML/CSS/media-to-video framework with agent support | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Verified identity; Apache-2.0 stated upstream |
-| Humanizer | Writing skill / text transformation | [Submitted repository](https://github.com/hannsxpeter/humanizer) | Candidate — review pending |
+| Humanizer | Writing skill / text transformation | [blader/humanizer](https://github.com/blader/humanizer) | Verified identity; does not claim reliable AI-detector evasion |
 | I Have ADHD | Concise, action-first coding-agent response-style skill | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | Verified identity; not a clinical/diagnostic tool |
 | Marketing Skills | Marketing-focused agent skills for CRO, copywriting, SEO, analytics and growth | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Verified identity; MIT stated upstream |
 
