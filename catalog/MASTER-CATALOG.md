@@ -1,7 +1,7 @@
 # Master Catalogue
 
 **Catalogue version:** 1.3  
-**Last updated:** 2026-11-12 19:02 IST (UTC+05:30)
+**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)
 
 This index consolidates the initial user-submitted collection. A candidate status is intentional: it prevents an ambiguous name or unverified URL from being mistaken for an approved recommendation.
 
@@ -13,7 +13,8 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Matt Pocock Skills | Agent skills | [mattpocock/skills](https://github.com/mattpocock/skills) | Candidate — review pending |
 | Everything Claude Code (ECC) | Coding-agent configuration / skills | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Candidate — review pending |
 | Karpathy-Inspired Skills | Claude Code plugin / agent instruction pack, with Cursor project rule | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | Verified identity; upstream lineage note required |
-| Ponytail | Coding-agent skill / workflow focused on concise, maintainable code and stronger review | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | Verified identity; benchmark claims are upstream-reported |\n| Addy Osmani Agent Skills | Production-oriented engineering skills and lifecycle commands for coding agents | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Verified identity; install portability caveat recorded |
+| Ponytail | Coding-agent skill / workflow focused on concise, maintainable code and stronger review | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | Verified identity; benchmark claims are upstream-reported |
+| Addy Osmani Agent Skills | Production-oriented engineering skills and lifecycle commands for coding agents | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Verified identity; install portability caveat recorded |
 | Anthropic Agent Skills | Agent skills collection | [anthropics/skills](https://github.com/anthropics/skills) | Verified identity; details review pending |
 
 ## Research and intelligence
@@ -21,22 +22,24 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
 |---|---|---|---|
 | Graphify | Local code/document knowledge-graph builder and agent skill | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Verified identity; cloud features are separate |
-| Agent Reach | CLI / agent web-research infrastructure | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Verified |\n| Awesome Free LLM APIs | Dynamic directory of free-tier LLM API providers, models and quotas | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Verified identity; quota and provider claims change frequently |
-| Understand Anything | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=Understand+Anything&type=repositories) | Needs clarification |
+| Agent Reach | CLI / agent web-research infrastructure | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Verified |
+| Awesome Free LLM APIs | Dynamic directory of free-tier LLM API providers, models and quotas | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Verified identity; quota and provider claims change frequently |
+| Understand Anything | Multi-agent codebase/document knowledge-graph builder with interactive dashboard | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Verified identity; model use depends on analysis workflow |
 | Last 30 Days | Research skill / workflow | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Candidate — review pending |
 | Career Ops | Career workflow / agent project | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Candidate — review pending |
-| REA | Unclear acronym; project identity needs confirmation | [morluto/rea](https://github.com/morluto/rea) | Candidate — review pending |
+| REA | Reverse-engineering agent toolkit and MCP server for binaries, apps and runtime behavior | [morluto/rea](https://github.com/morluto/rea) | Verified identity; native analysis may require external tools |
 
 ## Agent frameworks and orchestration
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
 |---|---|---|---|
-| gstack | Agent workflow / tool collection | [garrytan/gstack](https://github.com/garrytan/gstack) | Candidate — review pending |
-| Caveman | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=Caveman+Claude+Code&type=repositories) | Needs clarification |
-| Claude-Mem | Agent memory / context system | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Candidate — review pending |
-| Headroom | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=Headroom+LLM+context&type=repositories) | Needs clarification |
-| GSD | Agentic development workflow; intended project needs confirmation | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | Candidate — review pending |
-| BMAD Method | Agentic software-development framework | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Candidate — review pending |\n| MiroFish | Multi-agent swarm simulation / scenario exploration engine | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | Verified identity; predictive validity not established |
+| gstack | Role-based virtual engineering team and coding-agent workflow/tool collection | [garrytan/gstack](https://github.com/garrytan/gstack) | Verified identity; MIT stated upstream |
+| Caveman | Coding-agent skill and proxy/runtime for concise communication and token reduction | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | Verified identity; split MIT/BSL-1.1 licensing |
+| Claude-Mem | Persistent coding-agent memory capturing, compressing and retrieving session observations | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Verified identity; Apache-2.0 stated upstream |
+| Headroom | Local context-compression layer for AI agent prompts, tool outputs and history | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Verified identity; savings vary by workload |
+| GSD Core | Spec-driven development and context-engineering workflow; successor to archived GSD repository | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | Successor identified; original submitted repository archived |
+| BMAD Method | Agile AI-driven software-development methodology with role-based agents and workflow modules | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Verified identity; stable v6 and preview v7 have different maturity |
+| MiroFish | Multi-agent swarm simulation / scenario exploration engine | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | Verified identity; predictive validity not established |
 
 ## Media, audio and video
 
@@ -60,6 +63,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 |---|---|---|---|
 | net-merge | Multi-network connection aggregation utility | [net-merge/net-merge](https://github.com/net-merge/net-merge) | Verified identity; technical claims untested |
 | Plexo | Multi-network download acceleration application | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | Verified identity; technical claims untested |
+| Transfer | Android local-network file server for direct device-to-device uploads and downloads | [matan-h/Transfer](https://github.com/matan-h/Transfer) | Verified identity; LAN exposure and access controls require care |
 
 ## AI project collections
 
@@ -67,7 +71,13 @@ This index consolidates the initial user-submitted collection. A candidate statu
 |---|---|---|---|
 | Awesome LLM Apps | Curated collection of AI agents, skills and RAG applications | [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps) | Verified identity; contents change frequently |
 
-## Model infrastructure and gateways\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| OmniRoute | Self-hosted LLM API gateway with multi-provider routing and fallback | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | Verified identity; free-tier availability and quota claims are volatile |\n\n## Cybersecurity and security auditing
+## Model infrastructure and gateways
+
+| Project | Type | Source | Status |
+|---|---|---|---|
+| OmniRoute | Self-hosted LLM API gateway with multi-provider routing and fallback | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | Verified identity; free-tier availability and quota claims are volatile |
+
+## Cybersecurity and security auditing
 
 | Project | Type | Official source | Status |
 |---|---|---|---|
@@ -79,11 +89,11 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
 |---|---|---|---|
 | UI UX Pro Max | UI/UX design skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Candidate — review pending |
-| Taste | Unclear; identity needs confirmation | [tyfarrago-hub/taste](https://github.com/tyfarrago-hub/taste) | Candidate — review pending |
+| Taste Skill | Design-focused agent skill for generating higher-quality company websites and interfaces | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Verified identity; MIT stated upstream |
 | Archify | Unclear; identity needs confirmation | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Candidate — review pending |
 | Impeccable | Design / frontend skill collection | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Candidate — review pending |
-| PPT Master | Presentation-generation project | [huystackai/ppt-master](https://github.com/huystackai/ppt-master) | Candidate — review pending |
-| Diagram Design | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=Diagram+Design+AI+skill&type=repositories) | Needs clarification |
+| PPT Master | AI-assisted native PowerPoint generation from source documents | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Verified identity; MIT stated upstream |
+| Diagram Design | Agent skill generating branded HTML/SVG diagrams across many diagram types | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Verified identity; MIT stated upstream |
 
 ## Productivity and workflows
 
@@ -97,10 +107,10 @@ This index consolidates the initial user-submitted collection. A candidate statu
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
 |---|---|---|---|
-| OpenMontage | Video / montage project | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | Candidate — review pending |
-| HyperFrames | Video / motion framework or tool; identity needs confirmation | [GitHub search](https://github.com/search?q=HyperFrames&type=repositories) | Needs clarification |
-| Humanizer | Writing skill / text transformation | [hannsxpeter/humanizer](https://github.com/hannsxpeter/humanizer) | Candidate — review pending |
-| I Have ADHD | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=%22I+Have+ADHD%22+Claude&type=repositories) | Needs clarification |
+| OpenMontage | Agentic video-production system for research, scripting, asset sourcing, editing and rendering | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | Verified identity; AGPL-3.0 stated upstream |
+| HyperFrames | HTML/CSS/media-to-video framework with deterministic MP4 rendering and agent workflows | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Verified identity; Apache-2.0 stated upstream |
+| Humanizer | Agent skill for editing AI-written prose toward more natural, direct language | [blader/humanizer](https://github.com/blader/humanizer) | Verified identity; does not claim reliable AI-detector evasion |
+| I Have ADHD | Coding-agent output-style skill emphasizing action-first, concise, structured responses | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | Verified identity; not a diagnostic or clinical tool |
 | Marketing Skills | Marketing skills collection | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Candidate — review pending |
 
 ## Karpathy-inspired skills: provenance note
@@ -110,6 +120,10 @@ The submitted repository is [multica-ai/andrej-karpathy-skills](https://github.c
 ## Duplicate handling
 
 The submissions “Skills by Anthropic” and “Agent Skills” referred to the same upstream repository, [anthropics/skills](https://github.com/anthropics/skills). They are represented once in this catalogue to avoid double-counting.
+
+## Count and deduplication
+
+The master index currently contains 47 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
 ## Reader notes
 
