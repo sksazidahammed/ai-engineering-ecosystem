@@ -38,11 +38,41 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | GSD | Agentic development workflow; intended project needs confirmation | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | Candidate — review pending |
 | BMAD Method | Agentic software-development framework | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Candidate — review pending |
 
-## Media, audio and video\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| Cap | Screen recording and async video collaboration application | [capsoftware/cap](https://github.com/capsoftware/cap) | Verified identity; review pending |\n| WhisperX | Speech recognition, word-level alignment and speaker diarization toolkit | [m-bain/whisperx](https://github.com/m-bain/whisperx) | Verified identity; review pending |\n| ManimGX | Rust/wgpu 3D animation engine with Manim CE-compatible API | [academa-labs/manimgx](https://github.com/academa-labs/manimgx) | Verified identity; review pending |\n| Henge | ComfyUI/MiniMax H3 video generation and editing studio | [alisson-anjos/Henge](https://github.com/alisson-anjos/Henge) | Verified identity; license caveats recorded |\n\n## Local AI and agent applications\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| Jan | Desktop local-LLM application | [janhq/jan](https://github.com/janhq/jan) | Verified identity; review pending |\n| OpenMausBot | Desktop multi-agent application | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Verified identity; review pending |\n\n## Networking and system utilities\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| net-merge | Multi-network connection aggregation utility | [net-merge/net-merge](https://github.com/net-merge/net-merge) | Verified identity; technical claims untested |\n| Plexo | Multi-network download acceleration application | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | Verified identity; technical claims untested |\n\n## AI project collections\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| Awesome LLM Apps | Curated collection of AI agents, skills and RAG applications | [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps) | Verified identity; contents change frequently |\n\n## Cybersecurity and security auditing
+## Media, audio and video
+
+| Project | Type | Source | Status |
+|---|---|---|---|
+| Cap | Screen recording and async video collaboration application | [capsoftware/cap](https://github.com/capsoftware/cap) | Verified identity; review pending |
+| WhisperX | Speech recognition, word-level alignment and speaker diarization toolkit | [m-bain/whisperx](https://github.com/m-bain/whisperx) | Verified identity; review pending |
+| ManimGX | Rust/wgpu 3D animation engine with Manim CE-compatible API | [academa-labs/manimgx](https://github.com/academa-labs/manimgx) | Verified identity; review pending |
+| Henge | ComfyUI/MiniMax H3 video generation and editing studio | [alisson-anjos/Henge](https://github.com/alisson-anjos/Henge) | Verified identity; license caveats recorded |
+
+## Local AI and agent applications
+
+| Project | Type | Source | Status |
+|---|---|---|---|
+| Jan | Desktop local-LLM application | [janhq/jan](https://github.com/janhq/jan) | Verified identity; review pending |
+| OpenMausBot | Desktop multi-agent application | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Verified identity; review pending |
+
+## Networking and system utilities
+
+| Project | Type | Source | Status |
+|---|---|---|---|
+| net-merge | Multi-network connection aggregation utility | [net-merge/net-merge](https://github.com/net-merge/net-merge) | Verified identity; technical claims untested |
+| Plexo | Multi-network download acceleration application | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | Verified identity; technical claims untested |
+
+## AI project collections
+
+| Project | Type | Source | Status |
+|---|---|---|---|
+| Awesome LLM Apps | Curated collection of AI agents, skills and RAG applications | [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps) | Verified identity; contents change frequently |
+
+## Cybersecurity and security auditing
 
 | Project | Type | Official source | Status |
 |---|---|---|---|
-| Cloudflare Security Audit Skill | Coding-agent skill for repository security auditing | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Verified |\n| PentAGI | Self-hosted multi-agent autonomous penetration-testing system | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Verified identity; authorized-use only |
+| Cloudflare Security Audit Skill | Coding-agent skill for repository security auditing | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Verified |
+| PentAGI | Self-hosted multi-agent autonomous penetration-testing system | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Verified identity; authorized-use only |
 
 ## Design and frontend
 
@@ -55,7 +85,15 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | PPT Master | Presentation-generation project | [huystackai/ppt-master](https://github.com/huystackai/ppt-master) | Candidate — review pending |
 | Diagram Design | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=Diagram+Design+AI+skill&type=repositories) | Needs clarification |
 
-## Productivity and workflows\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| OpenReply | Self-hosted Instagram comment-to-DM automation application | [diwenne/openreply](https://github.com/diwenne/openreply) | Verified identity; Meta policy and hosting requirements apply |\n| OpnForm | Open-source form builder with MCP integration | [opnform/opnform](https://github.com/opnform/opnform) | Verified identity; AGPL-3.0 stated upstream |\n| Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |\n\n## Writing and content
+## Productivity and workflows
+
+| Project | Type | Source | Status |
+|---|---|---|---|
+| OpenReply | Self-hosted Instagram comment-to-DM automation application | [diwenne/openreply](https://github.com/diwenne/openreply) | Verified identity; Meta policy and hosting requirements apply |
+| OpnForm | Open-source form builder with MCP integration | [opnform/opnform](https://github.com/opnform/opnform) | Verified identity; AGPL-3.0 stated upstream |
+| Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |
+
+## Writing and content
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
 |---|---|---|---|
@@ -65,7 +103,11 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | I Have ADHD | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=%22I+Have+ADHD%22+Claude&type=repositories) | Needs clarification |
 | Marketing Skills | Marketing skills collection | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Candidate — review pending |
 
-## Karpathy-inspired skills: provenance note\n\nThe submitted repository is [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills). Its README describes four coding-agent principles and includes Claude Code plugin and per-project instruction installation paths, plus a Cursor rule. Notably, its documented Claude Code marketplace installation command references `forrestchang/andrej-karpathy-skills`, and its raw `CLAUDE.md` example also points to that owner. Treat the multica-ai repository as the submitted distribution/maintenance location, but verify the upstream source and current marketplace instructions before installation. The repository states an MIT license.\n\n## Duplicate handling
+## Karpathy-inspired skills: provenance note
+
+The submitted repository is [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills). Its README describes four coding-agent principles and includes Claude Code plugin and per-project instruction installation paths, plus a Cursor rule. Notably, its documented Claude Code marketplace installation command references `forrestchang/andrej-karpathy-skills`, and its raw `CLAUDE.md` example also points to that owner. Treat the multica-ai repository as the submitted distribution/maintenance location, but verify the upstream source and current marketplace instructions before installation. The repository states an MIT license.
+
+## Duplicate handling
 
 The submissions “Skills by Anthropic” and “Agent Skills” referred to the same upstream repository, [anthropics/skills](https://github.com/anthropics/skills). They are represented once in this catalogue to avoid double-counting.
 
