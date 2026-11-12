@@ -118,3 +118,14 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - Rebuilt Design and Frontend so all six indexed projects have their own full named sections; removed the duplicated Impeccable heading and compressed bullet list.
 - Added Harper to the Writing and Content index, matching its existing individual explanation.
 - Standardized all 12 category pages to version 1.6 and the same update timestamp.
+
+
+## Version 1.7 — 2026-11-12 (IST)
+
+### Fixed
+- Reordered detailed project explanation sections in Coding and Development, Research and Intelligence, Agent Frameworks and Orchestration, and Writing and Content to match each page's summary-table sequence exactly.
+- Audited all 12 category pages and confirmed that each listed project has a corresponding individual explanation section in the same order as its table.
+- Preserved existing project descriptions, caveats, links, and classifications; this release is an ordering and consistency correction, not a popularity ranking or a new project intake.
+
+### Editorial rule
+- Category tables and detailed project sections must remain in identical project order. Popularity-based ranking is not applied because stars, online attention, and practical usefulness are distinct signals and no single ranking method has been adopted.
