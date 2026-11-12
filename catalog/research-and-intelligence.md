@@ -6,7 +6,6 @@
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
 | Graphify | Local knowledge-graph builder and coding-agent skill | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Verified identity; cloud service is separate |
-| Awesome Free LLM APIs | Dynamic directory of free-tier LLM API providers, models and limits | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Verified identity; provider quotas and access change frequently |
 | Agent Reach | CLI / agent web-research infrastructure | [Official repository](https://github.com/Panniantong/Agent-Reach) | Verified |
 | Understand Anything | Multi-agent codebase/document knowledge graph and interactive exploration dashboard | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Verified identity; analysis uses coding-agent integration |
 | Last 30 Days | Agent-led research skill for recent web and social-source synthesis | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Verified identity; integrations may require credentials |
@@ -34,18 +33,6 @@
 - **License:** Apache-2.0, as stated by upstream.
 
 - **Assessment:** Useful for codebase exploration and relationship tracing; not a vector database. Inspect what content is sent to a model when enabling semantic processing.
-
-## Awesome Free LLM APIs
-
-- **Project link:** [Official source](https://github.com/open-free-llm-api/awesome-freellm-apis)
-
-- **Type:** Machine-readable, frequently refreshed directory of free-tier LLM APIs, provider endpoints, model identifiers, limits and configuration examples.
-
-- **Associated service:** [freellm.net](https://freellm.net) offers searchable model listings and config generation, according to the README.
-
-- **Freshness:** The repository says its catalogue is refreshed daily. Its README snapshot advertises hundreds of API entries; counts and quotas are dynamic and should be checked at the provider before relying on them.
-
-- **Assessment:** A discovery and comparison resource, not an API provider and not a guarantee of unlimited free inference. Check card/phone requirements, regional eligibility, data retention, rate limits, model terms and commercial-use restrictions. Never paste secrets into third-party config generators unless you trust their handling.
 
 ## Agent Reach
 
