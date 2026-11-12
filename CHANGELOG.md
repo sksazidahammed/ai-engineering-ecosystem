@@ -95,3 +95,19 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ### Reader notes
 - Tables are navigation summaries; detailed sections remain the source for setup, licensing, operational limitations and security caveats.
 - Repository identity and README review do not imply hands-on testing or production validation.
+
+
+## Version 1.6 — 2026-11-12 19:50 IST (UTC+05:30)
+
+### Individual project documentation standard
+- Removed the catch-all “Additional verified projects” and “Verified entry” groupings from category pages.
+- Gave every affected project its own named section: Superpowers, Matt Pocock Skills, Everything Claude Code, Agent Reach, Understand Anything, REA, Last 30 Days, Career Ops, gstack, Claude-Mem, Headroom, Caveman, GSD Core, BMAD Method, Impeccable, Taste Skill and Archify.
+- Replaced compressed bullet summaries in Design and Frontend with individual project sections.
+- Added dedicated OpenMontage and HyperFrames explanations to Writing and Content, and added Harper to that category's index table to match its existing explanation.
+- Updated affected category metadata, README and master-catalogue version to 1.6. The 48-record master catalogue count is unchanged.
+
+### Editorial standard
+- Every project listed in a category table must have its own named explanatory section in that category file.
+- Each entry should describe project identity/type, purpose and workflow, installation or requirements where known, license and cost considerations where known, and material limitations/security/privacy caveats.
+- Unknown or untested details must be explicitly marked as unknown or upstream-stated; they must not be guessed.
+- Do not use catch-all headings such as “Additional verified projects” to group records.
