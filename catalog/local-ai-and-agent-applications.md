@@ -53,4 +53,6 @@
 
 - **Assessment:** A broad, technically ambitious local-first toolkit for auditing and cleaning provenance metadata on files you own. Treat it as a privacy/metadata utility, not a way to establish authorship or bypass disclosure obligations.
 
+## 📝 Note For Reader
+
 “Local-first” and “self-hosted” are not synonyms for fully offline or risk-free. Check telemetry, update mechanisms, model-provider routing, app permissions, filesystem access, and whether agents can execute shell commands or control a browser.
