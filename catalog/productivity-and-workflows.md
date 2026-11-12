@@ -7,6 +7,7 @@
 |---|---|---|---|
 | OpenReply | Self-hosted Instagram comment-to-DM automation | [diwenne/openreply](https://github.com/diwenne/openreply) | Repository identity verified; Meta API and hosting requirements apply |
 | OpnForm | Open-source form builder with MCP integration | [opnform/opnform](https://github.com/opnform/opnform) | Repository identity verified; AGPL-3.0 stated upstream |
+| OpenLore | Agent-native shared knowledge repository with SSH, MCP and governed file access | [aakarim/OpenLore](https://github.com/aakarim/OpenLore) | Apache-2.0; access policy and deployment configuration require care |
 
 ## OpenReply
 
