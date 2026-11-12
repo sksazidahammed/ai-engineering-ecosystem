@@ -1,7 +1,7 @@
 # Master Catalogue
 
-**Catalogue version:** 1.8  
-**Last updated:** 2026-11-12 20:20 IST (UTC+05:30)
+**Catalogue version:** 1.9  
+**Last updated:** 2026-11-12 20:42 IST (UTC+05:30)
 
 This index consolidates the initial user-submitted collection. A candidate status is intentional: it prevents an ambiguous name or unverified URL from being mistaken for an approved recommendation.
 
@@ -125,6 +125,6 @@ The submissions “Skills by Anthropic” and “Agent Skills” referred to the
 
 The master index currently contains 48 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
-## Reader notes
+## 📝 Note For Reader
 
 The type labels above are provisional unless the row is explicitly verified. A linked repository is not automatically the canonical project simply because its name looks plausible. GitHub search links are discovery aids, not official project links. Before installing anything, inspect the repository owner, README, recent commits/releases, license, dependency chain, required permissions, and installation scripts. See the [verification policy](../standards/verification-policy.md).
