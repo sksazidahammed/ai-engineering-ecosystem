@@ -23,7 +23,6 @@ This index consolidates the initial user-submitted collection. A candidate statu
 |---|---|---|---|
 | Graphify | Local code/document knowledge-graph builder and agent skill | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Verified identity; cloud features are separate |
 | Agent Reach | CLI / agent web-research infrastructure | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Verified |
-| Awesome Free LLM APIs | Dynamic directory of free-tier LLM API providers, models and quotas | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Verified identity; quota and provider claims change frequently |
 | Understand Anything | Multi-agent codebase/document knowledge-graph builder with interactive dashboard | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Verified identity; model use depends on analysis workflow |
 | Last 30 Days | Agent-led research skill for recent web and social-source synthesis | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Verified identity; integrations may require credentials and engagement is not source verification |
 | Career Ops | AI job-search agent for role evaluation and application support | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Verified identity; handles sensitive CV and career data |
