@@ -1,7 +1,11 @@
 # AI Project Collections
 
-**Catalogue version:** 1.2  
-**Last updated:** 2026-11-12 18:29 IST (UTC+05:30)
+**Catalogue version:** 1.5  
+**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+
+| Project | Classification | Official repository | Status |
+|---|---|---|---|
+| Awesome LLM Apps | Curated collection of AI agents, skills, RAG apps and examples | [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps) | Repository identity verified; individual examples require separate review |
 
 ## Awesome LLM Apps
 
