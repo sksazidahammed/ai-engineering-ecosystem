@@ -1,7 +1,7 @@
 # Productivity and Workflows
 
-**Catalogue version:** 1.14
-**Last updated:** 2026-11-13 00:55 IST (UTC+05:30)
+**Catalogue version:** 1.15
+**Last updated:** 2026-11-13 02:25 IST (UTC+05:30)
 
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
@@ -9,6 +9,10 @@
 | OpnForm | Open-source form builder with MCP integration | [opnform/opnform](https://github.com/opnform/opnform) | Repository identity verified; AGPL-3.0 stated upstream |
 | OpenLore | Agent-native shared knowledge repository with SSH, MCP and governed file access | [aakarim/OpenLore](https://github.com/aakarim/OpenLore) | Apache-2.0; access policy and deployment configuration require care |
 | Onyx | Self-hosted team knowledge/context platform with agentic RAG, agents and 50+ integrations | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | MIT for Community Edition/core; Enterprise code has separate license terms |
+| Invoice Builder | Cross-platform invoice creation application | [piratuks/invoice-builder](https://github.com/piratuks/invoice-builder) | License badge present; exact terms require LICENSE review |
+| AlterSend | Direct end-to-end encrypted file transfer application | [denislupookov/altersend](https://github.com/denislupookov/altersend) | Apache-2.0 stated upstream |
+| Filee | Desktop file-conversion utility with drag-and-drop interface | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | License requires direct LICENSE inspection |
+| VERT | Browser-based file conversion using WebAssembly | [VERT-sh/VERT](https://github.com/VERT-sh/VERT) | License not confirmed in this intake |
 
 ## OpenReply
 
@@ -75,6 +79,62 @@
 - **Limitations:** Full indexing requires the Standard stack and more infrastructure than Lite. Connector coverage, sync reliability, model quality and resource requirements depend on the selected deployment and integrations. Review current documentation for connector-specific permissions and operational prerequisites.
 
 - **Assessment:** A substantial team knowledge and agent platform, especially relevant when a company needs governed access to internal information across multiple systems. It is considerably heavier than a personal chat interface.
+
+## Invoice Builder
+
+- **Project link:** [Official source](https://github.com/piratuks/invoice-builder)
+
+- **Type / Classification:** Cross-platform invoice creation application.
+
+- **Purpose / Capabilities:** A desktop/web-oriented invoice builder with downloadable releases and Docker distribution; the repository provides documentation and packaged builds for Windows, Linux and macOS.
+
+- **Installation / Requirements:** Use official releases or Docker image; consult current docs for data storage and deployment configuration.
+
+- **License / Cost:** Check the repository LICENSE and any tax/template requirements before commercial use.
+
+- **Privacy / Security / Limitations:** Invoice data is sensitive financial information. Verify local storage, backups, export correctness, tax rules and jurisdiction-specific invoice requirements.
+
+## AlterSend
+
+- **Project link:** [Official source](https://github.com/denislupookov/altersend)
+
+- **Type / Classification:** Direct end-to-end encrypted file transfer application.
+
+- **Purpose / Capabilities:** Transfers files directly between devices without cloud storage accounts, according to the README. Lists macOS, Windows, Linux, iOS and Android support.
+
+- **Installation / Requirements:** Download clients from the official site; developer setup and platform distribution are documented in the repository.
+
+- **License / Cost:** Apache-2.0 stated upstream.
+
+- **Privacy / Security / Limitations:** Encryption and no-cloud claims are upstream statements, not independently audited. Verify device pairing, key verification, relay behavior and threat model before sending sensitive files.
+
+## Filee
+
+- **Project link:** [Official source](https://github.com/KnifeLemon/Filee)
+
+- **Type / Classification:** Desktop file-conversion utility with drag-and-drop interface.
+
+- **Purpose / Capabilities:** A desktop converter that opens a format-selection interface when files are dragged while a modifier key is held; also provides a command-line workflow.
+
+- **Installation / Requirements:** Official releases and installation instructions are linked from filee.sh and the repository; Windows, Linux and macOS packages are listed.
+
+- **License / Cost:** Check LICENSE and the licenses of bundled conversion libraries/codecs.
+
+- **Privacy / Security / Limitations:** Conversion can alter metadata or reduce fidelity. For confidential files, verify whether every format is processed locally and whether any operation invokes a remote service.
+
+## VERT
+
+- **Project link:** [Official source](https://github.com/VERT-sh/VERT)
+
+- **Type / Classification:** Browser-based file conversion using WebAssembly.
+
+- **Purpose / Capabilities:** A Svelte/TypeScript file-conversion interface that uses WebAssembly to process supported formats on-device; the README notes some video conversions may require server-side processing.
+
+- **Installation / Requirements:** Use the hosted vert.sh instance or self-host according to repository instructions.
+
+- **License / Cost:** License not confirmed in this intake; inspect format-specific libraries and codecs.
+
+- **Privacy / Security / Limitations:** Do not assume every conversion stays in-browser: upstream explicitly notes server-side processing for some video conversions. Avoid uploading sensitive files until the processing path is clear.
 
 ## 📝 Note For Reader
 
