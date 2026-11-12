@@ -1,7 +1,7 @@
 # Cybersecurity and Security Auditing
 
-**Catalogue version:** 1.9  
-**Last updated:** 2026-11-12 20:42 IST (UTC+05:30)
+**Catalogue version:** 1.10  
+**Last updated:** 2026-11-12 20:54 IST (UTC+05:30)
 
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
@@ -12,9 +12,10 @@
 
 - **Project link:** [Official source](https://github.com/cloudflare/security-audit-skill)
 
-<small>Verified identity · Coding-agent skill · MIT license (per upstream project)</small>
 
 - **Classification:** Repository-level security auditing skill for coding agents. It is not a standalone vulnerability scanner.
+
+- **License:** MIT, as stated by the upstream project.
 
 - **Purpose:** Structures a security review into reconnaissance, coverage-led hunting, candidate validation, structured findings, independent verification, and reporting.
 
