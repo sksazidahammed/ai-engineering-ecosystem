@@ -1,7 +1,12 @@
 # Local AI and Agent Applications
 
-**Catalogue version:** 1.2  
-**Last updated:** 2026-11-12 18:29 IST (UTC+05:30)
+**Catalogue version:** 1.5  
+**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+
+| Project | Classification | Official repository | Status |
+|---|---|---|---|
+| Jan | Desktop application for running local language models | [janhq/jan](https://github.com/janhq/jan) | Repository identity verified; local/offline boundaries need review |
+| OpenMausBot | Desktop multi-agent application | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Repository identity verified; permissions and integrations need review |
 
 ## Jan
 
