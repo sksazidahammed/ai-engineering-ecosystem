@@ -8,6 +8,7 @@
 | net-merge | Multi-network connection aggregation utility | [net-merge/net-merge](https://github.com/net-merge/net-merge) | Repository identity verified; throughput claims untested |
 | Plexo | Desktop download manager with multi-network acceleration | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | Repository identity verified; performance claims untested |
 | Transfer | Android local-network file server for device-to-device transfer | [matan-h/Transfer](https://github.com/matan-h/Transfer) | Repository identity verified; LAN exposure requires care |
+| abtop | Cross-platform terminal dashboard and Rust library for monitoring AI coding-agent sessions | [graykode/abtop](https://github.com/graykode/abtop) | MIT; JSON snapshots may contain sensitive local context |
 
 ## net-merge
 
@@ -66,5 +67,7 @@
 - **Limitations:** Feature coverage differs by agent; for example, OpenCode does not provide every context, task or rate-limit field. Terminal layout is best at 120×40 or larger. OpenCode monitoring depends on the local SQLite CLI. The README's platform and feature matrix is upstream documentation, not independent testing.
 
 - **Assessment:** A focused local observability tool for developers running several coding agents concurrently. It monitors agent sessions rather than replacing or orchestrating them.
+
+## 📝 Note For Reader
 
 Network aggregation products can route traffic through relays or remote infrastructure. Review privacy, traffic encryption, relay ownership, routing behavior, bandwidth limits and whether all traffic or only supported downloads is affected. Benchmark with controlled tests before relying on advertised speed gains.
