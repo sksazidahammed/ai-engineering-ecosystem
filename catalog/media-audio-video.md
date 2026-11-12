@@ -14,8 +14,7 @@
 
 ## Cap
 
-
-- **Repository:** [capsoftware/cap](https://github.com/capsoftware/cap)
+- **Project link:** [Official source](https://github.com/capsoftware/cap)
 
 - **Type:** Open-source screen recording and async video collaboration application.
 
@@ -27,8 +26,7 @@
 
 ## WhisperX
 
-
-- **Repository:** [m-bain/whisperx](https://github.com/m-bain/whisperx)
+- **Project link:** [Official source](https://github.com/m-bain/whisperx)
 
 - **Type:** Speech-recognition and alignment toolkit built around Whisper.
 
@@ -40,8 +38,7 @@
 
 ## ManimGX
 
-
-- **Repository:** [academa-labs/manimgx](https://github.com/academa-labs/manimgx)
+- **Project link:** [Official source](https://github.com/academa-labs/manimgx)
 
 - **Type:** Rust/wgpu-powered 3D animation engine with a Manim Community Edition-compatible API, according to its README.
 
@@ -51,8 +48,7 @@
 
 ## Henge
 
-
-- **Repository:** [alisson-anjos/Henge](https://github.com/alisson-anjos/Henge)
+- **Project link:** [Official source](https://github.com/alisson-anjos/Henge)
 
 - **Type:** ComfyUI / MiniMax H3-based video studio for character swaps, motion transfer, head swaps and enhancement.
 
@@ -64,8 +60,7 @@
 
 ## HyperFrames
 
-
-- **Repository:** [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+- **Project link:** [Official source](https://github.com/heygen-com/hyperframes)
 
 - **Type:** Open-source framework that turns HTML, CSS, media and seekable animations into deterministic MP4 video, with CLI and coding-agent skill workflows.
 
@@ -77,8 +72,7 @@
 
 ## OpenMontage
 
-
-- **Repository:** [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage)
+- **Project link:** [Official source](https://github.com/OpenMontageInc/OpenMontage)
 
 - **Type:** Agentic video-production system that can research, script, source footage/assets, edit and render a video from natural-language direction.
 
@@ -86,6 +80,6 @@
 
 - **Assessment:** Broader production workflow than a simple video editor; provider integrations, asset rights and model costs may affect the result.
 
-## Reader notes
+## 📝 Note For Reader
 
 Speech and video tools may process faces, voices, biometric-like signals, private conversations, and copyrighted media. Obtain consent and rights where required. Confirm model-weight licenses separately from application-code licenses, and do not infer local/offline operation from an open-source label.
