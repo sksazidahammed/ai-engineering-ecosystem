@@ -1,7 +1,7 @@
 # Master Catalogue
 
-**Catalogue version:** 1.14
-**Last updated:** 2026-11-13 00:55 IST (UTC+05:30)
+**Catalogue version:** 1.15
+**Last updated:** 2026-11-13 02:25 IST (UTC+05:30)
 
 This index consolidates the initial user-submitted collection. A candidate status is intentional: it prevents an ambiguous name or unverified URL from being mistaken for an approved recommendation.
 
@@ -16,6 +16,17 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Ponytail | Coding-agent skill / workflow focused on concise, maintainable code and stronger review | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | Verified identity; benchmark claims are upstream-reported |
 | Addy Osmani Agent Skills | Production-oriented engineering skills and lifecycle commands for coding agents | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Verified identity; install portability caveat recorded |
 | Anthropic Agent Skills | Agent skills collection | [anthropics/skills](https://github.com/anthropics/skills) | Verified identity; details review pending |
+| Gentle-AI | Deterministic coding-agent engineering environment | [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | MIT stated upstream |
+| Google Agent Skills | Google-product and Google Cloud agent-skill collection | [google/skills](https://github.com/google/skills) | Identity verified; skill-level license and permissions require review |
+| Agent Skills Specification | Portable folder-based agent-skill format and specification | [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification; not an installable skill pack |
+| Vercel Skills CLI | CLI for discovering and installing agent skills | [vercel-labs/skills](https://github.com/vercel-labs/skills) | MIT stated upstream; installed skills retain their own licenses |
+| Cursor Plugins | Official Cursor plugin collection | [cursor/plugins](https://github.com/cursor/plugins) | Plugin-level permissions and licenses vary |
+| Jakub Krehel Skills | Interface design and design-engineering skills | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | License not confirmed in this intake |
+| Unslop | Design-oriented skill for refining AI-generated interfaces | [heydamir/unslop](https://github.com/heydamir/unslop) | License not confirmed in this intake |
+| Replica Skill | Claude Code clean-room app-recreation skill suite | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | MIT stated upstream; respect IP boundaries |
+| Claude Code Game Studios | Claude Code workflow for browser-game prototyping | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | MIT stated upstream |
+| Huashu Design | Cross-agent skills for deliverable visual design | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | MIT stated upstream; asset terms separate |
+| PixelFX | Pixel-art effects gallery, library and coding-agent skill | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | License not confirmed in this intake |
 
 ## Research and intelligence
 
@@ -27,6 +38,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Last 30 Days | Agent-led research skill for recent web and social-source synthesis | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Verified identity; integrations may require credentials and engagement is not source verification |
 | Career Ops | AI job-search agent for role evaluation and application support | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Verified identity; handles sensitive CV and career data |
 | REA | Reverse-engineering agent toolkit and MCP server for binaries, apps and runtime behavior | [morluto/rea](https://github.com/morluto/rea) | Verified identity; native analysis may require external tools |
+| Auto Ontology | Enterprise metadata-to-ontology and agent context library | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | Apache-2.0 stated upstream |
 
 ## Agent frameworks and orchestration
 
@@ -40,6 +52,16 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | BMAD Method | Agile AI-driven software-development methodology with role-based agents and workflow modules | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Verified identity; stable v6 and preview v7 have different maturity |
 | MiroFish | Multi-agent swarm simulation / scenario exploration engine | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | Verified identity; predictive validity not established |
 | Foreman | Runtime for semantic supervision of coding-agent workers | [thruwire/foreman](https://github.com/thruwire/foreman) | MIT; requires a decision-model provider and worker runtime |
+| Engram | Persistent memory for AI coding agents | [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram) | MIT stated upstream |
+| GBrain | Source-attributed, user-controlled agent memory layer | [garrytan/gbrain](https://github.com/garrytan/gbrain) | MIT; optional hosted service has separate terms |
+| OpenClaw | Self-hosted personal AI assistant and agent runtime | [openclaw/openclaw](https://github.com/openclaw/openclaw) | MIT stated upstream |
+| Orkas | Local-first multi-agent desktop workspace | [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) | MIT stated upstream |
+| OpenBot | Local-first desktop workspace for persistent AI teammates | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | PolyForm Noncommercial 1.0.0; commercial restrictions |
+| Cindy | Desktop AI agent for computer-based work | [makecindy/cindy](https://github.com/makecindy/cindy) | Apache-2.0 stated upstream |
+| Macro | Unified team workspace for communication, data and agents | [macro-inc/macro](https://github.com/macro-inc/macro) | Hosted product; license/pricing not confirmed |
+| T3 Code | Open-source control plane for local coding agents | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | License not confirmed in this intake |
+| LearnHarness | Adaptive agent-assisted learning harness | [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness) | License not confirmed in this intake |
+| Harness² | Research framework for recursive agent harnessing | [google-research/harness2](https://github.com/google-research/harness2) | Apache-2.0 stated upstream |
 
 ## Media, audio and video
 
@@ -57,6 +79,12 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Jan | Desktop local-LLM application | [janhq/jan](https://github.com/janhq/jan) | Verified identity; review pending |
 | OpenMausBot | Desktop multi-agent application | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Verified identity; review pending |
 | watermarks-remover | Agent skills and local Python HTTP service for AI provenance inspection and cleaning | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | MIT; optional rewrite and media backends have limitations |
+| llama.cpp | Portable C/C++ local LLM inference runtime | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | MIT code; model licenses are separate |
+| FreeToken | Edge-native large MoE model serving engine | [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken) | Repository and model terms require direct inspection |
+| Hex | Local voice-dictation desktop application | [anomalyco/hex](https://github.com/anomalyco/hex) | License not confirmed in this intake |
+| DSH Go | Android client for DeepSeek Harness | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | AGPL-3.0 stated upstream |
+| Agent Desktop | Accessibility-tree-based desktop automation CLI/library | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Apache-2.0 stated upstream |
+| Agent Browser | Browser automation CLI for AI agents | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Apache-2.0 stated upstream |
 
 ## Networking and system utilities
 
@@ -66,6 +94,9 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Plexo | Multi-network download acceleration application | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | Verified identity; technical claims untested |
 | Transfer | Android local-network file server for direct device-to-device uploads and downloads | [matan-h/Transfer](https://github.com/matan-h/Transfer) | Verified identity; LAN exposure and access controls require care |
 | abtop | Cross-platform TUI and Rust library for monitoring local AI coding-agent sessions | [graykode/abtop](https://github.com/graykode/abtop) | MIT; JSON snapshots may contain sensitive local context |
+| Herdr | Runtime and coordination layer for coding agents | [herdrdev/herdr](https://github.com/herdrdev/herdr) | Apache-2.0 stated upstream |
+| Worktrunk | Git worktree management CLI | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | MIT OR Apache-2.0 stated upstream |
+| Gortex | Local code-intelligence engine with CLI, MCP and graph UI | [zzet/gortex](https://github.com/zzet/gortex) | Apache-2.0 stated upstream |
 
 ## AI project collections
 
@@ -81,6 +112,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | OmniRoute | Self-hosted LLM API gateway with multi-provider routing and fallback | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | Verified identity; free-tier availability and quota claims are volatile |
 | Awesome Free LLM APIs | Directory of free-tier LLM API providers and limits | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Repository identity verified; not an API provider or quota guarantee |
 | OpenJev | Open-source typed-decision inference server with model-serving adapters | [razorback16/openjev](https://github.com/razorback16/openjev) | Apache-2.0 code; hosted quota and model availability are provider-dependent |
+| FreeLLMAPI | Self-hostable OpenAI-compatible free-provider API gateway | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | MIT code; provider quotas and terms are independent |
 
 ## Cybersecurity and security auditing
 
@@ -88,6 +120,8 @@ This index consolidates the initial user-submitted collection. A candidate statu
 |---|---|---|---|
 | Cloudflare Security Audit Skill | Coding-agent skill for repository security auditing | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Verified |
 | PentAGI | Self-hosted multi-agent autonomous penetration-testing system | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Verified identity; authorized-use only |
+| Ghidra | Software reverse-engineering framework | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | Review current license and release-specific security notices |
+| OpenSSL | TLS/DTLS/QUIC toolkit and cryptographic library | [openssl/openssl](https://github.com/openssl/openssl) | Version-dependent dual licensing; inspect release license files |
 
 ## Design and frontend
 
@@ -100,6 +134,9 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | PPT Master | AI-assisted native PowerPoint generation from source documents | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Verified identity; MIT stated upstream |
 | Diagram Design | Agent skill generating branded HTML/SVG diagrams across many diagram types | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Verified identity; MIT stated upstream |
 | Aria Icons | Searchable icon catalogue, CLI and MCP server for coding agents | [LeulAria/Aria-Icons](https://github.com/LeulAria/Aria-Icons) | MIT code; individual icon collections retain their own licenses |
+| Astryx | React and StyleX design system | [meta/astryx](https://github.com/meta/astryx) | MIT stated upstream; currently beta |
+| DesignCraft | Rust-based desktop publishing and page-layout application | [storytold/designcraft](https://github.com/storytold/designcraft) | License not confirmed in this intake |
+| Hallmark | Design skill for coding-agent interface refinement | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Existing record refreshed; verify current license |
 
 ## Productivity and workflows
 
@@ -110,6 +147,10 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |
 | OpenLore | Agent-native shared knowledge repository with SSH, MCP and governed file access | [aakarim/OpenLore](https://github.com/aakarim/OpenLore) | Apache-2.0; access policy and deployment configuration require care |
 | Onyx | Self-hosted team knowledge/context platform with agentic RAG, agents and 50+ integrations | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | MIT for Community Edition/core; Enterprise code has separate license terms |
+| Invoice Builder | Cross-platform invoice creation application | [piratuks/invoice-builder](https://github.com/piratuks/invoice-builder) | License requires direct inspection |
+| AlterSend | Direct end-to-end encrypted file-transfer application | [denislupookov/altersend](https://github.com/denislupookov/altersend) | Apache-2.0 stated upstream |
+| Filee | Desktop file-conversion utility | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | License requires direct inspection |
+| VERT | WebAssembly-based file conversion utility | [VERT-sh/VERT](https://github.com/VERT-sh/VERT) | License not confirmed in this intake |
 
 ## Writing and content
 
@@ -139,7 +180,7 @@ The submissions “Skills by Anthropic” and “Agent Skills” referred to the
 
 ## Count and deduplication
 
-The master index currently contains 61 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
+The master index currently contains 98 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
 ## 📝 Note For Reader
 
