@@ -72,7 +72,8 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - Corrected repository owners/links for Taste Skill, PPT Master, Humanizer and HyperFrames; replaced the Diagram Design placeholder with its submitted repository.
 - Marked the original gsd-build/get-shit-done repository as archived and linked the active successor, open-gsd/gsd-core.
 - Added project-level summaries and material caveats for Superpowers, Matt Pocock Skills, ECC, BMAD Method, Claude-Mem, gstack, Career Ops, Last 30 Days, marketing/writing skills, design tools and video tools.
-- Repaired malformed literal \\n sequences that had broken Markdown tables and navigation in affected catalogue files.
+- Repaired malformed literal \
+ sequences that had broken Markdown tables and navigation in affected catalogue files.
 - Added a unique-record count note to the master catalogue. Counts refer to distinct catalogue records, not raw submission links or historical version additions.
 
 ### Reader notes
