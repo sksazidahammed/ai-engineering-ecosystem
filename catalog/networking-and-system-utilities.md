@@ -1,7 +1,13 @@
 # Networking and System Utilities
 
-**Catalogue version:** 1.4
-**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)
+**Catalogue version:** 1.5
+**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+
+| Project | Classification | Official repository | Status |
+|---|---|---|---|
+| net-merge | Multi-network connection aggregation utility | [net-merge/net-merge](https://github.com/net-merge/net-merge) | Repository identity verified; throughput claims untested |
+| Plexo | Desktop download manager with multi-network acceleration | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | Repository identity verified; performance claims untested |
+| Transfer | Android local-network file server for device-to-device transfer | [matan-h/Transfer](https://github.com/matan-h/Transfer) | Repository identity verified; LAN exposure requires care |
 
 ## net-merge
 
