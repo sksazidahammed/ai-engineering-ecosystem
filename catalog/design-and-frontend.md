@@ -1,7 +1,7 @@
 # Design and Frontend
 
-**Catalogue version:** 1.5
-**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+**Catalogue version:** 1.6  
+**Last updated:** 2026-11-12 19:50 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -12,15 +12,31 @@
 | PPT Master | AI-assisted native PowerPoint generation from documents | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Verified identity; MIT stated upstream |
 | Diagram Design | Agent skill for branded HTML/SVG diagrams | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Verified identity; MIT stated upstream |
 
-## Additional verified projects
+## Impeccable
 
-- **Impeccable** ([pbakaus/impeccable](https://github.com/pbakaus/impeccable)): design vocabulary and agent commands for iterating on interfaces, with critique, accessibility/performance audits and deterministic UI-quality rules. Its strongest use case is improving an existing interface; generated design output still needs human review.
-- **Taste Skill** ([Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)): agent skill for building professional websites and interfaces, with a related TasteCode desktop product. MIT stated upstream.
-- **Archify** ([tt-a1i/archify](https://github.com/tt-a1i/archify)): produces interactive HTML visuals from ideas, plans and information, including diagrams and learning/travel maps. Apache-2.0 stated upstream; distinguish the open-source project from third-party services and paid plans.
-- **Diagram Design** ([cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)): Agent Skill that generates self-contained HTML/SVG diagrams, with a stated library of 45 diagram types and brand adaptation. MIT stated upstream.
-- **PPT Master** ([hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)): converts source documents into native PowerPoint presentations using an AI-assisted workflow. MIT stated upstream; model/API costs and document handling depend on configuration.
-- **UI UX Pro Max** ([nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)): design-intelligence skill with searchable UI styles, reasoning rules and a CLI. Treat counts and style coverage as upstream-maintained claims; verify framework compatibility and output quality.
+- **Repository:** [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
+- **Type:** Design vocabulary and critique/audit command set for coding agents.
+- **Purpose:** Helps agents reason about interface design, apply consistent design language, and review existing interfaces for visual, accessibility and performance issues.
+- **Best use:** Iterative refinement of an existing product interface. It provides design guidance and workflows; it does not guarantee a coherent design system or production-quality implementation.
+- **Practical checks:** Review generated code, responsive layouts, accessibility, semantic HTML and compatibility with the project's existing design system.
 
+## Taste Skill
+
+- **Repository:** [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+- **Type:** Design-oriented agent skill for producing polished websites and user interfaces.
+- **Purpose:** Supplies reusable design direction and implementation guidance to a compatible coding agent. The upstream project also references a related TasteCode desktop product; distinguish the skill repository from that separate application.
+- **License:** MIT, as stated upstream.
+- **Assessment:** Useful as a design brief and implementation aid. Inspect the skill instructions and evaluate the resulting interface rather than assuming that a visual style prompt ensures accessibility, responsiveness or maintainability.
+
+## Archify
+
+- **Repository:** [tt-a1i/archify](https://github.com/tt-a1i/archify)
+- **Type:** Agent skill / visualization workflow for turning prompts and plans into interactive HTML outputs.
+- **Purpose:** Generates visual explanations such as diagrams, maps and structured interactive presentations from supplied information.
+- **License:** Apache-2.0, as stated upstream.
+- **Assessment:** Useful for turning abstract information into navigable visuals. Check generated HTML, external assets, scripts and any third-party hosted or paid service separately.
+
+## Impeccable
 ## Reader notes
 
 Design-related agent skills can generate code, modify application structure, or introduce dependencies. Evaluate the quality of generated output, accessibility, responsive behavior, design-system compatibility, and license constraints. A visually convincing demo is not proof of production readiness.
