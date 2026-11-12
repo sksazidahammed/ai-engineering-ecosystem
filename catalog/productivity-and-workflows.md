@@ -1,7 +1,7 @@
 # Productivity and Workflows
 
-**Catalogue version:** 1.13
-**Last updated:** 2026-11-12 21:55 IST (UTC+05:30)
+**Catalogue version:** 1.14
+**Last updated:** 2026-11-13 00:55 IST (UTC+05:30)
 
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
@@ -52,6 +52,28 @@
 - **Security:** The normal shell is a constrained in-memory Go interpreter rather than an operating-system shell. Nevertheless, identity grants, public endpoints, SSH/OAuth configuration, write permissions, persistent storage and deployment secrets need careful configuration. Keep sensitive docsets private and grant least privilege.
 
 - **Assessment:** Useful when several agents or people need shared, governed project knowledge. For one agent in one repository, ordinary version-controlled Markdown may be simpler.
+
+## Onyx
+
+- **Project link:** [Official source](https://github.com/onyx-dot-app/onyx)
+
+- **Type:** Self-hostable team knowledge platform and AI context layer, with web application, connectors, agent runtime and MCP server.
+
+- **Purpose:** Connects organizational knowledge across 50+ applications, indexes content with metadata and permissions, and makes it searchable for chat, retrieval-augmented generation (RAG), deep research and AI agents.
+
+- **Workflow / architecture:** Syncs content from connected sources into an internal representation, then retrieves relevant documents for user queries and agent tasks. Supports hybrid keyword/vector retrieval, web search, external actions, code sandboxes, artifacts and voice. Agents can use connected knowledge while respecting the configured user permissions.
+
+- **Installation / deployment:** The README documents a one-command installer and Docker, Kubernetes, Helm and Terraform deployment paths. Standard deployment includes indexing, background workers, Redis and MinIO components; Onyx Lite is a smaller chat/agent stack (README states under 1 GB memory) but cannot index documents.
+
+- **Integrations:** 50+ knowledge connectors, major hosted and self-hosted LLM providers, web-search services, Slack, Discord, Chrome extension, embeddable widget and MCP clients such as Claude Code, OpenCode and Codex.
+
+- **License / cost:** Community Edition core is MIT. Enterprise-only code under `ee` directories is governed by the separate Onyx Enterprise License. Onyx Cloud and enterprise capabilities have separate commercial terms; check current pricing and feature boundaries before deployment.
+
+- **Privacy / security:** Self-hosted and air-gapped deployment options keep document indexes and processing within the operator's environment. However, connected source credentials, document permissions, embeddings, model-provider routing, web search, external actions and sandbox execution all need careful configuration. Self-hosting alone does not guarantee that prompts or indexed data never leave the environment.
+
+- **Limitations:** Full indexing requires the Standard stack and more infrastructure than Lite. Connector coverage, sync reliability, model quality and resource requirements depend on the selected deployment and integrations. Review current documentation for connector-specific permissions and operational prerequisites.
+
+- **Assessment:** A substantial team knowledge and agent platform, especially relevant when a company needs governed access to internal information across multiple systems. It is considerably heavier than a personal chat interface.
 
 ## 📝 Note For Reader
 
