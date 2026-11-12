@@ -250,7 +250,7 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ## Version 1.15 — 2026-11-13 02:25 IST (UTC+05:30)
 
 ### Added
-- Expanded the directory by 43 distinct repositories from the latest intake, across coding and development, agent frameworks, research, cybersecurity, design, productivity, local AI, system utilities and model infrastructure.
+- Expanded the directory by 45 distinct repositories from the latest intake, across coding and development, agent frameworks, research, cybersecurity, design, productivity, local AI, system utilities and model infrastructure.
 - Added Gortex, Gentle-AI, Engram, FreeLLMAPI, Ghidra, llama.cpp, OpenSSL, Herdr, Astryx, Google Agent Skills, GBrain, Rune's native UI framework was reviewed but not added in this pass, Agent Browser, Agent Desktop, Auto Ontology, Agent Skills Specification, OpenClaw, TokenEconomizer reviewed for later classification, PixelFX, LearnHarness, Worktrunk, Kimi K3 in C reviewed for technical plausibility and not promoted, and additional desktop/design workflows.
 - Refreshed the existing Understand Anything, Archify and Hallmark records without creating duplicates; retained the existing OpenMausBot record.
 - Deduplicated repeated Hallmark submission. The batch contains no second OpenMausBot record. Additional README-reviewed entries added in this pass include Rune and Anthropic Knowledge Work Plugins.
@@ -266,7 +266,7 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ### Verification scope
 - Fetched upstream README files for the submitted repositories and used those as primary identity/function evidence. License badges/statements were recorded where visible; unresolved license details are marked for direct inspection.
 - No hands-on installation, performance, security or legal testing is claimed.
-- Existing records were checked for obvious duplicate overlap. The master catalogue count is updated to 104 distinct records; category table/detail parity and cross-page duplicate checks remain subject to post-write audit.
+- Existing records were checked for obvious duplicate overlap. The master catalogue count is updated to 106 distinct records; category table/detail parity and cross-page duplicate checks remain subject to post-write audit.
 
 ### Maintenance
 - Updated all 13 category pages, master catalogue and README metadata to version 1.15.
