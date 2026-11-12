@@ -28,6 +28,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Huashu Design | Cross-agent skills for deliverable visual design | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | MIT stated upstream; asset terms separate |
 | PixelFX | Pixel-art effects gallery, library and coding-agent skill | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | License not confirmed in this intake |
 
+| CLI-Anything | Framework for generating software-specific CLI harnesses for agents | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Apache-2.0; generated command permissions require review |
 ## Research and intelligence
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
@@ -184,7 +185,7 @@ The submissions “Skills by Anthropic” and “Agent Skills” referred to the
 
 ## Count and deduplication
 
-The master index currently contains 106 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
+The master index currently contains 107 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
 ## 📝 Note For Reader
 
