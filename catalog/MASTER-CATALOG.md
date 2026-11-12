@@ -40,6 +40,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | REA | Reverse-engineering agent toolkit and MCP server for binaries, apps and runtime behavior | [morluto/rea](https://github.com/morluto/rea) | Verified identity; native analysis may require external tools |
 | Auto Ontology | Enterprise metadata-to-ontology and agent context library | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | Apache-2.0 stated upstream |
 
+| TokenEconomizer | Research implementation for coding-agent token/cost control | [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) | Apache-2.0; experimental results require reproduction |
 ## Agent frameworks and orchestration
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
@@ -86,6 +87,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Agent Desktop | Accessibility-tree-based desktop automation CLI/library | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Apache-2.0 stated upstream |
 | Agent Browser | Browser automation CLI for AI agents | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Apache-2.0 stated upstream |
 
+| Kimi K3 in C | Experimental C99 inference implementation; very large checkpoint | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | Apache-2.0 code; 1.56 TB checkpoint and performance claims unverified |
 ## Networking and system utilities
 
 | Project | Type | Source | Status |
@@ -182,7 +184,7 @@ The submissions “Skills by Anthropic” and “Agent Skills” referred to the
 
 ## Count and deduplication
 
-The master index currently contains 104 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
+The master index currently contains 106 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
 ## 📝 Note For Reader
 
