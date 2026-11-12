@@ -1,7 +1,7 @@
 # Coding and Development
 
-**Catalogue version:** 1.14
-**Last updated:** 2026-11-13 00:55 IST (UTC+05:30)
+**Catalogue version:** 1.15
+**Last updated:** 2026-11-13 02:25 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -12,6 +12,17 @@
 | Ponytail | Coding-agent skill / workflow focused on concise, maintainable code and stronger review | [Repository](https://github.com/dietrichgebert/ponytail) | Verified identity; benchmark claims are upstream-reported |
 | Addy Osmani Agent Skills | Engineering workflow skills and lifecycle commands | [Repository](https://github.com/addyosmani/agent-skills) | Verified identity; portability caveat applies |
 | Anthropic Agent Skills | Agent skills collection | [Official repository](https://github.com/anthropics/skills) | Verified identity; details review pending |
+| Gentle-AI | Deterministic engineering environment, skills and workflows for coding agents | [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | README and MIT badge reviewed; agent permissions require review |
+| Google Agent Skills | Vendor-authored Agent Skills collection for Google products and technologies | [google/skills](https://github.com/google/skills) | Repository identity verified; skill-by-skill requirements vary |
+| Agent Skills Specification | Open format/specification for portable agent skills | [agentskills/agentskills](https://github.com/agentskills/agentskills) | Specification repository; not an installable skill pack |
+| Vercel Skills CLI | CLI for discovering and installing skills from the open agent-skills ecosystem | [vercel-labs/skills](https://github.com/vercel-labs/skills) | MIT stated upstream |
+| Cursor Plugins | Official Cursor plugin collection | [cursor/plugins](https://github.com/cursor/plugins) | Repository identity verified; plugin-specific terms may vary |
+| Jakub Krehel Skills | Agent skills for interface design and design engineering | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | Repository identity verified; license not confirmed in this intake |
+| Unslop | Design-oriented agent skill for improving AI-generated interfaces | [heydamir/unslop](https://github.com/heydamir/unslop) | Repository identity verified; license not confirmed in this intake |
+| Replica Skill | Claude Code skill suite for clean-room app recreation | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | MIT stated upstream |
+| Claude Code Game Studios | Claude Code workflow for prototyping browser games | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | MIT stated upstream |
+| Huashu Design | Cross-agent design skills for deliverable visual assets and prototypes | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | MIT stated upstream; README says license changed to MIT on 2026-05-14 |
+| PixelFX | Pixel-art effects library, gallery and coding-agent skill | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | Repository identity and README reviewed; license not confirmed in this intake |
 
 ## Superpowers
 
@@ -106,6 +117,160 @@
 - **Use:** Review each skill's own instructions, required tools, scripts and dependencies before installing it into a coding agent. Compatibility and behavior depend on the host agent and the individual skill.
 
 - **License and limitations:** Check the repository's current license and any skill-specific notices before reuse. A skill's presence in the collection does not establish that it is safe, maintained or suitable for every project.
+
+## Gentle-AI
+
+- **Project link:** [Official source](https://github.com/Gentleman-Programming/gentle-ai)
+
+- **Type / Classification:** Deterministic engineering environment, skills and workflows for coding agents.
+
+- **Purpose / Capabilities:** The README describes a cross-platform engineering environment for 18 agent hosts. It packages deterministic workflows, reusable skills and setup conventions around agents the user already operates.
+
+- **Installation / Requirements:** Install and configure through the repository's documented setup; supported hosts and platform-specific steps are maintained upstream.
+
+- **License / Cost:** MIT, as stated by the repository. No hands-on installation or behavior testing was performed.
+
+- **Privacy / Security / Limitations:** Its deterministic workflow claims are upstream descriptions, not independent guarantees. Review shell access, hooks, file permissions and model-provider routing before enabling it in a real repository.
+
+## Google Agent Skills
+
+- **Project link:** [Official source](https://github.com/google/skills)
+
+- **Type / Classification:** Vendor-authored Agent Skills collection for Google products and technologies.
+
+- **Purpose / Capabilities:** Provides task-specific skills for Google products and technologies, including Google Cloud, IAM, onboarding and solution architecture. It is a collection of instructions, not a standalone agent.
+
+- **Installation / Requirements:** Install with `npx skills add google/skills`; Node.js/npm/npx are required. Select individual skills and target agent during installation.
+
+- **License / Cost:** Repository license was not separately confirmed in this intake. Inspect each skill's scripts, external services and Google Cloud permissions.
+
+- **Privacy / Security / Limitations:** Useful for Google-stack workflows. Cloud skills may require an authenticated Google Cloud account and billable resources; a skill does not grant free cloud usage.
+
+## Agent Skills Specification
+
+- **Project link:** [Official source](https://github.com/agentskills/agentskills)
+
+- **Type / Classification:** Open format/specification for portable agent skills.
+
+- **Purpose / Capabilities:** Defines a lightweight folder-based format centered on `SKILL.md` metadata and instructions, with optional scripts, references, assets and templates. It aims to make skills portable across compatible agents.
+
+- **Installation / Requirements:** Use the specification and validate host support; a skill folder is not guaranteed to work identically in every agent.
+
+- **License / Cost:** Check the repository's current license and the licenses of individual skill contents separately.
+
+- **Privacy / Security / Limitations:** Useful as an interoperability reference when authoring or reviewing skills. Host-specific tool support and execution permissions still differ.
+
+## Vercel Skills CLI
+
+- **Project link:** [Official source](https://github.com/vercel-labs/skills)
+
+- **Type / Classification:** CLI for discovering and installing skills from the open agent-skills ecosystem.
+
+- **Purpose / Capabilities:** Provides a CLI to discover, add, inspect and manage reusable agent skills from repositories and the skills.sh ecosystem. README lists support for many agent hosts.
+
+- **Installation / Requirements:** Node.js/npm environment; install and usage commands are documented in the repository and npm package.
+
+- **License / Cost:** MIT, as stated upstream. Skill repositories installed through the CLI retain their own licenses.
+
+- **Privacy / Security / Limitations:** The CLI is an installer/discovery tool, not a guarantee that every third-party skill is safe or compatible. Review skill files before installation.
+
+## Cursor Plugins
+
+- **Project link:** [Official source](https://github.com/cursor/plugins)
+
+- **Type / Classification:** Official Cursor plugin collection.
+
+- **Purpose / Capabilities:** Collection of Cursor plugins for developer tools, frameworks and SaaS integrations. Each plugin is maintained in its own directory with a `.cursor-plugin/plugin.json` manifest.
+
+- **Installation / Requirements:** Install through Cursor's plugin surfaces or follow each plugin's own instructions.
+
+- **License / Cost:** Check the repository and individual plugin/dependency licenses before redistribution or commercial reuse.
+
+- **Privacy / Security / Limitations:** Plugin permissions and connected services differ. Review each plugin's tools, network access and credentials rather than treating the collection as one homogeneous package.
+
+## Jakub Krehel Skills
+
+- **Project link:** [Official source](https://github.com/jakubkrehel/skills)
+
+- **Type / Classification:** Agent skills for interface design and design engineering.
+
+- **Purpose / Capabilities:** Provides skills for interface review, UI polish, typography, color, accessibility, layout and product writing.
+
+- **Installation / Requirements:** Install with `npx skills add jakubkrehel/skills` and select compatible agent hosts.
+
+- **License / Cost:** License not confirmed from the README excerpt; inspect the current LICENSE and individual assets before reuse.
+
+- **Privacy / Security / Limitations:** Useful as design-review guidance, not a substitute for user research, accessibility testing or browser-based QA.
+
+## Unslop
+
+- **Project link:** [Official source](https://github.com/heydamir/unslop)
+
+- **Type / Classification:** Design-oriented agent skill for improving AI-generated interfaces.
+
+- **Purpose / Capabilities:** Reviews and refines AI-generated interfaces by identifying generic visual patterns and applying a more coherent product-specific design direction.
+
+- **Installation / Requirements:** README documents installation for Claude Code and Codex; supports common web stacks and can work from a live URL where access permits.
+
+- **License / Cost:** License not confirmed in this intake; check upstream LICENSE before reuse.
+
+- **Privacy / Security / Limitations:** Generated changes still need visual, responsive, accessibility and functional review. A live-site URL may expose private pages or require authenticated browser access.
+
+## Replica Skill
+
+- **Project link:** [Official source](https://github.com/Jakeschincariol/replica-skill)
+
+- **Type / Classification:** Claude Code skill suite for clean-room app recreation.
+
+- **Purpose / Capabilities:** An eleven-skill workflow separates app reconnaissance, planning, design-system reconstruction, implementation, testing, branding and launch preparation. README explicitly frames the goal as recreating functionality, not copying proprietary code or assets.
+
+- **Installation / Requirements:** Install from the repository or its Claude Code plugin marketplace instructions.
+
+- **License / Cost:** MIT, as stated upstream.
+
+- **Privacy / Security / Limitations:** Use clean-room practices. Do not copy protected source code, logos, text, user data or proprietary assets; verify rights before reproducing distinctive functionality.
+
+## Claude Code Game Studios
+
+- **Project link:** [Official source](https://github.com/Donchitos/Claude-Code-Game-Studios)
+
+- **Type / Classification:** Claude Code workflow for prototyping browser games.
+
+- **Purpose / Capabilities:** Guides an agent through clarifying a game idea, writing a one-page brief and building a playable browser-game prototype in iterative steps.
+
+- **Installation / Requirements:** Open a copy of the repository in Claude Code and use its documented game-prototyping command/workflow.
+
+- **License / Cost:** MIT, as stated upstream.
+
+- **Privacy / Security / Limitations:** Generated game code and assets need testing. Review any downloaded assets, external libraries and deployment secrets independently.
+
+## Huashu Design
+
+- **Project link:** [Official source](https://github.com/alchaincyf/huashu-design)
+
+- **Type / Classification:** Cross-agent design skills for deliverable visual assets and prototypes.
+
+- **Purpose / Capabilities:** A design skill collection for producing product-launch animations, interactive prototypes, editable presentations, infographics and social-media graphics. README describes reusable style directions and templates.
+
+- **Installation / Requirements:** Install with `npx skills add alchaincyf/huashu-design`; README lists Claude Code, Cursor, Codex, OpenClaw and Hermes.
+
+- **License / Cost:** MIT, according to the current README; verify asset/template notices independently.
+
+- **Privacy / Security / Limitations:** Output quality and time claims are upstream-reported. Review generated assets, font/image licenses and editable-file integrity before commercial publication.
+
+## PixelFX
+
+- **Project link:** [Official source](https://github.com/patch-gg/pixelfx)
+
+- **Type / Classification:** Pixel-art effects library, gallery and coding-agent skill.
+
+- **Purpose / Capabilities:** Contains hundreds of small pixel-art effects and animations, a browser gallery/export workflow, and a Claude Code skill for drafting and refining new effects.
+
+- **Installation / Requirements:** Use the hosted gallery or follow repository instructions to integrate effects and export sprite sheets for a game engine.
+
+- **License / Cost:** License not confirmed in this intake; check code, sprite and asset-specific terms before reuse.
+
+- **Privacy / Security / Limitations:** Useful for prototyping game effects. Verify attribution and asset rights; generated effects should be reviewed in the target engine and frame rate.
 
 ## 📝 Note For Reader
 
