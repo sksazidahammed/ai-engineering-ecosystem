@@ -164,3 +164,16 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - Removed a stray inline metadata line from the Cloudflare Security Audit Skill explanation. Its classification remains in the Classification field and the upstream-stated MIT license is now in a dedicated License field.
 - Audited all 12 category pages for the same formatting defect: unlabelled metadata or prose appearing between the Project link and the structured explanation bullets. No other instances were found.
 - No project records, order, or substantive caveats changed.
+
+
+## Version 1.11 — 2026-11-12 21:07 IST (UTC+05:30)
+
+### Added
+- Added [Editorial and Maintenance Rulebook](standards/EDITORIAL-AND-MAINTENANCE-RULEBOOK.md) as the authoritative operating standard for all future directory research, submissions, formatting, GitHub updates and verification.
+- Consolidated the established editorial rules: table/explanation order parity, one official Project link at the start of every explanation, labelled point-by-point content, no stray metadata, and exactly one final **📝 Note For Reader** section.
+- Added a mandatory pre-publication checklist covering project counts, order, links, formatting, reader notes, preservation, metadata, and post-write verification.
+- Clarified evidence attribution, license/cost distinctions, security/privacy review, duplicate handling, and change-control expectations.
+
+### Maintenance
+- Linked the rulebook from the README so future contributors can find the standards before making changes.
+- No project records were added, removed, or reclassified in this standards-only release.
