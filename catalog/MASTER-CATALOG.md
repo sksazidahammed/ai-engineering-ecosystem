@@ -138,6 +138,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | DesignCraft | Rust-based desktop publishing and page-layout application | [storytold/designcraft](https://github.com/storytold/designcraft) | License not confirmed in this intake |
 | Hallmark | Design skill for coding-agent interface refinement | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Existing record refreshed; verify current license |
 
+| Rune | Native GPU-rendered Rust UI framework | [anomalyco/rune](https://github.com/anomalyco/rune) | License not confirmed in this intake |
 ## Productivity and workflows
 
 | Project | Type | Source | Status |
@@ -152,6 +153,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Filee | Desktop file-conversion utility | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | License requires direct inspection |
 | VERT | WebAssembly-based file conversion utility | [VERT-sh/VERT](https://github.com/VERT-sh/VERT) | License not confirmed in this intake |
 
+| Anthropic Knowledge Work Plugins | Role-specific Claude plugins for knowledge work | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Official repository; connector and plugin terms vary |
 ## Writing and content
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
@@ -180,7 +182,7 @@ The submissions “Skills by Anthropic” and “Agent Skills” referred to the
 
 ## Count and deduplication
 
-The master index currently contains 98 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
+The master index currently contains 104 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
 ## 📝 Note For Reader
 
