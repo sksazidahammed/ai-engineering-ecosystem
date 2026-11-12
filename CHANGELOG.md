@@ -177,3 +177,32 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ### Maintenance
 - Linked the rulebook from the README so future contributors can find the standards before making changes.
 - No project records were added, removed, or reclassified in this standards-only release.
+
+
+## Version 1.12 — 2026-11-12 21:35 IST (UTC+05:30)
+
+### Added
+- Added ten distinct repositories: Awesome AI Apps, OpenLore, Foreman, ingestr, Open India Law, HydraDB, OpenJev, Aria Icons, Repolyze and Nhost.
+- Created **Data Platforms and Infrastructure** for data ingestion, graph database and backend-platform projects.
+- Added individual, structured explanations with official project links, installation or architecture context, license/cost distinctions, and practical limitations.
+
+### Updated / reconciled
+- Refreshed the existing Career Ops entry with its current local-first workflow, human-submission boundary and AI-provider data-flow caveat.
+- Rechecked the existing Graphify entry against its current CLI/agent-skill README and Apache-2.0 license; it remains a single existing record.
+- Confirmed Career Ops and Graphify were already catalogued, so neither was duplicated.
+- Updated Repolyze's canonical project link to OssiumOfficial/Repolyze because the submitted repository README states that ownership moved to Ossium.
+- Added OpenJev under Model Infrastructure and Gateways, Aria Icons under Design and Frontend, OpenLore under Productivity and Workflows, Foreman under Agent Frameworks and Orchestration, Open India Law and Repolyze under Research and Intelligence, and Awesome AI Apps under AI Project Collections.
+- Updated the master catalogue's unique-record count from 48 to 58.
+- Updated README navigation, master catalogue, changelog, rulebook baseline, and all 13 category-page version timestamps to 1.12.
+
+### Important licensing and usage caveats
+- ingestr uses FSL-1.1-ALv2 with an Apache-2.0 future grant after two years; it is not Apache-2.0 immediately.
+- HydraDB uses Elastic License 2.0, which restricts competing hosted/managed service use; it is not a conventional OSI-approved open-source license.
+- Aria Icons' MIT license covers repository code, not every icon asset; icon collections retain their upstream licenses.
+- Open India Law's Apache-2.0 repository license does not automatically relicense source government documents.
+- OpenJev's repository license and model/weight licenses must be checked separately; hosted Codiv quota is an upstream offer, not a guarantee.
+- Repolyze sends repository content to the configured model provider; the upstream no-storage statement does not remove provider-side data handling.
+
+### Verification
+- Checked all submitted repositories' README and LICENSE files where available; no hands-on installation, performance or security testing was claimed.
+- Preserved the existing 48 records and added ten new distinct records; no duplicates were created for Career Ops or Graphify.
