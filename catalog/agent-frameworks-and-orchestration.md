@@ -1,16 +1,16 @@
 # Agent Frameworks and Orchestration
 
-**Catalogue version:** 1.4
-**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)
+**Catalogue version:** 1.5
+**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
-| gstack | Agent workflow / tool collection | [Submitted repository](https://github.com/garrytan/gstack) | Candidate — review pending |
+| gstack | Role-based engineering workflow and tool collection | [garrytan/gstack](https://github.com/garrytan/gstack) | Repository identity verified; MIT stated upstream |
 | Caveman | Agent skill and proxy/runtime for token-efficient agent communication | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | Verified identity; split MIT/BSL-1.1 license |
-| Claude-Mem | Agent memory / context system | [Submitted repository](https://github.com/thedotmack/claude-mem) | Candidate — review pending |
+| Claude-Mem | Persistent coding-agent memory and context system | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Repository identity verified; inspect data retention and redaction |
 | Headroom | Local context-compression middleware for prompts, tool outputs and agent history | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Verified identity; savings depend on workload and content |
-| GSD | Agentic development workflow; intended project unresolved | [Submitted repository](https://github.com/open-gsd/gsd-core) | Candidate — review pending |
-| BMAD Method | Agentic software-development framework | [Submitted repository](https://github.com/bmad-code-org/BMAD-METHOD) | Candidate — review pending |
+| GSD Core | Spec-driven development and context-engineering workflow; successor to archived GSD repo | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | Successor identified; recheck current release and license |
+| BMAD Method | Agile AI-driven development framework with role-based agents | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Repository identity verified; stable v6 and preview v7 differ in maturity |
 | MiroFish | Multi-agent swarm simulation / scenario exploration engine | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | Verified identity; predictive validity not established |
 
 ## MiroFish
