@@ -13,6 +13,7 @@
 | AlterSend | Direct end-to-end encrypted file transfer application | [denislupookov/altersend](https://github.com/denislupookov/altersend) | Apache-2.0 stated upstream |
 | Filee | Desktop file-conversion utility with drag-and-drop interface | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | License requires direct LICENSE inspection |
 | VERT | Browser-based file conversion using WebAssembly | [VERT-sh/VERT](https://github.com/VERT-sh/VERT) | License not confirmed in this intake |
+| Anthropic Knowledge Work Plugins | Role-specific Claude plugins bundling skills, connectors, commands and sub-agents | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Official Anthropic repository; inspect current plugin and connector terms |
 
 ## OpenReply
 
@@ -135,6 +136,20 @@
 - **License / Cost:** License not confirmed in this intake; inspect format-specific libraries and codecs.
 
 - **Privacy / Security / Limitations:** Do not assume every conversion stays in-browser: upstream explicitly notes server-side processing for some video conversions. Avoid uploading sensitive files until the processing path is clear.
+
+## Anthropic Knowledge Work Plugins
+
+- **Project link:** [Official source](https://github.com/anthropics/knowledge-work-plugins)
+
+- **Type / Classification:** Role-specific Claude plugins bundling skills, connectors, commands and sub-agents.
+
+- **Purpose / Capabilities:** Bundles role-oriented workflows for functions such as productivity, sales, finance, legal and other knowledge-work domains. Plugins combine skills, connectors, slash commands and sub-agents for Claude Cowork and Claude Code.
+
+- **Installation / Requirements:** Install through the official Claude plugin marketplace or follow the repository's plugin-specific instructions; connected services require their own authorization.
+
+- **License / Cost:** Repository and connector terms should be checked per plugin; third-party services may have separate pricing and data policies.
+
+- **Privacy / Security / Limitations:** Connectors can expose email, documents, CRM and other sensitive work data. Review requested scopes and agent actions before enabling plugins in a real workspace.
 
 ## 📝 Note For Reader
 
