@@ -15,6 +15,7 @@
 | Astryx | Customizable React design system built with StyleX | [meta/astryx](https://github.com/meta/astryx) | MIT stated upstream; project is currently described as beta |
 | DesignCraft | Native desktop publishing and page-layout application | [storytold/designcraft](https://github.com/storytold/designcraft) | License not confirmed in this intake |
 | Hallmark | Design skill for reducing generic AI-generated interface patterns | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Existing record; README reviewed; license details should be rechecked |
+| Rune | Native GPU-rendered Rust UI framework with headless agent workflows | [anomalyco/rune](https://github.com/anomalyco/rune) | License not confirmed in this intake |
 
 ## UI UX Pro Max
 
@@ -145,6 +146,20 @@
 - **License / Cost:** Existing catalogue record retained; confirm current LICENSE before reuse.
 
 - **Privacy / Security / Limitations:** A design skill cannot guarantee good design or factual accuracy. Keep accessibility, responsive behavior and functional testing as independent release gates.
+
+## Rune
+
+- **Project link:** [Official source](https://github.com/anomalyco/rune)
+
+- **Type / Classification:** Native GPU-rendered Rust UI framework with headless agent workflows.
+
+- **Purpose / Capabilities:** A cross-platform UI framework with its own renderer, layout, text and animation systems. Apps can run headlessly so agents can render screenshots, inspect element trees and drive scripted input.
+
+- **Installation / Requirements:** Rust toolchain and platform-specific graphics dependencies; follow upstream build and example instructions.
+
+- **License / Cost:** License not confirmed in this intake.
+
+- **Privacy / Security / Limitations:** Headless rendering can support UI-agent testing, but it is not a complete browser automation system. Validate platform support, accessibility and rendering stability.
 
 ## 📝 Note For Reader
 
