@@ -2,8 +2,8 @@
 
 A curated, continuously maintained catalogue of AI engineering tools, agent skills, plugins, MCP servers, frameworks, and workflows.
 
-**Directory version:** 1.6  
-**Last updated:** 2026-11-12 19:52 IST (UTC+05:30)
+**Directory version:** 1.7  
+**Last updated:** 2026-11-12 (IST)
 **Repository:** [sksazidahammed/ai-engineering-ecosystem](https://github.com/sksazidahammed/ai-engineering-ecosystem)
 
 ## Start here
@@ -23,3 +23,6 @@ A curated, continuously maintained catalogue of AI engineering tools, agent skil
 | [Networking and system utilities](catalog/networking-and-system-utilities.md) | Network aggregation, local-network file transfer and system-level connectivity utilities |
 | [AI project collections](catalog/ai-project-collections.md) | Curated examples, templates and learning repositories |
 | [Model infrastructure and gateways](catalog/model-infrastructure-and-gateways.md) | LLM API routing, provider aggregation and free-tier directories |
+
+
+**Reading order:** Within every category page, the detailed project explanations follow the exact sequence used in that page's summary table. The table is the navigation order; the sections below it use the same order.
