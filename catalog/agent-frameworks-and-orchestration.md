@@ -138,4 +138,6 @@
 
 - **Assessment:** Interesting supervisory layer for agent-driven software tasks, especially when a separate verifier and explicit completion criteria are needed. Start with a disposable repository and conservative intervention permissions.
 
+## 📝 Note For Reader
+
 Agent frameworks may execute shell commands, edit files, access networks, or delegate tasks. Review permission boundaries, tool policies, secrets handling, and sandbox support before connecting them to valuable repositories or accounts.
