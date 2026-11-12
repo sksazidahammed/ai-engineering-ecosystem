@@ -1,7 +1,7 @@
 # Networking and System Utilities
 
-**Catalogue version:** 1.13
-**Last updated:** 2026-11-12 21:55 IST (UTC+05:30)
+**Catalogue version:** 1.14
+**Last updated:** 2026-11-13 00:55 IST (UTC+05:30)
 
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
@@ -45,6 +45,26 @@
 
 - **Assessment:** Useful for direct phone-to-PC transfers without cloud storage or cables; it is not an internet-hosted cloud drive.
 
-## 📝 Note For Reader
+## abtop
+
+- **Project link:** [Official source](https://github.com/graykode/abtop)
+
+- **Type:** Cross-platform terminal user interface (TUI), command-line utility and Rust library for monitoring local AI coding-agent sessions.
+
+- **Purpose:** Provides a btop-style overview of Claude Code, Codex CLI and OpenCode sessions, including token usage, context-window percentage where supported, rate limits, Git state, child processes and listening ports.
+
+- **Workflow:** Discovers sessions from local process and file state. It can display multiple profiles, identify orphaned ports, jump to supported terminal multiplexers, and emit one-shot JSON snapshots for scripts or other dashboards. The main monitoring view is read-only; explicit key actions can terminate a selected session or orphaned port.
+
+- **Installation:** macOS/Linux installer, Windows PowerShell installer, prebuilt release binaries, or `cargo install abtop`. Rust/Cargo is needed only for source/package installation. OpenCode discovery requires the `sqlite3` CLI; Linux and Windows setup notes specify installing it separately.
+
+- **Integrations:** Claude Code, Codex CLI and OpenCode. Terminal jump support includes cmux, tmux and iTerm2 on macOS. The Rust library API can be embedded by other local tools.
+
+- **License / cost:** MIT. The project states that the TUI needs no API keys or authentication. Claude session summaries generated with `claude --print` make an indirect API call and may consume the user's Claude quota.
+
+- **Privacy / security:** Reads local session files, process metadata and open-port information. The TUI does not display prompt text or file contents, but JSON snapshots can include bounded chat messages, tool previews, paths, commands and project context. Keep snapshots private and do not expose them through shared logs or network dashboards without access controls.
+
+- **Limitations:** Feature coverage differs by agent; for example, OpenCode does not provide every context, task or rate-limit field. Terminal layout is best at 120×40 or larger. OpenCode monitoring depends on the local SQLite CLI. The README's platform and feature matrix is upstream documentation, not independent testing.
+
+- **Assessment:** A focused local observability tool for developers running several coding agents concurrently. It monitors agent sessions rather than replacing or orchestrating them.
 
 Network aggregation products can route traffic through relays or remote infrastructure. Review privacy, traffic encryption, relay ownership, routing behavior, bandwidth limits and whether all traffic or only supported downloads is affected. Benchmark with controlled tests before relying on advertised speed gains.
