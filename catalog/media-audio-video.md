@@ -1,7 +1,7 @@
 # Media, Audio and Video
 
-**Catalogue version:** 1.5
-**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+**Catalogue version:** 1.6
+**Last updated:** 2026-11-12 19:52 IST (UTC+05:30)
 
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
