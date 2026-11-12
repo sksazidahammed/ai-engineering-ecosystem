@@ -55,4 +55,6 @@
 
 - **Assessment:** A specialized option for applications that need typed decision outputs and predictable response schemas. It is not a general replacement for a conversational LLM.
 
+## 📝 Note For Reader
+
 Treat provider and quota data as a starting point only. Before integrating an API, verify the provider's official pricing and terms, regional access, identity/card requirements, rate limits, model availability, data retention, training use, and commercial-use restrictions. Avoid routing confidential source code or personal data through unknown providers. Keep API keys in a secret manager or environment variables; never...
