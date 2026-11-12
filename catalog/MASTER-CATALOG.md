@@ -1,7 +1,7 @@
 # Master Catalogue
 
-**Catalogue version:** 1.2  
-**Last updated:** 2026-11-12 18:29 IST (UTC+05:30)
+**Catalogue version:** 1.3  
+**Last updated:** 2026-11-12 19:02 IST (UTC+05:30)
 
 This index consolidates the initial user-submitted collection. A candidate status is intentional: it prevents an ambiguous name or unverified URL from being mistaken for an approved recommendation.
 
@@ -13,15 +13,15 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Matt Pocock Skills | Agent skills | [mattpocock/skills](https://github.com/mattpocock/skills) | Candidate — review pending |
 | Everything Claude Code (ECC) | Coding-agent configuration / skills | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Candidate — review pending |
 | Karpathy-Inspired Skills | Claude Code plugin / agent instruction pack, with Cursor project rule | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | Verified identity; upstream lineage note required |
-| Ponytail | Unclear; repository identity needs confirmation | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Candidate — review pending |
+| Ponytail | Coding-agent skill / workflow focused on concise, maintainable code and stronger review | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | Verified identity; benchmark claims are upstream-reported |\n| Addy Osmani Agent Skills | Production-oriented engineering skills and lifecycle commands for coding agents | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Verified identity; install portability caveat recorded |
 | Anthropic Agent Skills | Agent skills collection | [anthropics/skills](https://github.com/anthropics/skills) | Verified identity; details review pending |
 
 ## Research and intelligence
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
 |---|---|---|---|
-| Graphify | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=Graphify&type=repositories) | Needs clarification |
-| Agent Reach | CLI / agent web-research infrastructure | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Verified |
+| Graphify | Local code/document knowledge-graph builder and agent skill | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Verified identity; cloud features are separate |
+| Agent Reach | CLI / agent web-research infrastructure | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Verified |\n| Awesome Free LLM APIs | Dynamic directory of free-tier LLM API providers, models and quotas | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Verified identity; quota and provider claims change frequently |
 | Understand Anything | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=Understand+Anything&type=repositories) | Needs clarification |
 | Last 30 Days | Research skill / workflow | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Candidate — review pending |
 | Career Ops | Career workflow / agent project | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Candidate — review pending |
@@ -36,7 +36,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Claude-Mem | Agent memory / context system | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Candidate — review pending |
 | Headroom | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=Headroom+LLM+context&type=repositories) | Needs clarification |
 | GSD | Agentic development workflow; intended project needs confirmation | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | Candidate — review pending |
-| BMAD Method | Agentic software-development framework | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Candidate — review pending |
+| BMAD Method | Agentic software-development framework | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Candidate — review pending |\n| MiroFish | Multi-agent swarm simulation / scenario exploration engine | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | Verified identity; predictive validity not established |
 
 ## Media, audio and video
 
@@ -67,7 +67,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 |---|---|---|---|
 | Awesome LLM Apps | Curated collection of AI agents, skills and RAG applications | [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps) | Verified identity; contents change frequently |
 
-## Cybersecurity and security auditing
+## Model infrastructure and gateways\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| OmniRoute | Self-hosted LLM API gateway with multi-provider routing and fallback | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | Verified identity; free-tier availability and quota claims are volatile |\n\n## Cybersecurity and security auditing
 
 | Project | Type | Official source | Status |
 |---|---|---|---|
