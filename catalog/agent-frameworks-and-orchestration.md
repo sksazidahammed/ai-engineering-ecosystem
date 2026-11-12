@@ -1,7 +1,7 @@
 # Agent Frameworks and Orchestration
 
-**Catalogue version:** 1.7  
-**Last updated:** 2026-11-12 19:50 IST (UTC+05:30)
+**Catalogue version:** 1.8  
+**Last updated:** 2026-11-12 20:20 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
