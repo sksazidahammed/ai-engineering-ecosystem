@@ -1,7 +1,7 @@
 # Master Catalogue
 
-**Catalogue version:** 1.10
-**Last updated:** 2026-11-12 20:54 IST (UTC+05:30)
+**Catalogue version:** 1.11
+**Last updated:** 2026-11-12 21:07 IST (UTC+05:30)
 
 This index consolidates the initial user-submitted collection. A candidate status is intentional: it prevents an ambiguous name or unverified URL from being mistaken for an approved recommendation.
 
