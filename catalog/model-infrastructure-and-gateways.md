@@ -10,8 +10,7 @@
 
 ## OmniRoute
 
-
-- **Repository:** [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute)
+- **Project link:** [Official source](https://github.com/cheaper-inference/OmniRoute)
 
 - **Type:** Self-hosted LLM API gateway, provider router and compatibility layer.
 
@@ -25,8 +24,7 @@
 
 ## Awesome Free LLM APIs
 
-
-- **Repository:** [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis)
+- **Project link:** [Official source](https://github.com/open-free-llm-api/awesome-freellm-apis)
 
 - **Type:** Dynamic directory of free-tier LLM API providers, models, rate limits, context windows, API endpoints and configuration examples.
 
@@ -36,6 +34,6 @@
 
 - **Assessment:** Useful for discovering providers and comparing stated constraints. It is not itself an inference API and does not guarantee that any listed provider is accessible from India, remains free, or permits a given use case.
 
-## Reader notes
+## 📝 Note For Reader
 
-Treat provider and quota data as a starting point only. Before integrating an API, verify the provider's official pricing and terms, regional access, identity/card requirements, rate limits, model availability, data retention, training use, and commercial-use restrictions. Avoid routing confidential source code or personal data through unknown providers. Keep API keys in a secret manager or environment variables; never commit them to a repository.
+Treat provider and quota data as a starting point only. Before integrating an API, verify the provider's official pricing and terms, regional access, identity/card requirements, rate limits, model availability, data retention, training use, and commercial-use restrictions. Avoid routing confidential source code or personal data through unknown providers. Keep API keys in a secret manager or environment variables; never...
