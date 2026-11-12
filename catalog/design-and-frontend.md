@@ -1,14 +1,14 @@
 # Design and Frontend
 
-**Catalogue version:** 1.4
-**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)
+**Catalogue version:** 1.5
+**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
-| UI UX Pro Max | UI/UX design skill | [Submitted repository](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Candidate — review pending |
+| UI UX Pro Max | Design-intelligence skill with searchable styles, rules and CLI | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Verified identity; framework compatibility and coverage need checking |
 | Taste Skill | Design-oriented agent skill for professional website and interface implementation | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Verified identity; MIT stated upstream |
 | Archify | Agent skill that turns prompts and plans into interactive HTML visualizations | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Verified identity; Apache-2.0 stated upstream |
-| Impeccable | Design / frontend skill collection | [Submitted repository](https://github.com/pbakaus/impeccable) | Candidate — review pending |
+| Impeccable | Design vocabulary and critique/audit commands for coding agents | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Verified identity; strongest for iterative interface refinement |
 | PPT Master | AI-assisted native PowerPoint generation from documents | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Verified identity; MIT stated upstream |
 | Diagram Design | Agent skill for branded HTML/SVG diagrams | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Verified identity; MIT stated upstream |
 
