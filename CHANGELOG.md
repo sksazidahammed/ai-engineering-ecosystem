@@ -16,3 +16,13 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - The remaining candidate records are explicitly marked as review pending or needing clarification.
 - GitHub search URLs are discovery links, not canonical project links.
 - No project has been declared safe or production-ready solely because it appears in this directory.
+
+
+## Version 1.1 — 2026-11-12 17:45 IST
+
+### Added / updated
+- Added the submitted [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) repository to Coding and Development.
+- Reclassified the earlier ambiguous “Karpathy Skills” candidate as a Claude Code plugin / agent instruction pack with Cursor project-rule support.
+- Documented its four principles: think before coding, simplicity first, surgical changes, and goal-driven execution.
+- Added a provenance caution: the repository's README points Claude Code marketplace and raw `CLAUDE.md` installation examples to `forrestchang/andrej-karpathy-skills`, so users should confirm the intended canonical source before installing.
+- Recorded the upstream-stated MIT license and clarified that guidelines do not replace tests or code review.
