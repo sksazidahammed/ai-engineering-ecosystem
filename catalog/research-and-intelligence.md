@@ -1,7 +1,7 @@
 # Research and Intelligence
 
-**Catalogue version:** 1.8  
-**Last updated:** 2026-11-12 20:20 IST (UTC+05:30)
+**Catalogue version:** 1.9  
+**Last updated:** 2026-11-12 20:42 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -15,8 +15,7 @@
 
 ## Graphify
 
-
-- **Repository:** [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+- **Project link:** [Official source](https://github.com/Graphify-Labs/graphify)
 
 - **Type:** Local project knowledge-graph builder distributed as a CLI and agent skill.
 
@@ -32,8 +31,7 @@
 
 ## Awesome Free LLM APIs
 
-
-- **Repository:** [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis)
+- **Project link:** [Official source](https://github.com/open-free-llm-api/awesome-freellm-apis)
 
 - **Type:** Machine-readable, frequently refreshed directory of free-tier LLM APIs, provider endpoints, model identifiers, limits and configuration examples.
 
@@ -45,6 +43,7 @@
 
 ## Agent Reach
 
+- **Project link:** [Official source](https://github.com/Panniantong/Agent-Reach)
 
 - **Type:** CLI and agent-facing internet research infrastructure.
 
@@ -62,81 +61,66 @@
 
 ## Understand Anything
 
+- **Project link:** [Official source](https://github.com/Egonex-AI/Understand-Anything)
 
 - **Type:** Coding-agent plugin for codebase and knowledge-base analysis.
 
-
 - **Purpose:** Builds a graph of files, functions, classes and dependencies, then presents an interactive dashboard for exploration and question answering.
-
 
 - **Integrations:** The README documents Claude Code and several other coding-agent integrations.
 
-
 - **Local use:** The viewer can display already-generated graph data locally without additional model calls.
 
-
 - **Limitations:** A generated graph is an aid to understanding, not proof that every inferred relationship is correct.
-
 
 - **Assessment:** Useful for navigating unfamiliar repositories and knowledge bases; validate important relationships against source files.
 
 ## Last 30 Days
 
+- **Project link:** [Official source](https://github.com/mvanhorn/last30days-skill)
 
 - **Type:** Agent-led research skill for synthesizing recent web and social-source activity.
 
-
 - **Sources:** The README describes searches across Reddit, Hacker News, YouTube and other platforms.
-
 
 - **Integrations:** Optional sources may require user sessions, credentials or API access. “Zero config” applies only to the sources listed as immediately available.
 
-
 - **Limitations:** Some integrations need additional setup and may be constrained by platform access limits.
-
 
 - **Assessment:** Useful for discovering emerging discussions and preparing research briefs. Engagement signals indicate attention, not factual reliability; verify important claims against primary sources.
 
 ## Career Ops
 
+- **Project link:** [Official source](https://github.com/career-ops-hq/career-ops)
 
 - **Type:** Open-source AI job-search and application-support agent.
 
-
 - **Capabilities:** Evaluates job listings against a candidate profile, checks whether roles remain open, and assists with CV tailoring and application-answer drafting.
-
 
 - **User control:** The upstream workflow is designed to leave final application submission under the user's control.
 
-
 - **Privacy:** CVs and career histories are sensitive personal data. Review storage locations, connected services and data-sharing behavior before uploading information.
-
 
 - **Assessment:** Useful for organizing job searches and drafting application material; verify role status and every generated claim before submitting.
 
 ## REA — Reverse Engineer Anything
 
+- **Project link:** [Official source](https://github.com/morluto/rea)
 
 - **Type:** Agent-facing MCP toolkit for reverse engineering applications, websites and software binaries.
 
-
 - **Targets:** The README describes support for websites, JavaScript/Electron projects, .NET assemblies and native binaries.
-
 
 - **Methods:** Combines static and runtime analysis and can present evidence behind findings.
 
-
 - **Installation:** Setup uses `npx rea-agents setup`. Advanced native workflows may depend on tools such as Hopper, Ghidra, IDA or Kuna.
-
 
 - **License:** MIT, as stated by the repository.
 
-
 - **Security and legal scope:** Analyze only software and systems you own or are explicitly authorized to inspect. Reverse engineering may involve proprietary software, sensitive data and legal restrictions.
-
 
 - **Assessment:** A specialized analysis toolkit; native workflows can require additional paid or separately licensed tools.
 
-## Reader notes
+## 📝 Note For Reader
 
 Research agents can ingest untrusted web content. Treat retrieved pages, posts, and documents as data rather than instructions. Verify important claims against primary sources, and review the data-access model before connecting personal accounts.
