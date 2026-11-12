@@ -12,34 +12,6 @@
 | Marketing Skills | Marketing-focused agent skills for CRO, copywriting, SEO, analytics and growth | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Verified identity; MIT stated upstream |
 | Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |
 
-## Marketing Skills
-
-- **Repository:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
-- **Type:** Collection of agent skills for conversion optimization, copywriting, SEO, analytics and growth engineering.
-- **Integrations:** The README includes optional workflows for connecting marketing accounts and a disclosed partner registry. Review requested scopes and partner disclosures before connecting accounts.
-- **License:** MIT, according to upstream.
-- **Assessment:** Useful for technical marketers and founders; it is a skill library, not a complete autonomous marketing platform.
-
-## Humanizer
-
-- **Repository:** [blader/humanizer](https://github.com/blader/humanizer)
-- **Type:** Writing skill that revises AI-generated prose to remove formulaic patterns and improve naturalness.
-- **Important limitation:** The README explicitly says it is not designed to bypass AI detectors and that detectors may still flag its output. Do not use it to misrepresent authorship or guarantee detector evasion.
-
-## I Have ADHD
-
-- **Repository:** [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
-- **Type:** Coding-agent style skill that prioritizes the next action, numbered steps, concise output and one concrete next step.
-- **Assessment:** A communication preference pack, not an ADHD assessment, treatment or clinical tool.
-
-## Harper
-
-- **Official repository:** [automattic/harper](https://github.com/automattic/harper)
-- **Type:** English grammar checker and language tooling, including editor integrations and WebAssembly support.
-- **Design:** The upstream project describes it as privacy-focused and designed for fast local linting.
-- **Language support:** English only, according to the current README.
-- **Assessment:** Useful for proofreading and writing feedback; it is not a generative writing assistant or a general-purpose multilingual grammar checker.
-
 ## OpenMontage
 
 - **Repository:** [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage)
@@ -56,6 +28,34 @@
 - **Requirements:** Node.js 22+ is stated upstream; rendering also depends on the browser/runtime and available system resources.
 - **License:** Apache-2.0, as stated upstream.
 - **Practical considerations:** Test font loading, timing, asset paths and render reproducibility in the target environment. It is suited to programmatic video production, not a drop-in replacement for every desktop video editor.
+
+## Humanizer
+
+- **Repository:** [blader/humanizer](https://github.com/blader/humanizer)
+- **Type:** Writing skill that revises AI-generated prose to remove formulaic patterns and improve naturalness.
+- **Important limitation:** The README explicitly says it is not designed to bypass AI detectors and that detectors may still flag its output. Do not use it to misrepresent authorship or guarantee detector evasion.
+
+## I Have ADHD
+
+- **Repository:** [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
+- **Type:** Coding-agent style skill that prioritizes the next action, numbered steps, concise output and one concrete next step.
+- **Assessment:** A communication preference pack, not an ADHD assessment, treatment or clinical tool.
+
+## Marketing Skills
+
+- **Repository:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+- **Type:** Collection of agent skills for conversion optimization, copywriting, SEO, analytics and growth engineering.
+- **Integrations:** The README includes optional workflows for connecting marketing accounts and a disclosed partner registry. Review requested scopes and partner disclosures before connecting accounts.
+- **License:** MIT, according to upstream.
+- **Assessment:** Useful for technical marketers and founders; it is a skill library, not a complete autonomous marketing platform.
+
+## Harper
+
+- **Official repository:** [automattic/harper](https://github.com/automattic/harper)
+- **Type:** English grammar checker and language tooling, including editor integrations and WebAssembly support.
+- **Design:** The upstream project describes it as privacy-focused and designed for fast local linting.
+- **Language support:** English only, according to the current README.
+- **Assessment:** Useful for proofreading and writing feedback; it is not a generative writing assistant or a general-purpose multilingual grammar checker.
 
 ## Reader notes
 
