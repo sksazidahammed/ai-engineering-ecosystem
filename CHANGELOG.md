@@ -142,3 +142,17 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ### Editorial standard
 - Each project entry should use a consistent, readable heading and a concise point-by-point explanation. Use only relevant fields (such as type, purpose, workflow, installation, requirements, license/cost, privacy/security, limitations and assessment); omit fields that are not applicable or not verified.
 - Put a blank line between every bullet point. Avoid one-paragraph project descriptions and avoid inventing missing technical details.
+
+
+## Version 1.9 — 2026-11-12 20:42 IST (UTC+05:30)
+
+### Fixed
+- Standardized the final section of every category page to the single heading **📝 Note For Reader**; removed alternate closing headings such as “Reader notes”, “Editorial notes” and “Classification guidance”.
+- Shortened closing notes to concise, reader-facing caveats and removed generic editorial/classification commentary from category-page endings.
+- Added a consistently placed **Project link** field immediately below every individual project heading, using the official repository or primary project source.
+- Replaced inconsistent “Repository” and “Official repository” field labels with the single “Project link” label while retaining useful installation and documentation links.
+- Preserved project records, descriptions, caveats, table order and explanation order.
+
+### Editorial rule
+- Every project explanation must begin with a **Project link** field pointing to its official repository or primary source.
+- Every category page must end with exactly one **📝 Note For Reader** section. Keep it brief and limited to essential reader-facing cautions or clarifications.
