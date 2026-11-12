@@ -1,7 +1,7 @@
 # Cybersecurity and Security Auditing
 
-**Catalogue version:** 1.8  
-**Last updated:** 2026-11-12 20:20 IST (UTC+05:30)
+**Catalogue version:** 1.9  
+**Last updated:** 2026-11-12 20:42 IST (UTC+05:30)
 
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
@@ -10,10 +10,9 @@
 
 ## Cloudflare Security Audit Skill
 
+- **Project link:** [Official source](https://github.com/cloudflare/security-audit-skill)
+
 <small>Verified identity · Coding-agent skill · MIT license (per upstream project)</small>
-
-
-- **Official repository:** [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
 
 - **Classification:** Repository-level security auditing skill for coding agents. It is not a standalone vulnerability scanner.
 
@@ -27,15 +26,13 @@
   
   `npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit`
 
-
 - **Operational requirements:** The workflow expects a capable coding agent. The project emphasizes sandboxing and restricted execution for untrusted target code; follow its current safety guidance.
 
 - **Limitations:** It is an audit workflow, not a replacement for professional penetration testing, secure development lifecycle controls, or independent review.
 
 ## PentAGI
 
-
-- **Official repository:** [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)
+- **Project link:** [Official source](https://github.com/vxcontrol/pentagi)
 
 - **Type:** Self-hosted multi-agent penetration-testing system.
 
@@ -51,6 +48,6 @@
 
 - **Assessment:** A specialized red-team / pentest automation platform, not a general coding assistant. Infrastructure and model costs may apply.
 
-## Reader notes
+## 📝 Note For Reader
 
 Security tools can cause damage if granted broad access or run against systems without authorization. Audit only repositories and systems you own or are explicitly authorized to assess. Use isolated environments, least privilege, and controlled network access. Recheck upstream instructions before every installation because commands and requirements can change.
