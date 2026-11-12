@@ -23,6 +23,7 @@
 | Claude Code Game Studios | Claude Code workflow for prototyping browser games | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | MIT stated upstream |
 | Huashu Design | Cross-agent design skills for deliverable visual assets and prototypes | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | MIT stated upstream; README says license changed to MIT on 2026-05-14 |
 | PixelFX | Pixel-art effects library, gallery and coding-agent skill | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | Repository identity and README reviewed; license not confirmed in this intake |
+| CLI-Anything | Framework for generating software-specific CLI harnesses so AI agents can operate existing applications | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Apache-2.0 stated upstream |
 
 ## Superpowers
 
@@ -271,6 +272,20 @@
 - **License / Cost:** License not confirmed in this intake; check code, sprite and asset-specific terms before reuse.
 
 - **Privacy / Security / Limitations:** Useful for prototyping game effects. Verify attribution and asset rights; generated effects should be reviewed in the target engine and frame rate.
+
+## CLI-Anything
+
+- **Project link:** [Official source](https://github.com/HKUDS/CLI-Anything)
+
+- **Type / Classification:** Framework for generating software-specific CLI harnesses so AI agents can operate existing applications.
+
+- **Purpose / Capabilities:** Generates CLI harnesses for existing desktop and professional software, making application functions available to agents through structured commands and JSON-oriented workflows. The repository includes a community CLI registry/hub and example integrations across creative and productivity applications.
+
+- **Installation / Requirements:** Python 3.10+ and Click 8+ are listed. Install with the documented Python/pip workflow; CLI-Hub instructions are maintained in the repository.
+
+- **License / Cost:** Apache-2.0, confirmed from the upstream LICENSE file.
+
+- **Privacy / Security / Limitations:** Generated CLIs can invoke powerful operations in target applications. Review generated command schemas, filesystem/network effects and destructive operations before exposing them to an agent; the project's test counts and app coverage are upstream-reported.
 
 ## 📝 Note For Reader
 
