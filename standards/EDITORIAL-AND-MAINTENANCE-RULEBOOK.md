@@ -1,8 +1,8 @@
 # Editorial and Maintenance Rulebook
 
 **Rulebook version:** 1.0  
-**Directory baseline:** 1.12  
-**Last updated:** 2026-11-12 21:35 IST (UTC+05:30)  
+**Directory baseline:** 1.13  
+**Last updated:** 2026-11-12 21:55 IST (UTC+05:30)  
 **Applies to:** Every category page, the master catalogue, README, changelog, and all future submissions.
 
 This document is the authoritative operating standard for maintaining the AI Engineering Ecosystem Directory. Follow it before researching, editing, adding, moving, correcting, or removing any catalogue record. If a future request conflicts with a rule here, preserve the established standard and ask for clarification before making a conflicting structural change.
