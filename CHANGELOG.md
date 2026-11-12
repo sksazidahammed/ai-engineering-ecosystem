@@ -44,3 +44,20 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - Project entries are categorized by actual function, not simply grouped as “AI tools.”
 - Resource collections are distinguished from installable applications and frameworks.
 - Dual-use security automation is explicitly flagged for authorized testing only.
+
+
+## Version 1.3 — 2026-11-12 19:02 IST (UTC+05:30)
+
+### Added / updated
+- Added Addy Osmani Agent Skills to Coding and Development, including its engineering lifecycle commands, multi-agent installation routes and single-skill shared-reference portability caveat.
+- Resolved the earlier Ponytail candidate to the submitted dietrichgebert/ponytail repository and classified it as a coding-agent workflow; benchmark claims remain attributed to upstream.
+- Resolved Graphify to Graphify-Labs/graphify and documented its local knowledge-graph workflow, extracted/inferred edge distinction, CLI installation and cloud/local processing distinction.
+- Added OmniRoute as a self-hosted multi-provider LLM API gateway. Its provider counts and free-tier estimates are treated as volatile third-party claims, not guaranteed quotas.
+- Added MiroFish as a multi-agent swarm simulation platform and documented API/cost dependencies and the absence of demonstrated predictive validity.
+- Added Awesome Free LLM APIs as a dynamic discovery directory, not an API provider; free-tier eligibility and quota data require direct provider verification.
+- Created a Model Infrastructure and Gateways category.
+- Updated catalogue version, navigation and timestamps.
+
+### Reader notes
+- Repository README claims, benchmark figures, provider counts and quota estimates are attributed to upstream and are not independently performance-tested.
+- A free API tier may impose regional, identity, phone, card, rate-limit, data-use or commercial restrictions. Verify current terms with each provider before use.
