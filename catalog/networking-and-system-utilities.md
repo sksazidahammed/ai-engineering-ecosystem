@@ -9,6 +9,9 @@
 | Plexo | Desktop download manager with multi-network acceleration | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | Repository identity verified; performance claims untested |
 | Transfer | Android local-network file server for device-to-device transfer | [matan-h/Transfer](https://github.com/matan-h/Transfer) | Repository identity verified; LAN exposure requires care |
 | abtop | Cross-platform terminal dashboard and Rust library for monitoring AI coding-agent sessions | [graykode/abtop](https://github.com/graykode/abtop) | MIT; JSON snapshots may contain sensitive local context |
+| Herdr | Runtime and coordination layer for coding agents | [herdrdev/herdr](https://github.com/herdrdev/herdr) | Apache-2.0 stated upstream |
+| Worktrunk | Git worktree management CLI for parallel development | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | MIT OR Apache-2.0 stated upstream |
+| Gortex | Local code-intelligence engine with CLI, MCP server and graph UI | [zzet/gortex](https://github.com/zzet/gortex) | Apache-2.0 stated upstream |
 
 ## net-merge
 
@@ -67,6 +70,48 @@
 - **Limitations:** Feature coverage differs by agent; for example, OpenCode does not provide every context, task or rate-limit field. Terminal layout is best at 120×40 or larger. OpenCode monitoring depends on the local SQLite CLI. The README's platform and feature matrix is upstream documentation, not independent testing.
 
 - **Assessment:** A focused local observability tool for developers running several coding agents concurrently. It monitors agent sessions rather than replacing or orchestrating them.
+
+## Herdr
+
+- **Project link:** [Official source](https://github.com/herdrdev/herdr)
+
+- **Type / Classification:** Runtime and coordination layer for coding agents.
+
+- **Purpose / Capabilities:** A developer tool described as the runtime where coding agents operate; official documentation provides a quick start and releases include a Homebrew formula.
+
+- **Installation / Requirements:** Follow official quick-start and platform installation instructions; verify supported agent runtimes.
+
+- **License / Cost:** Apache-2.0 stated upstream.
+
+- **Privacy / Security / Limitations:** Review execution isolation, shell access and approval boundaries before connecting agents to valuable repositories or credentials.
+
+## Worktrunk
+
+- **Project link:** [Official source](https://github.com/max-sixty/worktrunk)
+
+- **Type / Classification:** Git worktree management CLI for parallel development.
+
+- **Purpose / Capabilities:** CLI for managing Git worktrees and parallel branches, useful when multiple developers or coding agents need isolated working directories.
+
+- **Installation / Requirements:** Install through the documented package/release route; Git and a supported shell are required.
+
+- **License / Cost:** MIT OR Apache-2.0, as stated upstream.
+
+- **Privacy / Security / Limitations:** Worktrees isolate working directories, not credentials, network access or system privileges. Review repository hooks and scripts.
+
+## Gortex
+
+- **Project link:** [Official source](https://github.com/zzet/gortex)
+
+- **Type / Classification:** Local code-intelligence engine with CLI, MCP server and graph UI.
+
+- **Purpose / Capabilities:** Indexes repositories into a persistent knowledge graph of code entities and relationships, then exposes graph-grounded discovery, impact analysis and editing workflows through CLI, MCP and web UI. README describes multi-repository and multi-agent support.
+
+- **Installation / Requirements:** Single-binary releases are listed for macOS, Linux and Windows; build-from-source requires Go and CGO/tree-sitter bindings. Agent setup and per-repository initialization are documented upstream.
+
+- **License / Cost:** Apache-2.0, as stated by the official project site and repository.
+
+- **Privacy / Security / Limitations:** The graph and resolver confidence are aids, not proof of correctness. Review file access, MCP tool exposure and edit-safety workflows; token-reduction and language-coverage claims are upstream-reported.
 
 ## 📝 Note For Reader
 
