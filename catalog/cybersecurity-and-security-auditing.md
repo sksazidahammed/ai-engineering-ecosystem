@@ -12,8 +12,6 @@
 
 - **Project link:** [Official source](https://github.com/cloudflare/security-audit-skill)
 
-- **Project link:** [Official source](https://github.com/cloudflare/security-audit-skill)
-
 <small>Verified identity · Coding-agent skill · MIT license (per upstream project)</small>
 
 - **Classification:** Repository-level security auditing skill for coding agents. It is not a standalone vulnerability scanner.
@@ -33,8 +31,6 @@
 - **Limitations:** It is an audit workflow, not a replacement for professional penetration testing, secure development lifecycle controls, or independent review.
 
 ## PentAGI
-
-- **Project link:** [Official source](https://github.com/vxcontrol/pentagi)
 
 - **Project link:** [Official source](https://github.com/vxcontrol/pentagi)
 
