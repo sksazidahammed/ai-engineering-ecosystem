@@ -26,3 +26,6 @@ A curated, continuously maintained catalogue of AI engineering tools, agent skil
 
 
 **Reading order:** Within every category page, the detailed project explanations follow the exact sequence used in that page's summary table. The table is the navigation order; the sections below it use the same order.
+
+
+**Reading order:** Within every category page, detailed project explanations follow the exact sequence used in that page's summary table. The table is the navigation order; the sections below it use the same order.
