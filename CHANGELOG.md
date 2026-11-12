@@ -97,7 +97,7 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - Repository identity and README review do not imply hands-on testing or production validation.
 
 
-## Version 1.6 — 2026-11-12 19:50 IST (UTC+05:30)
+## Version 1.6 — 2026-11-12 19:52 IST (UTC+05:30)
 
 ### Individual project documentation standard
 - Removed the catch-all “Additional verified projects” and “Verified entry” groupings from category pages.
@@ -111,3 +111,10 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - Each entry should describe project identity/type, purpose and workflow, installation or requirements where known, license and cost considerations where known, and material limitations/security/privacy caveats.
 - Unknown or untested details must be explicitly marked as unknown or upstream-stated; they must not be guessed.
 - Do not use catch-all headings such as “Additional verified projects” to group records.
+
+
+### Version 1.6 consistency pass
+- Added a dedicated Anthropic Agent Skills entry and a missing Awesome Free LLM APIs row to Research and Intelligence.
+- Rebuilt Design and Frontend so all six indexed projects have their own full named sections; removed the duplicated Impeccable heading and compressed bullet list.
+- Added Harper to the Writing and Content index, matching its existing individual explanation.
+- Standardized all 12 category pages to version 1.6 and the same update timestamp.
