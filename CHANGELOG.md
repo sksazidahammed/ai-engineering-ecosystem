@@ -156,3 +156,11 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ### Editorial rule
 - Every project explanation must begin with a **Project link** field pointing to its official repository or primary source.
 - Every category page must end with exactly one **📝 Note For Reader** section. Keep it brief and limited to essential reader-facing cautions or clarifications.
+
+
+## Version 1.10 — 2026-11-12 20:54 IST (UTC+05:30)
+
+### Fixed
+- Removed a stray inline metadata line from the Cloudflare Security Audit Skill explanation. Its classification remains in the Classification field and the upstream-stated MIT license is now in a dedicated License field.
+- Audited all 12 category pages for the same formatting defect: unlabelled metadata or prose appearing between the Project link and the structured explanation bullets. No other instances were found.
+- No project records, order, or substantive caveats changed.
