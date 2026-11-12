@@ -65,6 +65,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | net-merge | Multi-network connection aggregation utility | [net-merge/net-merge](https://github.com/net-merge/net-merge) | Verified identity; technical claims untested |
 | Plexo | Multi-network download acceleration application | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | Verified identity; technical claims untested |
 | Transfer | Android local-network file server for direct device-to-device uploads and downloads | [matan-h/Transfer](https://github.com/matan-h/Transfer) | Verified identity; LAN exposure and access controls require care |
+| abtop | Cross-platform TUI and Rust library for monitoring local AI coding-agent sessions | [graykode/abtop](https://github.com/graykode/abtop) | MIT; JSON snapshots may contain sensitive local context |
 
 ## AI project collections
 
@@ -108,6 +109,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | OpnForm | Open-source form builder with MCP integration | [opnform/opnform](https://github.com/opnform/opnform) | Verified identity; AGPL-3.0 stated upstream |
 | Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |
 | OpenLore | Agent-native shared knowledge repository with SSH, MCP and governed file access | [aakarim/OpenLore](https://github.com/aakarim/OpenLore) | Apache-2.0; access policy and deployment configuration require care |
+| Onyx | Self-hosted team knowledge/context platform with agentic RAG, agents and 50+ integrations | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | MIT for Community Edition/core; Enterprise code has separate license terms |
 
 ## Writing and content
 
