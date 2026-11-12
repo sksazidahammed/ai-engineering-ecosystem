@@ -1,7 +1,7 @@
 # Research and Intelligence
 
-**Catalogue version:** 1.14
-**Last updated:** 2026-11-13 00:55 IST (UTC+05:30)
+**Catalogue version:** 1.15
+**Last updated:** 2026-11-13 02:25 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -13,6 +13,8 @@
 | REA — Reverse Engineer Anything | Reverse-engineering MCP and agent toolkit for applications, websites and native binaries | [morluto/rea](https://github.com/morluto/rea) | Verified identity; advanced native analysis may require Hopper/Ghidra/IDA/Kuna |
 | Open India Law | Structured Indian primary-law corpus and data-extraction pipelines | [Vaquill-AI/open-india-law](https://github.com/Vaquill-AI/open-india-law) | Apache-2.0 repository; coverage and source-document terms require checking |
 | Repolyze | AI-assisted GitHub repository analysis and reporting web application | [OssiumOfficial/Repolyze](https://github.com/OssiumOfficial/Repolyze) | Repository README states ownership moved to Ossium; API keys and external model processing apply |
+| Auto Ontology | Enterprise metadata-to-ontology and agent context library | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | Apache-2.0 stated upstream |
+| LearnHarness | Adaptive agent-assisted learning and knowledge modeling application | [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness) | License not confirmed in this intake |
 
 ## Graphify
 
@@ -149,6 +151,34 @@
 - **License / ownership:** The submitted MxCorpIn repository README says the project is now owned and maintained by Ossium and links to [OssiumOfficial/Repolyze](https://github.com/OssiumOfficial/Repolyze). Its README advertises MIT; confirm the current canonical repository's license before reuse.
 
 - **Assessment:** Useful for an initial codebase overview and onboarding. AI-generated health scores and security findings are heuristics, not a substitute for static analysis, dependency scanning, code review or a professional security audit.
+
+## Auto Ontology
+
+- **Project link:** [Official source](https://github.com/NVIDIA/auto-ontology)
+
+- **Type / Classification:** Enterprise metadata-to-ontology and agent context library.
+
+- **Purpose / Capabilities:** Builds enterprise ontologies and AI-ready knowledge graphs from metadata, reconciles definitions across systems, and exposes business context through MCP, CLI and API. It emphasizes lineage, certified definitions and query validation.
+
+- **Installation / Requirements:** Integrate with supported enterprise metadata/data systems and an agent harness using the documented MCP, CLI or API interfaces.
+
+- **License / Cost:** Apache-2.0 stated upstream; connected data platforms and model services may have separate costs.
+
+- **Privacy / Security / Limitations:** Generated ontology definitions require domain-owner validation. Review database permissions, metadata exposure and lineage accuracy before allowing agents to issue business queries.
+
+## LearnHarness
+
+- **Project link:** [Official source](https://github.com/amosblomqvist/learnharness)
+
+- **Type / Classification:** Adaptive agent-assisted learning and knowledge modeling application.
+
+- **Purpose / Capabilities:** Builds a model of what a learner understands and how they reason, then adapts lessons and practice while retaining a knowledge graph across sessions.
+
+- **Installation / Requirements:** Download and setup details are linked from the README; verify current supported platforms and provider configuration.
+
+- **License / Cost:** License and provider costs not confirmed in this intake.
+
+- **Privacy / Security / Limitations:** Treat generated assessments as learning guidance rather than validated psychometric measurement; protect learner data.
 
 ## 📝 Note For Reader
 
