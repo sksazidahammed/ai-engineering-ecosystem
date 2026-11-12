@@ -9,8 +9,7 @@
 
 ## Awesome LLM Apps
 
-
-- **Repository:** [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps)
+- **Project link:** [Official source](https://github.com/shubhamsaboo/awesome-llm-apps)
 
 - **Type:** Curated collection of AI agents, agent skills, RAG applications, starter projects and advanced multi-agent examples.
 
@@ -18,6 +17,6 @@
 
 - **Assessment:** Useful as a discovery and learning resource, particularly for studying implementation patterns and runnable examples. It is a collection, not a single application or framework. Each subproject may have its own dependencies, model/API costs, data requirements and license notices; verify those independently before reuse.
 
-## Reader notes
+## 📝 Note For Reader
 
 A repository-level license may not automatically cover every model, dataset, asset, external API, or dependency included in a collection. Inspect the specific subdirectory and its notices before copying code or deploying an example.
