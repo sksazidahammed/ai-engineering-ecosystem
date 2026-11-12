@@ -1,7 +1,7 @@
 # Master Catalogue
 
-**Catalogue version:** 1.0  
-**Last updated:** 2026-11-12 17:39 IST (UTC+05:30)
+**Catalogue version:** 1.2  
+**Last updated:** 2026-11-12 18:29 IST (UTC+05:30)
 
 This index consolidates the initial user-submitted collection. A candidate status is intentional: it prevents an ambiguous name or unverified URL from being mistaken for an approved recommendation.
 
@@ -38,11 +38,11 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | GSD | Agentic development workflow; intended project needs confirmation | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | Candidate — review pending |
 | BMAD Method | Agentic software-development framework | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Candidate — review pending |
 
-## Cybersecurity and security auditing
+## Media, audio and video\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| Cap | Screen recording and async video collaboration application | [capsoftware/cap](https://github.com/capsoftware/cap) | Verified identity; review pending |\n| WhisperX | Speech recognition, word-level alignment and speaker diarization toolkit | [m-bain/whisperx](https://github.com/m-bain/whisperx) | Verified identity; review pending |\n| ManimGX | Rust/wgpu 3D animation engine with Manim CE-compatible API | [academa-labs/manimgx](https://github.com/academa-labs/manimgx) | Verified identity; review pending |\n| Henge | ComfyUI/MiniMax H3 video generation and editing studio | [alisson-anjos/Henge](https://github.com/alisson-anjos/Henge) | Verified identity; license caveats recorded |\n\n## Local AI and agent applications\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| Jan | Desktop local-LLM application | [janhq/jan](https://github.com/janhq/jan) | Verified identity; review pending |\n| OpenMausBot | Desktop multi-agent application | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Verified identity; review pending |\n\n## Networking and system utilities\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| net-merge | Multi-network connection aggregation utility | [net-merge/net-merge](https://github.com/net-merge/net-merge) | Verified identity; technical claims untested |\n| Plexo | Multi-network download acceleration application | [anmolkapil/plexo](https://github.com/anmolkapil/plexo) | Verified identity; technical claims untested |\n\n## AI project collections\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| Awesome LLM Apps | Curated collection of AI agents, skills and RAG applications | [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps) | Verified identity; contents change frequently |\n\n## Cybersecurity and security auditing
 
 | Project | Type | Official source | Status |
 |---|---|---|---|
-| Cloudflare Security Audit Skill | Coding-agent skill for repository security auditing | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Verified |
+| Cloudflare Security Audit Skill | Coding-agent skill for repository security auditing | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Verified |\n| PentAGI | Self-hosted multi-agent autonomous penetration-testing system | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Verified identity; authorized-use only |
 
 ## Design and frontend
 
@@ -55,7 +55,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | PPT Master | Presentation-generation project | [huystackai/ppt-master](https://github.com/huystackai/ppt-master) | Candidate — review pending |
 | Diagram Design | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=Diagram+Design+AI+skill&type=repositories) | Needs clarification |
 
-## Writing and content
+## Productivity and workflows\n\n| Project | Type | Source | Status |\n|---|---|---|---|\n| OpenReply | Self-hosted Instagram comment-to-DM automation application | [diwenne/openreply](https://github.com/diwenne/openreply) | Verified identity; Meta policy and hosting requirements apply |\n| OpnForm | Open-source form builder with MCP integration | [opnform/opnform](https://github.com/opnform/opnform) | Verified identity; AGPL-3.0 stated upstream |\n| Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |\n\n## Writing and content
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
 |---|---|---|---|
