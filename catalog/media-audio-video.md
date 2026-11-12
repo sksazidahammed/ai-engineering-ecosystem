@@ -1,7 +1,16 @@
 # Media, Audio and Video
 
-**Catalogue version:** 1.4
-**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)
+**Catalogue version:** 1.5
+**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+
+| Project | Classification | Official repository | Status |
+|---|---|---|---|
+| Cap | Screen recording and async video collaboration | [capsoftware/cap](https://github.com/capsoftware/cap) | Repository identity verified; hosting/pricing options vary |
+| WhisperX | Speech recognition, alignment and diarization toolkit | [m-bain/whisperx](https://github.com/m-bain/whisperx) | Repository identity verified; compute and model terms apply |
+| ManimGX | Rust/wgpu 3D animation engine | [academa-labs/manimgx](https://github.com/academa-labs/manimgx) | Repository identity verified; API compatibility needs task-specific testing |
+| Henge | ComfyUI/MiniMax H3 video generation studio | [alisson-anjos/Henge](https://github.com/alisson-anjos/Henge) | Repository identity verified; model/adapter licenses differ |
+| HyperFrames | HTML/CSS-to-video framework and agent workflows | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Repository identity verified; Apache-2.0 stated upstream |
+| OpenMontage | Agentic video production system | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | Repository identity verified; AGPL-3.0 stated upstream |
 
 ## Cap
 
