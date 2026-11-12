@@ -17,6 +17,8 @@
 
 - **Project link:** [Official source](https://github.com/garrytan/gstack)
 
+- **Project link:** [Official source](https://github.com/garrytan/gstack)
+
 - **Type:** Role-based engineering workflow and tool/skill collection for coding agents.
 
 - **Roles and capabilities:** Packages product, design, engineering management, code review, QA, security and release responsibilities into reusable workflows.
@@ -30,6 +32,8 @@
 - **Assessment:** Useful for simulating a cross-functional engineering team. Security checks and release automation are review aids, not approval to merge unreviewed changes.
 
 ## Caveman
+
+- **Project link:** [Official source](https://github.com/JuliusBrussee/caveman)
 
 - **Project link:** [Official source](https://github.com/JuliusBrussee/caveman)
 
@@ -49,6 +53,8 @@
 
 - **Project link:** [Official source](https://github.com/thedotmack/claude-mem)
 
+- **Project link:** [Official source](https://github.com/thedotmack/claude-mem)
+
 - **Type:** Persistent memory and context-retrieval system for coding agents.
 
 - **Workflow:** Records session activity, compresses observations and retrieves relevant context in later sessions. The README documents support across multiple agents.
@@ -62,6 +68,8 @@
 - **Assessment:** Useful for continuity across coding sessions, provided stored context is managed as sensitive project data.
 
 ## Headroom
+
+- **Project link:** [Official source](https://github.com/headroomlabs-ai/headroom)
 
 - **Project link:** [Official source](https://github.com/headroomlabs-ai/headroom)
 
@@ -81,6 +89,8 @@
 
 - **Project link:** [Official source](https://github.com/open-gsd/gsd-core)
 
+- **Project link:** [Official source](https://github.com/open-gsd/gsd-core)
+
 - **Type:** Spec-driven development and context-engineering workflow; listed here through the successor project.
 
 - **Repository history:** The submitted `gsd-build/get-shit-done` repository is archived and explicitly points to `open-gsd/gsd-core` as its active successor.
@@ -95,6 +105,8 @@
 
 - **Project link:** [Official source](https://github.com/bmad-code-org/BMAD-METHOD)
 
+- **Project link:** [Official source](https://github.com/bmad-code-org/BMAD-METHOD)
+
 - **Type:** Agile AI-driven development method with role-based agents and structured workflows.
 
 - **Lifecycle:** Covers discovery, planning, architecture, implementation and iterative delivery.
@@ -106,6 +118,8 @@
 - **Assessment:** Prefer the stable release line when reproducibility matters. Expect breaking changes and incomplete behavior when evaluating the v7 preview.
 
 ## MiroFish
+
+- **Project link:** [Official source](https://github.com/666ghj/MiroFish)
 
 - **Project link:** [Official source](https://github.com/666ghj/MiroFish)
 
