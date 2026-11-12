@@ -227,3 +227,21 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ### Maintenance
 - Updated the master catalogue count to 59 distinct project records.
 - Updated README, master catalogue, changelog, and all 13 category pages to version 1.13.
+
+
+## Version 1.14 — 2026-11-13 00:55 IST (UTC+05:30)
+
+### Added
+- Added [graykode/abtop](https://github.com/graykode/abtop) to **Networking and System Utilities** as a cross-platform terminal dashboard, CLI and Rust library for local AI coding-agent session monitoring.
+- Added [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) to **Productivity and Workflows** as a self-hostable team knowledge/context platform with RAG, connectors, agents and MCP.
+- Added individual structured explanations, official links, installation/deployment context, integrations, license distinctions, privacy considerations and limitations.
+
+### Important caveats
+- abtop is MIT and reads local session/process state. JSON snapshots may contain sensitive transcript-derived context; Claude-generated summaries can make an indirect API call and consume quota.
+- Onyx Community Edition/core is MIT, while code under `ee` directories is governed by the separate Onyx Enterprise License. Self-hosting does not by itself guarantee that prompts or indexed content never leave the environment; model, embedding, search and connector routing must be reviewed.
+- Onyx Lite does not index documents; full knowledge indexing requires the Standard deployment and its additional infrastructure.
+- Research is based on upstream README and LICENSE review. No hands-on installation, performance or security testing is claimed.
+
+### Maintenance
+- Updated the master catalogue to 61 distinct project records.
+- Updated README, master catalogue, changelog, rulebook baseline and all 13 category pages to version 1.14.
