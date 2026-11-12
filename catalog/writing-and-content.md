@@ -5,38 +5,10 @@
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
-| OpenMontage | Agentic video-production system | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | Verified identity; AGPL-3.0 stated upstream |
-| HyperFrames | HTML/CSS/media-to-video framework with agent support | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Verified identity; Apache-2.0 stated upstream |
 | Humanizer | Writing skill / text transformation | [blader/humanizer](https://github.com/blader/humanizer) | Verified identity; does not claim reliable AI-detector evasion |
 | I Have ADHD | Concise, action-first coding-agent response-style skill | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | Verified identity; not a clinical/diagnostic tool |
 | Marketing Skills | Marketing-focused agent skills for CRO, copywriting, SEO, analytics and growth | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Verified identity; MIT stated upstream |
 | Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |
-
-## OpenMontage
-
-- **Project link:** [Official source](https://github.com/OpenMontageInc/OpenMontage)
-
-- **Type:** Agentic video-production application for planning and producing videos from natural-language direction.
-
-- **Workflow:** The upstream project describes a pipeline covering research, script development, asset sourcing, editing and rendering. The exact amount of automation depends on connected providers and the configured workflow.
-
-- **License:** AGPL-3.0, as stated upstream. Review its obligations before modifying the software or offering a network-hosted derivative.
-
-- **Practical considerations:** Check the rights and licenses for sourced footage, music, images and other assets. Model/API usage, storage and rendering may introduce costs.
-
-## HyperFrames
-
-- **Project link:** [Official source](https://github.com/heygen-com/hyperframes)
-
-- **Type:** HTML/CSS/media-to-video framework with command-line and coding-agent workflows.
-
-- **Purpose:** Builds deterministic MP4 videos from web-native layouts, media and seekable animations rather than relying on a traditional nonlinear-editing timeline.
-
-- **Requirements:** Node.js 22+ is stated upstream; rendering also depends on the browser/runtime and available system resources.
-
-- **License:** Apache-2.0, as stated upstream.
-
-- **Practical considerations:** Test font loading, timing, asset paths and render reproducibility in the target environment. It is suited to programmatic video production, not a drop-in replacement for every desktop video editor.
 
 ## Humanizer
 
