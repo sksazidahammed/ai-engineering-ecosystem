@@ -8,6 +8,7 @@
 | OmniRoute | Self-hosted multi-provider LLM API gateway and router | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | Repository identity verified; provider quotas and terms are volatile |
 | Awesome Free LLM APIs | Directory of free-tier LLM API providers and limits | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Repository identity verified; not an API provider or quota guarantee |
 | OpenJev | Open-source typed-decision inference server with model-serving adapters | [razorback16/openjev](https://github.com/razorback16/openjev) | Apache-2.0 code; hosted quota and model availability are provider-dependent |
+| FreeLLMAPI | Self-hostable OpenAI-compatible gateway aggregating free-tier model providers | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | MIT stated upstream; provider terms are independent |
 
 ## OmniRoute
 
@@ -54,6 +55,20 @@
 - **Limitations:** The project describes its outputs as probabilities, but those values are not automatically calibrated for every domain or decision. Test calibration, bias, abstention behavior and failure handling before using outputs in consequential workflows.
 
 - **Assessment:** A specialized option for applications that need typed decision outputs and predictable response schemas. It is not a general replacement for a conversational LLM.
+
+## FreeLLMAPI
+
+- **Project link:** [Official source](https://github.com/tashfeenahmed/freellmapi)
+
+- **Type / Classification:** Self-hostable OpenAI-compatible gateway aggregating free-tier model providers.
+
+- **Purpose / Capabilities:** Aggregates free-tier providers and custom OpenAI-compatible endpoints behind a unified `/v1` API, with routing, fallback and per-key usage tracking.
+
+- **Installation / Requirements:** Docker image and self-hosted setup are documented upstream; provider API keys are required.
+
+- **License / Cost:** MIT for repository code; each upstream provider's quotas, commercial-use terms and data handling apply independently.
+
+- **Privacy / Security / Limitations:** Advertised provider counts and token totals are upstream estimates, not guaranteed quotas. Review key storage, logs, routing and provider terms before sending private prompts.
 
 ## 📝 Note For Reader
 
