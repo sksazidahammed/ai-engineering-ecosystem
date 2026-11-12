@@ -1,7 +1,7 @@
 # Research and Intelligence
 
-**Catalogue version:** 1.7  
-**Last updated:** 2026-11-12 (IST)
+**Catalogue version:** 1.8  
+**Last updated:** 2026-11-12 20:20 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
