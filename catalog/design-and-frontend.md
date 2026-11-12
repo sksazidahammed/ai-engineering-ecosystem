@@ -1,7 +1,7 @@
 # Design and Frontend
 
-**Catalogue version:** 1.8  
-**Last updated:** 2026-11-12 20:20 IST (UTC+05:30)
+**Catalogue version:** 1.9  
+**Last updated:** 2026-11-12 20:42 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -14,8 +14,7 @@
 
 ## UI UX Pro Max
 
-
-- **Repository:** [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+- **Project link:** [Official source](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 
 - **Type:** Design-intelligence skill and CLI for coding agents.
 
@@ -27,8 +26,7 @@
 
 ## Taste Skill
 
-
-- **Repository:** [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+- **Project link:** [Official source](https://github.com/Leonxlnx/taste-skill)
 
 - **Type:** Design-oriented agent skill for professional website and interface implementation.
 
@@ -40,8 +38,7 @@
 
 ## Archify
 
-
-- **Repository:** [tt-a1i/archify](https://github.com/tt-a1i/archify)
+- **Project link:** [Official source](https://github.com/tt-a1i/archify)
 
 - **Type:** Agent skill / visualization workflow for turning prompts and plans into interactive HTML outputs.
 
@@ -53,8 +50,7 @@
 
 ## Impeccable
 
-
-- **Repository:** [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
+- **Project link:** [Official source](https://github.com/pbakaus/impeccable)
 
 - **Type:** Design vocabulary and critique/audit command set for coding agents.
 
@@ -66,8 +62,7 @@
 
 ## PPT Master
 
-
-- **Repository:** [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)
+- **Project link:** [Official source](https://github.com/hugohe3/ppt-master)
 
 - **Type:** AI-assisted native PowerPoint generation workflow.
 
@@ -79,8 +74,7 @@
 
 ## Diagram Design
 
-
-- **Repository:** [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)
+- **Project link:** [Official source](https://github.com/cathrynlavery/diagram-design)
 
 - **Type:** Agent skill for generating branded HTML/SVG diagrams.
 
@@ -90,6 +84,6 @@
 
 - **Practical considerations:** Validate diagram semantics, legibility, accessibility, SVG/HTML output and rendering at the intended display size.
 
-## Reader notes
+## 📝 Note For Reader
 
 Design-related agent skills can generate code, modify application structure, or introduce dependencies. Evaluate the quality of generated output, accessibility, responsive behavior, design-system compatibility, and license constraints. A visually convincing demo is not proof of production readiness.
