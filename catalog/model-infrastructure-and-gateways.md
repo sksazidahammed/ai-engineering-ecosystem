@@ -1,7 +1,12 @@
 # Model Infrastructure and Gateways
 
-**Catalogue version:** 1.3  
-**Last updated:** 2026-11-12 19:02 IST (UTC+05:30)
+**Catalogue version:** 1.5  
+**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+
+| Project | Classification | Official repository | Status |
+|---|---|---|---|
+| OmniRoute | Self-hosted multi-provider LLM API gateway and router | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | Repository identity verified; provider quotas and terms are volatile |
+| Awesome Free LLM APIs | Directory of free-tier LLM API providers and limits | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Repository identity verified; not an API provider or quota guarantee |
 
 ## OmniRoute
 
