@@ -1,7 +1,7 @@
 # Media, Audio and Video
 
-**Catalogue version:** 1.2  
-**Last updated:** 2026-11-12 18:29 IST (UTC+05:30)
+**Catalogue version:** 1.4
+**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)
 
 ## Cap
 
@@ -33,6 +33,21 @@
 - **Deployment:** The README describes local, RunPod pod and RunPod Serverless workflows, plus an MCP-driven studio assistant.
 - **License:** MIT for application code. Model weights, LoRAs, datasets and third-party services have separate terms; the Pika H3 Flex adapter is explicitly not MIT-licensed.
 - **Assessment:** Specialized generative-video workflow, not a lightweight general-purpose editor. Compute requirements and model licensing are material constraints.
+
+## HyperFrames
+
+- **Repository:** [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+- **Type:** Open-source framework that turns HTML, CSS, media and seekable animations into deterministic MP4 video, with CLI and coding-agent skill workflows.
+- **Requirements:** Node.js 22+ is stated upstream. A desktop Studio application is also offered.
+- **License:** Apache-2.0, as stated by upstream.
+- **Assessment:** Suited to programmatic and agent-assisted video production rather than conventional timeline editing. Rendering performance depends on assets, browser/runtime and machine resources.
+
+## OpenMontage
+
+- **Repository:** [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage)
+- **Type:** Agentic video-production system that can research, script, source footage/assets, edit and render a video from natural-language direction.
+- **License:** AGPL-3.0, as stated upstream. Review obligations before modifying or offering a network-hosted derivative.
+- **Assessment:** Broader production workflow than a simple video editor; provider integrations, asset rights and model costs may affect the result.
 
 ## Reader notes
 
