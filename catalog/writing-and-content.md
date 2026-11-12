@@ -1,7 +1,7 @@
 # Writing and Content
 
-**Catalogue version:** 1.5
-**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
+**Catalogue version:** 1.6  
+**Last updated:** 2026-11-12 19:50 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -10,6 +10,7 @@
 | Humanizer | Writing skill / text transformation | [blader/humanizer](https://github.com/blader/humanizer) | Verified identity; does not claim reliable AI-detector evasion |
 | I Have ADHD | Concise, action-first coding-agent response-style skill | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | Verified identity; not a clinical/diagnostic tool |
 | Marketing Skills | Marketing-focused agent skills for CRO, copywriting, SEO, analytics and growth | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Verified identity; MIT stated upstream |
+| Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |
 
 ## Marketing Skills
 
@@ -38,6 +39,23 @@
 - **Design:** The upstream project describes it as privacy-focused and designed for fast local linting.
 - **Language support:** English only, according to the current README.
 - **Assessment:** Useful for proofreading and writing feedback; it is not a generative writing assistant or a general-purpose multilingual grammar checker.
+
+## OpenMontage
+
+- **Repository:** [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage)
+- **Type:** Agentic video-production application for planning and producing videos from natural-language direction.
+- **Workflow:** The upstream project describes a pipeline covering research, script development, asset sourcing, editing and rendering. The exact amount of automation depends on connected providers and the configured workflow.
+- **License:** AGPL-3.0, as stated upstream. Review its obligations before modifying the software or offering a network-hosted derivative.
+- **Practical considerations:** Check the rights and licenses for sourced footage, music, images and other assets. Model/API usage, storage and rendering may introduce costs.
+
+## HyperFrames
+
+- **Repository:** [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+- **Type:** HTML/CSS/media-to-video framework with command-line and coding-agent workflows.
+- **Purpose:** Builds deterministic MP4 videos from web-native layouts, media and seekable animations rather than relying on a traditional nonlinear-editing timeline.
+- **Requirements:** Node.js 22+ is stated upstream; rendering also depends on the browser/runtime and available system resources.
+- **License:** Apache-2.0, as stated upstream.
+- **Practical considerations:** Test font loading, timing, asset paths and render reproducibility in the target environment. It is suited to programmatic video production, not a drop-in replacement for every desktop video editor.
 
 ## Reader notes
 
