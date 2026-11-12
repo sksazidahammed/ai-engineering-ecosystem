@@ -1,6 +1,6 @@
 # Writing and Content
 
-**Catalogue version:** 1.6  
+**Catalogue version:** 1.7  
 **Last updated:** 2026-11-12 19:50 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
