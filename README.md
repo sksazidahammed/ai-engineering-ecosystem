@@ -40,7 +40,7 @@ A verified identity does not mean every feature, security claim, or compatibilit
 
 ## Current baseline
 
-This initial catalogue consolidates the submitted collection. It contains **29 distinct named records after merging one duplicate**. This is not a count of 29 independently verified projects: several records remain candidates or need clarification. Two records have a stronger verified identity at this baseline: Agent Reach and Cloudflare Security Audit Skill.
+This initial catalogue consolidates the submitted collection. It contains **29 distinct named records after merging one duplicate**. This is not a count of 29 independently verified projects: several records remain candidates or need clarification. Three records have an established upstream repository identity (Anthropic Agent Skills, Agent Reach, and Cloudflare Security Audit Skill); Agent Reach and Cloudflare Security Audit Skill also have fuller project-level review notes in this baseline.
 
 ## Contributing
 
