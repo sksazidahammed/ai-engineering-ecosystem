@@ -1,7 +1,7 @@
 # Master Catalogue
 
-**Catalogue version:** 1.4  
-**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)
+**Catalogue version:** 1.5  
+**Last updated:** 2026-11-12 19:44 IST (UTC+05:30)
 
 This index consolidates the initial user-submitted collection. A candidate status is intentional: it prevents an ambiguous name or unverified URL from being mistaken for an approved recommendation.
 
@@ -25,8 +25,8 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Agent Reach | CLI / agent web-research infrastructure | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Verified |
 | Awesome Free LLM APIs | Dynamic directory of free-tier LLM API providers, models and quotas | [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) | Verified identity; quota and provider claims change frequently |
 | Understand Anything | Multi-agent codebase/document knowledge-graph builder with interactive dashboard | [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | Verified identity; model use depends on analysis workflow |
-| Last 30 Days | Agent-led research skill aggregating recent social/web engagement into a brief | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Verified identity; source integrations may need credentials |
-| Career Ops | Open-source AI job-search agent for evaluating listings and tailoring applications | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Verified identity; handles sensitive CV/career data |
+| Last 30 Days | Agent-led research skill for recent web and social-source synthesis | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Verified identity; integrations may require credentials and engagement is not source verification |
+| Career Ops | AI job-search agent for role evaluation and application support | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | Verified identity; handles sensitive CV and career data |
 | REA | Reverse-engineering agent toolkit and MCP server for binaries, apps and runtime behavior | [morluto/rea](https://github.com/morluto/rea) | Verified identity; native analysis may require external tools |
 
 ## Agent frameworks and orchestration
@@ -88,7 +88,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
 |---|---|---|---|
-| UI UX Pro Max | UI/UX design skill | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Candidate — review pending |
+| UI UX Pro Max | Design-intelligence skill with searchable styles, rules and CLI | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Verified identity; framework compatibility and coverage need checking |
 | Taste Skill | Design-focused agent skill for generating higher-quality company websites and interfaces | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Verified identity; MIT stated upstream |
 | Archify | Agent skill that turns prompts and plans into interactive HTML visualizations | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Verified identity; Apache-2.0 stated upstream |
 | Impeccable | Design vocabulary and critique/audit commands for coding agents | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Verified identity; strongest on iterative interface refinement |
