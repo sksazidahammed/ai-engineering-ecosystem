@@ -1,7 +1,7 @@
 # Networking and System Utilities
 
-**Catalogue version:** 1.2  
-**Last updated:** 2026-11-12 18:29 IST (UTC+05:30)
+**Catalogue version:** 1.4
+**Last updated:** 2026-11-12 19:26 IST (UTC+05:30)
 
 ## net-merge
 
@@ -18,6 +18,14 @@
 - **Purpose:** The README describes combining Wi-Fi, Ethernet and mobile connections to accelerate file and torrent downloads.
 - **Platforms stated upstream:** macOS, Windows and Linux.
 - **Assessment:** Similar problem space to net-merge, but the README frames Plexo around download acceleration. Treat these as separate implementations; do not infer equivalent networking architecture or performance.
+
+## Transfer
+
+- **Repository:** [matan-h/Transfer](https://github.com/matan-h/Transfer)
+- **Type:** Android local file-server application for transferring files between devices on the same Wi-Fi network.
+- **Workflow:** The phone serves a selected folder over HTTP; other devices connect through a browser. The README describes upload/download, clipboard-to-text-file, command-line access and IP-based allow/deny prompts.
+- **Security:** Password protection is optional and off by default. Use only on a trusted LAN, keep access prompts enabled, share a dedicated folder rather than broad storage, and stop the server when finished. HTTP traffic on an untrusted network can expose transferred data.
+- **Assessment:** Useful for direct phone-to-PC transfers without cloud storage or cables; it is not an internet-hosted cloud drive.
 
 ## Reader notes
 
