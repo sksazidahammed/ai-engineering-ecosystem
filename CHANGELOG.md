@@ -26,3 +26,21 @@ All notable directory changes are recorded here. Dates and times use India Stand
 - Documented its four principles: think before coding, simplicity first, surgical changes, and goal-driven execution.
 - Added a provenance caution: the repository's README points Claude Code marketplace and raw `CLAUDE.md` installation examples to `forrestchang/andrej-karpathy-skills`, so users should confirm the intended canonical source before installing.
 - Recorded the upstream-stated MIT license and clarified that guidelines do not replace tests or code review.
+
+
+## Version 1.2 — 2026-11-12 18:29 IST (UTC+05:30)
+
+### Added
+- Added 13 submitted repositories and classified them across four new and existing categories.
+- Added PentAGI to cybersecurity; documented its self-hosted multi-agent penetration-testing workflow, infrastructure requirements, MIT core license statement, cloud-service distinction, and strict authorized-use warning.
+- Added OpenReply and OpnForm to productivity and workflows, including self-hosting, Meta API, MCP, and AGPL licensing notes.
+- Added Harper to writing and content, with its English-only scope and local grammar-checking focus.
+- Created catalogues for media/audio/video, local AI and agent applications, networking/system utilities, and AI project collections.
+- Added Cap, WhisperX, ManimGX, Henge, Jan, OpenMausBot, net-merge, Plexo, and Awesome LLM Apps.
+- Recorded Henge's distinction between MIT application code and separately licensed model weights/adapters.
+- Recorded that repository identity verification is not equivalent to hands-on performance, security, or feature testing.
+
+### Editorial notes
+- Project entries are categorized by actual function, not simply grouped as “AI tools.”
+- Resource collections are distinguished from installable applications and frameworks.
+- Dual-use security automation is explicitly flagged for authorized testing only.
