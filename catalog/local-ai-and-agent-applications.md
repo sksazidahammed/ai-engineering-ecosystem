@@ -14,6 +14,7 @@
 | DSH Go | Android client for DeepSeek Harness | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | AGPL-3.0 stated upstream |
 | Agent Desktop | Accessibility-tree-based desktop automation CLI and library | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Apache-2.0 stated upstream |
 | Agent Browser | Browser automation CLI for AI agents | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Apache-2.0 stated upstream |
+| Kimi K3 in C | Experimental portable C99 inference implementation associated with a very large MoE model | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | Apache-2.0 stated upstream; model/checkpoint terms require separate review |
 
 ## Jan
 
@@ -142,6 +143,20 @@
 - **License / Cost:** Apache-2.0 stated upstream.
 
 - **Privacy / Security / Limitations:** Authenticated browser sessions expose cookies and account privileges. Use isolated profiles and protect session state.
+
+## Kimi K3 in C
+
+- **Project link:** [Official source](https://github.com/FareedKhan-dev/kimi-k3-in-c)
+
+- **Type / Classification:** Experimental portable C99 inference implementation associated with a very large MoE model.
+
+- **Purpose / Capabilities:** The README claims a portable C99 implementation with a 2.78-trillion-parameter checkpoint and reports an approximately 1.56 TB checkpoint with 8.24 GB peak resident memory. These are upstream-reported measurements, not independently reproduced results.
+
+- **Installation / Requirements:** Build instructions use a C99 toolchain and Makefile; the checkpoint size alone makes storage and data-transfer requirements substantial.
+
+- **License / Cost:** Apache-2.0 for repository code, as stated upstream; verify the exact model checkpoint and redistribution license separately.
+
+- **Privacy / Security / Limitations:** Do not interpret the low reported RAM figure as a small download or ordinary low-end deployment. The checkpoint is stated to be about 1.56 TB; validate the implementation, numerical quality, throughput and reproducibility before relying on it.
 
 ## 📝 Note For Reader
 
