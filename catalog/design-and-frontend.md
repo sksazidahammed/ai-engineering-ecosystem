@@ -1,7 +1,7 @@
 # Design and Frontend
 
-**Catalogue version:** 1.11
-**Last updated:** 2026-11-12 21:07 IST (UTC+05:30)
+**Catalogue version:** 1.12
+**Last updated:** 2026-11-12 21:35 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -84,6 +84,20 @@
 
 - **Practical considerations:** Validate diagram semantics, legibility, accessibility, SVG/HTML output and rendering at the intended display size.
 
-## 📝 Note For Reader
+## Aria Icons
+
+- **Project link:** [Official source](https://github.com/LeulAria/Aria-Icons)
+
+- **Type:** Icon discovery and integration toolkit comprising a searchable icon catalogue, npm CLI, REST API and MCP server.
+
+- **Capabilities:** Searches icon collections, retrieves SVG or framework source, writes icon files into a project, maps imports between icon sets, audits mixed icon libraries and suggests a consistent collection.
+
+- **Installation:** The README documents `npx -y aria-icons@latest setup`, Bun alternatives and global npm installation. The setup command can configure local MCP access for supported coding agents; a remote HTTP MCP endpoint is also documented.
+
+- **Technology:** The repository is a Bun/TypeScript monorepo with a Next.js website, CLI package and API layer. Icon sources include vendored sets, theSVG brand logos and Iconify collections.
+
+- **License:** MIT applies to the repository's code. The icon assets do not share one universal license: each upstream collection may have MIT, Apache, CC0, attribution, copyleft or other terms. Check collection metadata and attribution requirements before shipping icons.
+
+- **Assessment:** Useful for consistent icon discovery and agent-assisted insertion. Do not treat the MIT code license as permission to redistribute every icon asset without checking its source license.
 
 Design-related agent skills can generate code, modify application structure, or introduce dependencies. Evaluate the quality of generated output, accessibility, responsive behavior, design-system compatibility, and license constraints. A visually convincing demo is not proof of production readiness.
