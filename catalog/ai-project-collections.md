@@ -6,6 +6,7 @@
 | Project | Classification | Official repository | Status |
 |---|---|---|---|
 | Awesome LLM Apps | Curated collection of AI agents, skills, RAG apps and examples | [shubhamsaboo/awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps) | Repository identity verified; individual examples require separate review |
+| Awesome AI Apps | Curated collection of agent, voice, MCP, memory, RAG and fine-tuning projects | [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | MIT repository license; individual examples have separate dependencies and terms |
 
 ## Awesome LLM Apps
 
