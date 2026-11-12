@@ -245,3 +245,28 @@ All notable directory changes are recorded here. Dates and times use India Stand
 ### Maintenance
 - Updated the master catalogue to 61 distinct project records.
 - Updated README, master catalogue, changelog, rulebook baseline and all 13 category pages to version 1.14.
+
+
+## Version 1.15 — 2026-11-13 02:25 IST (UTC+05:30)
+
+### Added
+- Expanded the directory by 37 distinct repositories from the latest intake, across coding and development, agent frameworks, research, cybersecurity, design, productivity, local AI, system utilities and model infrastructure.
+- Added Gortex, Gentle-AI, Engram, FreeLLMAPI, Ghidra, llama.cpp, OpenSSL, Herdr, Astryx, Google Agent Skills, GBrain, Rune's native UI framework was reviewed but not added in this pass, Agent Browser, Agent Desktop, Auto Ontology, Agent Skills Specification, OpenClaw, TokenEconomizer reviewed for later classification, PixelFX, LearnHarness, Worktrunk, Kimi K3 in C reviewed for technical plausibility and not promoted, and additional desktop/design workflows.
+- Refreshed the existing Understand Anything, Archify and Hallmark records without creating duplicates; retained the existing OpenMausBot record.
+- Deduplicated repeated Hallmark submission. The batch contains no second OpenMausBot record.
+
+### Important caveats
+- Some repository license details were not confirmed from the inspected README excerpts; entries explicitly say to inspect upstream LICENSE files rather than assuming permissive terms.
+- OpenBot is PolyForm Noncommercial 1.0.0; it is not a general commercial-use open-source license.
+- Ghidra versions have release-specific security advisories; use supported releases and inspect upstream notices.
+- OpenSSL licensing is version-dependent; inspect the exact release's license files.
+- FreeLLMAPI aggregates third-party provider tiers; quota totals are not guaranteed. FreeToken and llama.cpp runtimes do not determine the license of model weights.
+- Desktop/browser agents can access authenticated sessions, files and commands. Apply least privilege and review permissions.
+
+### Verification scope
+- Fetched upstream README files for the submitted repositories and used those as primary identity/function evidence. License badges/statements were recorded where visible; unresolved license details are marked for direct inspection.
+- No hands-on installation, performance, security or legal testing is claimed.
+- Existing records were checked for obvious duplicate overlap. The master catalogue count is updated to 98 distinct records; category table/detail parity and cross-page duplicate checks remain subject to post-write audit.
+
+### Maintenance
+- Updated all 13 category pages, master catalogue and README metadata to version 1.15.
