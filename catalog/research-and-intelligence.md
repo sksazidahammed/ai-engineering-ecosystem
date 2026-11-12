@@ -17,6 +17,8 @@
 
 - **Project link:** [Official source](https://github.com/Graphify-Labs/graphify)
 
+- **Project link:** [Official source](https://github.com/Graphify-Labs/graphify)
+
 - **Type:** Local project knowledge-graph builder distributed as a CLI and agent skill.
 
 - **Function:** Maps code and supported project materials into a traversable graph, with an interactive HTML view, Markdown report and machine-readable graph output. The README distinguishes source-extracted edges from inferred edges.
@@ -33,6 +35,8 @@
 
 - **Project link:** [Official source](https://github.com/open-free-llm-api/awesome-freellm-apis)
 
+- **Project link:** [Official source](https://github.com/open-free-llm-api/awesome-freellm-apis)
+
 - **Type:** Machine-readable, frequently refreshed directory of free-tier LLM APIs, provider endpoints, model identifiers, limits and configuration examples.
 
 - **Associated service:** [freellm.net](https://freellm.net) offers searchable model listings and config generation, according to the README.
@@ -42,6 +46,8 @@
 - **Assessment:** A discovery and comparison resource, not an API provider and not a guarantee of unlimited free inference. Check card/phone requirements, regional eligibility, data retention, rate limits, model terms and commercial-use restrictions. Never paste secrets into third-party config generators unless you trust their handling.
 
 ## Agent Reach
+
+- **Project link:** [Official source](https://github.com/Panniantong/Agent-Reach)
 
 - **Project link:** [Official source](https://github.com/Panniantong/Agent-Reach)
 
@@ -63,6 +69,8 @@
 
 - **Project link:** [Official source](https://github.com/Egonex-AI/Understand-Anything)
 
+- **Project link:** [Official source](https://github.com/Egonex-AI/Understand-Anything)
+
 - **Type:** Coding-agent plugin for codebase and knowledge-base analysis.
 
 - **Purpose:** Builds a graph of files, functions, classes and dependencies, then presents an interactive dashboard for exploration and question answering.
@@ -76,6 +84,8 @@
 - **Assessment:** Useful for navigating unfamiliar repositories and knowledge bases; validate important relationships against source files.
 
 ## Last 30 Days
+
+- **Project link:** [Official source](https://github.com/mvanhorn/last30days-skill)
 
 - **Project link:** [Official source](https://github.com/mvanhorn/last30days-skill)
 
@@ -93,6 +103,8 @@
 
 - **Project link:** [Official source](https://github.com/career-ops-hq/career-ops)
 
+- **Project link:** [Official source](https://github.com/career-ops-hq/career-ops)
+
 - **Type:** Open-source AI job-search and application-support agent.
 
 - **Capabilities:** Evaluates job listings against a candidate profile, checks whether roles remain open, and assists with CV tailoring and application-answer drafting.
@@ -104,6 +116,8 @@
 - **Assessment:** Useful for organizing job searches and drafting application material; verify role status and every generated claim before submitting.
 
 ## REA — Reverse Engineer Anything
+
+- **Project link:** [Official source](https://github.com/morluto/rea)
 
 - **Project link:** [Official source](https://github.com/morluto/rea)
 
