@@ -12,7 +12,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Superpowers | Agent skills / development workflow | [obra/superpowers](https://github.com/obra/superpowers) | Candidate — review pending |
 | Matt Pocock Skills | Agent skills | [mattpocock/skills](https://github.com/mattpocock/skills) | Candidate — review pending |
 | Everything Claude Code (ECC) | Coding-agent configuration / skills | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Candidate — review pending |
-| Karpathy Skills | Unclear; exact repository not supplied | [GitHub search](https://github.com/search?q=Karpathy+skills&type=repositories) | Needs clarification |
+| Karpathy-Inspired Skills | Claude Code plugin / agent instruction pack, with Cursor project rule | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | Verified identity; upstream lineage note required |
 | Ponytail | Unclear; repository identity needs confirmation | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Candidate — review pending |
 | Anthropic Agent Skills | Agent skills collection | [anthropics/skills](https://github.com/anthropics/skills) | Verified identity; details review pending |
 
@@ -65,7 +65,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | I Have ADHD | Unclear; exact project not identified | [GitHub search](https://github.com/search?q=%22I+Have+ADHD%22+Claude&type=repositories) | Needs clarification |
 | Marketing Skills | Marketing skills collection | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Candidate — review pending |
 
-## Duplicate handling
+## Karpathy-inspired skills: provenance note\n\nThe submitted repository is [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills). Its README describes four coding-agent principles and includes Claude Code plugin and per-project instruction installation paths, plus a Cursor rule. Notably, its documented Claude Code marketplace installation command references `forrestchang/andrej-karpathy-skills`, and its raw `CLAUDE.md` example also points to that owner. Treat the multica-ai repository as the submitted distribution/maintenance location, but verify the upstream source and current marketplace instructions before installation. The repository states an MIT license.\n\n## Duplicate handling
 
 The submissions “Skills by Anthropic” and “Agent Skills” referred to the same upstream repository, [anthropics/skills](https://github.com/anthropics/skills). They are represented once in this catalogue to avoid double-counting.
 
