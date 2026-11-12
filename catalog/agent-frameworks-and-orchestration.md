@@ -1,7 +1,7 @@
 # Agent Frameworks and Orchestration
 
-**Catalogue version:** 1.11
-**Last updated:** 2026-11-12 21:07 IST (UTC+05:30)
+**Catalogue version:** 1.12
+**Last updated:** 2026-11-12 21:35 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -12,6 +12,7 @@
 | GSD Core | Spec-driven development and context-engineering workflow; successor to archived GSD repo | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | Successor identified; recheck current release and license |
 | BMAD Method | Agile AI-driven development framework with role-based agents | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | Repository identity verified; stable v6 and preview v7 differ in maturity |
 | MiroFish | Multi-agent swarm simulation / scenario exploration engine | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | Verified identity; predictive validity not established |
+| Foreman | Runtime for semantic supervision of coding-agent workers | [thruwire/foreman](https://github.com/thruwire/foreman) | MIT; requires a decision-model provider and worker runtime |
 
 ## gstack
 
@@ -119,6 +120,22 @@
 
 - **Assessment:** Useful for scenario exploration, narrative simulation and hypothesis generation. It is not a validated forecasting instrument. Simulated agent behavior is sensitive to seed data, prompts, model choice and configuration; do not treat outputs as reliable financial, political, policy or safety predictions without external validation.
 
-## 📝 Note For Reader
+## Foreman
+
+- **Project link:** [Official source](https://github.com/thruwire/foreman)
+
+- **Type:** Python `asyncio` runtime that supervises coding-agent workers through a separate semantic decision loop.
+
+- **Workflow:** A worker such as Codex, OpenCode, Hermes or Deep Agents performs the coding task. Foreman independently evaluates bounded evidence—job requirements, worker activity, repository changes, test results and recent events—and can continue, steer, stop, retry, request verification or escalate to a human.
+
+- **Architecture:** Worker backends and decision-model providers are replaceable. The README documents Jev and OpenAI Decisions API adapters; the decision layer evaluates typed predicates while Python policy and configured thresholds determine interventions.
+
+- **Installation / requirements:** The project is a Python CLI/runtime; the README documents package installation and worker-specific setup. Some backends require separately installed coding-agent CLIs and provider credentials. Check the current worker guide for exact extras and supported versions.
+
+- **License / cost:** MIT. Decision-model API calls and the selected worker's model usage may incur separate provider charges or quotas.
+
+- **Limitations:** Probabilities and thresholds require calibration for the chosen model and workflow. A high completion probability is not proof that code is correct; independent tests and human review remain necessary. Live steering is backend-dependent.
+
+- **Assessment:** Interesting supervisory layer for agent-driven software tasks, especially when a separate verifier and explicit completion criteria are needed. Start with a disposable repository and conservative intervention permissions.
 
 Agent frameworks may execute shell commands, edit files, access networks, or delegate tasks. Review permission boundaries, tool policies, secrets handling, and sandbox support before connecting them to valuable repositories or accounts.
