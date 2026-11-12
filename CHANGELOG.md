@@ -129,3 +129,16 @@ All notable directory changes are recorded here. Dates and times use India Stand
 
 ### Editorial rule
 - Category tables and detailed project sections must remain in identical project order. Popularity-based ranking is not applied because stars, online attention, and practical usefulness are distinct signals and no single ranking method has been adopted.
+
+
+## Version 1.8 — 2026-11-12 20:20 IST (UTC+05:30)
+
+### Fixed
+- Standardized project explanation formatting across all 12 category pages.
+- Converted previously paragraph-only project descriptions into clearly labeled, point-by-point fields where the source content supported it.
+- Added consistent blank-line spacing between detail points so each item is visually distinct and easy to scan.
+- Preserved the existing table order, project records, source links and substantive caveats.
+
+### Editorial standard
+- Each project entry should use a consistent, readable heading and a concise point-by-point explanation. Use only relevant fields (such as type, purpose, workflow, installation, requirements, license/cost, privacy/security, limitations and assessment); omit fields that are not applicable or not verified.
+- Put a blank line between every bullet point. Avoid one-paragraph project descriptions and avoid inventing missing technical details.
