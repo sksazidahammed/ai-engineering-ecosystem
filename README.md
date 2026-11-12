@@ -2,8 +2,8 @@
 
 A curated, continuously maintained catalogue of AI engineering tools, agent skills, plugins, MCP servers, frameworks, and workflows.
 
-**Directory version:** 1.0  
-**Last updated:** 2026-11-12 17:39 IST (UTC+05:30)  
+**Directory version:** 1.2  
+**Last updated:** 2026-11-12 18:29 IST (UTC+05:30)  
 **Repository:** [sksazidahammed/ai-engineering-ecosystem](https://github.com/sksazidahammed/ai-engineering-ecosystem)
 
 ## Start here
@@ -19,7 +19,7 @@ A curated, continuously maintained catalogue of AI engineering tools, agent skil
 | [Writing and content](catalog/writing-and-content.md) | Writing, marketing, and video/content workflows |
 | [Productivity and workflows](catalog/productivity-and-workflows.md) | Reserved category for future verified additions |
 
-## How to read verification status
+| [Media, audio and video](catalog/media-audio-video.md) | Screen capture, speech recognition, video generation and animation |\n| [Local AI and agent applications](catalog/local-ai-and-agent-applications.md) | Local model runtimes and desktop agent applications |\n| [Networking and system utilities](catalog/networking-and-system-utilities.md) | Network aggregation and system-level connectivity utilities |\n| [AI project collections](catalog/ai-project-collections.md) | Curated examples, templates and learning repositories |\n\n## How to read verification status
 
 - **Verified** — the canonical upstream project and its basic identity have been checked against its official source.
 - **Candidate — review pending** — a name or URL was submitted, but its exact upstream identity, maintenance state, or intended project has not yet been established.
@@ -40,7 +40,7 @@ A verified identity does not mean every feature, security claim, or compatibilit
 
 ## Current baseline
 
-This initial catalogue consolidates the submitted collection. It contains **29 distinct named records after merging one duplicate**. This is not a count of 29 independently verified projects: several records remain candidates or need clarification. Three records have an established upstream repository identity (Anthropic Agent Skills, Agent Reach, and Cloudflare Security Audit Skill); Agent Reach and Cloudflare Security Audit Skill also have fuller project-level review notes in this baseline.
+This catalogue consolidates the submitted collection and subsequent additions. It contains **42 distinct named records after merging one duplicate**. This is not a count of 29 independently verified projects: several records remain candidates or need clarification. Three records have an established upstream repository identity (Anthropic Agent Skills, Agent Reach, and Cloudflare Security Audit Skill); Agent Reach and Cloudflare Security Audit Skill also have fuller project-level review notes in this baseline.
 
 ## Contributing
 
