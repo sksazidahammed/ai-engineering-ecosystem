@@ -11,6 +11,7 @@
 | Impeccable | Design vocabulary and critique/audit commands for coding agents | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Verified identity; strongest for iterative interface refinement |
 | PPT Master | AI-assisted native PowerPoint generation from documents | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Verified identity; MIT stated upstream |
 | Diagram Design | Agent skill for branded HTML/SVG diagrams | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Verified identity; MIT stated upstream |
+| Aria Icons | Searchable icon catalogue, CLI and MCP server for coding agents | [LeulAria/Aria-Icons](https://github.com/LeulAria/Aria-Icons) | MIT code; individual icon collections retain their own licenses |
 
 ## UI UX Pro Max
 
@@ -100,4 +101,6 @@
 
 - **Assessment:** Useful for consistent icon discovery and agent-assisted insertion. Do not treat the MIT code license as permission to redistribute every icon asset without checking its source license.
 
-Design-related agent skills can generate code, modify application structure, or introduce dependencies. Evaluate the quality of generated output, accessibility, responsive behavior, design-system compatibility, and license constraints. A visually convincing demo is not proof of production readiness.
+## 📝 Note For Reader
+
+Design-related agent skills can generate code/, modify application structure, or introduce dependencies. Evaluate the quality of generated output, accessibility, responsive behavior, design-system compatibility, and license constraints. A visually convincing demo is not proof of production readiness.
