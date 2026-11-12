@@ -2,8 +2,8 @@
 
 A curated, continuously maintained catalogue of AI engineering tools, agent skills, plugins, MCP servers, frameworks, and workflows.
 
-**Directory version:** 1.14
-**Last updated:** 2026-11-13 00:55 IST (UTC+05:30)
+**Directory version:** 1.15
+**Last updated:** 2026-11-13 02:25 IST (UTC+05:30)
 **Repository:** [sksazidahammed/ai-engineering-ecosystem](https://github.com/sksazidahammed/ai-engineering-ecosystem)
 
 ## Start here
