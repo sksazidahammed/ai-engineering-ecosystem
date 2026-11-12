@@ -15,47 +15,127 @@
 
 ## Graphify
 
+
 - **Repository:** [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+
 - **Type:** Local project knowledge-graph builder distributed as a CLI and agent skill.
+
 - **Function:** Maps code and supported project materials into a traversable graph, with an interactive HTML view, Markdown report and machine-readable graph output. The README distinguishes source-extracted edges from inferred edges.
+
 - **Install:** `uv tool install graphifyy` followed by `graphify install`; Python 3.10+ is listed.
+
 - **Privacy/compute:** Code parsing is described as local and deterministic; semantic processing of documents and media may use an assistant model or configured API key. Graphify Cloud is a separate hosted offering.
+
 - **License:** Apache-2.0, as stated by upstream.
+
 - **Assessment:** Useful for codebase exploration and relationship tracing; not a vector database. Inspect what content is sent to a model when enabling semantic processing.
 
 ## Awesome Free LLM APIs
 
+
 - **Repository:** [open-free-llm-api/awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis)
+
 - **Type:** Machine-readable, frequently refreshed directory of free-tier LLM APIs, provider endpoints, model identifiers, limits and configuration examples.
+
 - **Associated service:** [freellm.net](https://freellm.net) offers searchable model listings and config generation, according to the README.
+
 - **Freshness:** The repository says its catalogue is refreshed daily. Its README snapshot advertises hundreds of API entries; counts and quotas are dynamic and should be checked at the provider before relying on them.
+
 - **Assessment:** A discovery and comparison resource, not an API provider and not a guarantee of unlimited free inference. Check card/phone requirements, regional eligibility, data retention, rate limits, model terms and commercial-use restrictions. Never paste secrets into third-party config generators unless you trust their handling.
 
 ## Agent Reach
 
+
 - **Type:** CLI and agent-facing internet research infrastructure.
+
 - **Purpose:** Provides an agent with search/read access to multiple online sources through a unified command-line workflow.
+
 - **Source:** [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+
 - **Installation guidance:** [Official installation documentation](https://github.com/Panniantong/Agent-Reach/blob/main/docs/install.md)
+
 - **License:** MIT, as stated by the project.
+
 - **Operational caveats:** Some sources require login or API credentials. Some integrations are described by the project as experimental. The project is primarily read-oriented; verify the current support matrix and requirements in its documentation before use.
+
 - **Security note:** Browser-session reuse exposes the agent to the privileges of that session. Prefer a separate, low-privilege account and avoid sharing a primary personal browser profile.
 
 ## Understand Anything
 
-A coding-agent plugin that analyzes a codebase or knowledge base, builds a graph of files, functions, classes and dependencies, and presents an interactive dashboard for exploration and Q&A. The README documents Claude Code and several other coding-agent integrations. A generated graph is an aid to understanding, not proof that every inferred relationship is correct. Its viewer can display already-generated graph data locally without additional model calls.
+
+- **Type:** Coding-agent plugin for codebase and knowledge-base analysis.
+
+
+- **Purpose:** Builds a graph of files, functions, classes and dependencies, then presents an interactive dashboard for exploration and question answering.
+
+
+- **Integrations:** The README documents Claude Code and several other coding-agent integrations.
+
+
+- **Local use:** The viewer can display already-generated graph data locally without additional model calls.
+
+
+- **Limitations:** A generated graph is an aid to understanding, not proof that every inferred relationship is correct.
+
+
+- **Assessment:** Useful for navigating unfamiliar repositories and knowledge bases; validate important relationships against source files.
 
 ## Last 30 Days
 
-An agent-led research skill that searches multiple social and web sources (including Reddit, Hacker News, YouTube and other platforms) and synthesizes recent attention into a brief. The README describes optional integrations that require user sessions, credentials or API access. “Zero config” applies only to the listed immediately available sources; some integrations need setup and may be subject to platform access limits. Engagement signals are not a substitute for source verification.
+
+- **Type:** Agent-led research skill for synthesizing recent web and social-source activity.
+
+
+- **Sources:** The README describes searches across Reddit, Hacker News, YouTube and other platforms.
+
+
+- **Integrations:** Optional sources may require user sessions, credentials or API access. “Zero config” applies only to the sources listed as immediately available.
+
+
+- **Limitations:** Some integrations need additional setup and may be constrained by platform access limits.
+
+
+- **Assessment:** Useful for discovering emerging discussions and preparing research briefs. Engagement signals indicate attention, not factual reliability; verify important claims against primary sources.
 
 ## Career Ops
 
-An open-source AI job-search agent that evaluates listings against a candidate profile, checks whether roles remain open, and assists with CV tailoring and application-answer drafting. The upstream workflow is designed to keep the final submission under user control. It can process highly sensitive CV and career data; review local storage, connected services and generated application claims before use.
+
+- **Type:** Open-source AI job-search and application-support agent.
+
+
+- **Capabilities:** Evaluates job listings against a candidate profile, checks whether roles remain open, and assists with CV tailoring and application-answer drafting.
+
+
+- **User control:** The upstream workflow is designed to leave final application submission under the user's control.
+
+
+- **Privacy:** CVs and career histories are sensitive personal data. Review storage locations, connected services and data-sharing behavior before uploading information.
+
+
+- **Assessment:** Useful for organizing job searches and drafting application material; verify role status and every generated claim before submitting.
 
 ## REA — Reverse Engineer Anything
 
-An agent-facing MCP toolkit for inspecting applications, websites, JavaScript/Electron projects, .NET assemblies and native binaries. It can combine static and runtime analysis and present evidence behind findings. Setup uses `npx rea-agents setup`; advanced native workflows may depend on installed reverse-engineering tools such as Hopper, Ghidra, IDA or Kuna. The repository states MIT licensing. Treat targets as authorized-only; reverse engineering can involve proprietary software, sensitive data and legal restrictions.
+
+- **Type:** Agent-facing MCP toolkit for reverse engineering applications, websites and software binaries.
+
+
+- **Targets:** The README describes support for websites, JavaScript/Electron projects, .NET assemblies and native binaries.
+
+
+- **Methods:** Combines static and runtime analysis and can present evidence behind findings.
+
+
+- **Installation:** Setup uses `npx rea-agents setup`. Advanced native workflows may depend on tools such as Hopper, Ghidra, IDA or Kuna.
+
+
+- **License:** MIT, as stated by the repository.
+
+
+- **Security and legal scope:** Analyze only software and systems you own or are explicitly authorized to inspect. Reverse engineering may involve proprietary software, sensitive data and legal restrictions.
+
+
+- **Assessment:** A specialized analysis toolkit; native workflows can require additional paid or separately licensed tools.
 
 ## Reader notes
 
