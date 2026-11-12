@@ -8,6 +8,12 @@
 | Jan | Desktop application for running local language models | [janhq/jan](https://github.com/janhq/jan) | Repository identity verified; local/offline boundaries need review |
 | OpenMausBot | Desktop multi-agent application | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Repository identity verified; permissions and integrations need review |
 | watermarks-remover | Agent skills and local Python HTTP service for inspecting and cleaning AI provenance marks in text and files | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | MIT; statistical rewriting and pixel/audio/video backends have important limits |
+| llama.cpp | Portable C/C++ local LLM inference runtime | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | MIT code; model licenses are separate |
+| FreeToken | Edge-native large MoE model serving engine | [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken) | License and model terms require direct inspection |
+| Hex | Local voice-dictation desktop application | [anomalyco/hex](https://github.com/anomalyco/hex) | License not confirmed in this intake |
+| DSH Go | Android client for DeepSeek Harness | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | AGPL-3.0 stated upstream |
+| Agent Desktop | Accessibility-tree-based desktop automation CLI and library | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Apache-2.0 stated upstream |
+| Agent Browser | Browser automation CLI for AI agents | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Apache-2.0 stated upstream |
 
 ## Jan
 
@@ -52,6 +58,90 @@
 - **Limitations:** Metadata stripping is not equivalent to removing every form of provenance. C2PA soft bindings and data-driven/backdoor marks are out of scope. Optional SynthID, MarkLLM, pixel, audio and video capabilities depend on separately configured backends. The README explicitly describes audio processing as destructive and video removal as partial; outputs may be altered. A successful clean does not prove that content was human-written or that every detector will return a negative result.
 
 - **Assessment:** A broad, technically ambitious local-first toolkit for auditing and cleaning provenance metadata on files you own. Treat it as a privacy/metadata utility, not a way to establish authorship or bypass disclosure obligations.
+
+## llama.cpp
+
+- **Project link:** [Official source](https://github.com/ggml-org/llama.cpp)
+
+- **Type / Classification:** Portable C/C++ local LLM inference runtime.
+
+- **Purpose / Capabilities:** Runs supported LLM formats locally across CPU and accelerated hardware backends, with command-line, library and server interfaces.
+
+- **Installation / Requirements:** Build from source or use official releases; acceleration backends and build flags vary by platform.
+
+- **License / Cost:** MIT for repository code; model weights, tokenizers, adapters and quantized files have separate licenses.
+
+- **Privacy / Security / Limitations:** Performance depends on model size, quantization, memory bandwidth and backend. Model terms may restrict commercial use even when the runtime is MIT.
+
+## FreeToken
+
+- **Project link:** [Official source](https://github.com/FlashML-org/FreeToken)
+
+- **Type / Classification:** Edge-native large MoE model serving engine.
+
+- **Purpose / Capabilities:** A serving engine intended to run large mixture-of-experts models on consumer hardware through expert placement/offloading and optimized execution.
+
+- **Installation / Requirements:** Follow current installation guide and hardware matrix; memory, storage, CPU/GPU and model compatibility determine feasibility.
+
+- **License / Cost:** Verify repository and model licenses separately.
+
+- **Privacy / Security / Limitations:** Frontier-scale model and speed claims are upstream-reported. Check actual RAM/VRAM, supported model revisions and download size before use.
+
+## Hex
+
+- **Project link:** [Official source](https://github.com/anomalyco/hex)
+
+- **Type / Classification:** Local voice-dictation desktop application.
+
+- **Purpose / Capabilities:** Captures speech through a shortcut, transcribes on-device and pastes text into the active application. README says the speech model downloads on first run.
+
+- **Installation / Requirements:** Official installers are listed for macOS, Windows and Linux.
+
+- **License / Cost:** License and model terms not confirmed in this intake.
+
+- **Privacy / Security / Limitations:** Review microphone permissions, model provenance and optional experimental features. Local transcription claims are upstream statements, not an independent audit.
+
+## DSH Go
+
+- **Project link:** [Official source](https://github.com/ccch1mneyyy/dsh-Go)
+
+- **Type / Classification:** Android client for DeepSeek Harness.
+
+- **Purpose / Capabilities:** Android client for using DeepSeek Harness on a phone and remotely controlling a desktop DSH instance.
+
+- **Installation / Requirements:** README lists Android 8+ and links release builds; remote mode requires a configured desktop service.
+
+- **License / Cost:** AGPL-3.0 stated upstream.
+
+- **Privacy / Security / Limitations:** Remote control exposes a powerful development harness over a network. Authenticate it, restrict network reachability and review command/file permissions.
+
+## Agent Desktop
+
+- **Project link:** [Official source](https://github.com/vercel-labs/agent-desktop)
+
+- **Type / Classification:** Accessibility-tree-based desktop automation CLI and library.
+
+- **Purpose / Capabilities:** Lets agents inspect and operate desktop applications through the OS accessibility tree rather than relying only on screenshots or pixel matching.
+
+- **Installation / Requirements:** Install through documented package workflow; platform accessibility permissions and dependencies apply.
+
+- **License / Cost:** Apache-2.0 stated upstream.
+
+- **Privacy / Security / Limitations:** Desktop automation can manipulate sensitive applications. Grant accessibility permissions only to trusted agents and require approval for consequential actions.
+
+## Agent Browser
+
+- **Project link:** [Official source](https://github.com/vercel-labs/agent-browser)
+
+- **Type / Classification:** Browser automation CLI for AI agents.
+
+- **Purpose / Capabilities:** Rust-based CLI lets agents open pages, inspect accessibility-tree snapshots and interact through stable element references.
+
+- **Installation / Requirements:** Install from npm, Homebrew or Cargo as documented; browser/runtime setup varies.
+
+- **License / Cost:** Apache-2.0 stated upstream.
+
+- **Privacy / Security / Limitations:** Authenticated browser sessions expose cookies and account privileges. Use isolated profiles and protect session state.
 
 ## 📝 Note For Reader
 
