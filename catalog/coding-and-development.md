@@ -1,7 +1,7 @@
 # Coding and Development
 
 **Catalogue version:** 1.6  
-**Last updated:** 2026-11-12 19:50 IST (UTC+05:30)
+**Last updated:** 2026-11-12 19:52 IST (UTC+05:30)
 
 | Project | Provisional classification | Source | Status |
 |---|---|---|---|
@@ -49,6 +49,14 @@ A collection of small, composable skills for practical software engineering and 
 ## Everything Claude Code (ECC)
 
 An agent-harness configuration system spanning skills, agents, rules, hooks, commands and tooling. The repository lists MIT licensing and publishes multiple install surfaces/packages. Use only official repository, npm and marketplace channels named by upstream. Because hooks and agent tools can execute commands or access project context, inspect them before installation.
+
+## Anthropic Agent Skills
+
+- **Repository:** [anthropics/skills](https://github.com/anthropics/skills)
+- **Type:** Open collection of reusable agent skills.
+- **Purpose:** Provides task-specific instruction packages that extend compatible AI agents with repeatable workflows and domain guidance. The repository is a collection of skills rather than a single standalone application.
+- **Use:** Review each skill's own instructions, required tools, scripts and dependencies before installing it into a coding agent. Compatibility and behavior depend on the host agent and the individual skill.
+- **License and limitations:** Check the repository's current license and any skill-specific notices before reuse. A skill's presence in the collection does not establish that it is safe, maintained or suitable for every project.
 
 ## Editorial notes
 
