@@ -10,6 +10,8 @@
 | SkillOpt | Research framework for optimizing agent skills | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | MIT stated in README |
 | agents-best-practices | Provider-neutral agent-harness design skill | [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | MIT stated in README |
 | benjamin-plus | Token-efficiency skill for coding agents | [JetBrains/benjamin-plus-skill](https://github.com/JetBrains/benjamin-plus-skill) | Upstream reports token/cost reductions |
+| OpenSpace | Skill-building / agent capability research candidate | [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) | Repository README could not be fetched; verification pending |
+
 
 ## book-to-skill
 
@@ -70,6 +72,18 @@
 - **Workflow / Requirements:** README identifies a portable Agent Skill compatible with Codex and Claude Code.
 
 - **License / Cost / Status:** MIT stated upstream; examples are guidance, not a substitute for threat modelling or policy controls.
+
+## OpenSpace
+
+- **Project link:** [Official source](https://github.com/HKUDS/OpenSpace)
+
+- **Type / Classification:** Skill-building and agent capability research candidate; exact classification remains provisional.
+
+- **Purpose:** The repository was submitted in the skill-building section, but its actual scope could not be confirmed from an accessible upstream README during this intake.
+
+- **Verification status:** README retrieval failed through the connected GitHub source. No capabilities, requirements or license are asserted until the repository can be inspected.
+
+- **Assessment:** Retained as a verification-pending discovery record rather than excluded or described by guesswork.
 
 ## 📝 Note For Reader
 
