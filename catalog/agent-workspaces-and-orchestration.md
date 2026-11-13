@@ -5,7 +5,6 @@
 
 | Project | Classification | Official source | Status |
 |---|---|---|---|
-| AG2 | Multi-agent application framework | [ag2ai/ag2](https://github.com/ag2ai/ag2) | Check the framework version and AG2 Classic migration boundary |
 | Orca | Parallel coding-agent workspace | [stablyai/orca](https://github.com/stablyai/orca) | MIT stated in README |
 | Traycer | AI agent orchestration desktop app | [traycerai/traycer](https://github.com/traycerai/traycer) | Bring-your-own-provider subscriptions/keys may be required |
 | Oh My Claude Code | Claude Code multi-agent orchestration layer | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | MIT stated in README |
@@ -19,18 +18,6 @@
 | LoopX | Provider-neutral stateful control plane for long-horizon agent work | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | README reviewed; license requires direct confirmation |
 | Ouroboros (razzant) | Self-evolving general-purpose agent and desktop/CLI runtime | [razzant/ouroboros](https://github.com/razzant/ouroboros) | MIT stated in README; distinct from Q00/ouroboros |
 
-
-## AG2
-
-- **Project link:** [Official source](https://github.com/ag2ai/ag2)
-
-- **Type / Classification:** Multi-agent application framework.
-
-- **Purpose:** A Python framework for building agentic applications and coordinating agents; current repository distinguishes the protocol-driven framework from AG2 Classic.
-
-- **Workflow / Requirements:** README links documentation, playground, examples and package installation; the legacy AutoGen-style namespace moved to a separate repository.
-
-- **License / Cost / Status:** Check the framework version and AG2 Classic migration boundary; model API use may incur provider charges.
 
 ## Orca
 
