@@ -23,6 +23,8 @@
 | T3 Code | Open-source control plane for local coding agents | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | License not confirmed in this intake |
 | Harness² | Research framework for recursive agent harnessing and evaluation | [google-research/harness2](https://github.com/google-research/harness2) | Apache-2.0 stated upstream |
 | LearnHarness | Agent harness for adaptive AI-assisted learning | [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness) | License not confirmed in this intake |
+| AG2 | Multi-agent application framework for building agentic applications | [ag2ai/ag2](https://github.com/ag2ai/ag2) | README reviewed; AG2 Classic is maintained separately |
+
 
 ## gstack
 
@@ -287,6 +289,20 @@
 - **License / Cost:** License and model-provider pricing were not confirmed in this intake.
 
 - **Privacy / Security / Limitations:** Learning profiles and answers can be sensitive personal data. Check storage, export/deletion, model-provider routing and whether educational claims have been independently evaluated.
+
+## AG2
+
+- **Project link:** [Official source](https://github.com/ag2ai/ag2)
+
+- **Type / Classification:** Python framework for building multi-agent applications.
+
+- **Purpose:** Provides agent abstractions and coordination patterns for constructing agentic applications. The current repository distinguishes the protocol-driven framework from AG2 Classic, which retains the legacy AutoGen-style namespace.
+
+- **Workflow / Requirements:** README links official documentation, a playground, examples and package installation. Existing ConversableAgent, GroupChat and import autogen workflows belong to the separately maintained AG2 Classic repository.
+
+- **License / Cost:** Check the current repository LICENSE and package terms. Model-provider calls and hosted integrations may incur separate costs.
+
+- **Limitations:** Confirm whether a project needs the current protocol-driven package or AG2 Classic before migrating; the two interfaces should not be assumed interchangeable.
 
 ## 📝 Note For Reader
 
