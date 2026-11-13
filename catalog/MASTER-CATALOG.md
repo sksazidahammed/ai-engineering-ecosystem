@@ -185,7 +185,7 @@ The submissions “Skills by Anthropic” and “Agent Skills” referred to the
 
 ## Count and deduplication
 
-The master index currently contains 107 distinct project records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
+The master index currently contains 181 distinct catalogue records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
 ## 📝 Note For Reader
 
