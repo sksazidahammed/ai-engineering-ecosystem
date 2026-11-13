@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sksazidahammed/ai-engineering-ecosystem/schema/record.schema.json",
+  "title": "Catalogue record",
+  "description": "One canonical record per resource. File name must be <id>.yml. Use 'unknown' / 'unassessed' / NOASSERTION / null for anything not yet checked - never guess.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "summary", "url", "category", "resource_type", "source_class", "verification", "license", "platforms", "risk", "health", "dates"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "maxLength": 64,
+      "description": "Stable kebab-case slug. Never renamed or reused. If a project moves or is replaced, create a new record and link it with relations.successor_of."
+    },
+    "name": {"type": "string", "minLength": 1, "maxLength": 80, "description": "Official project name as the maintainer writes it."},
+    "summary": {"type": "string", "minLength": 20, "maxLength": 200, "description": "One factual sentence: what it is and does. No superlatives, no marketing claims (put those in 'claims')."},
+    "url": {"type": "string", "pattern": "^https?://", "description": "Canonical original URL (repo, product page or document). Never a search link or aggregator."},
+    "alt_urls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "url"],
+        "properties": {
+          "label": {"enum": ["homepage", "docs", "releases", "hosted", "paper", "changelog", "other"]},
+          "url": {"type": "string", "pattern": "^https?://"}
+        }
+      }
+    },
+    "category": {"type": "string", "description": "Primary category id from taxonomy/taxonomy.yml (checked by scripts/validate.py)."},
+    "subcategory": {"type": "string", "description": "Optional subcategory id belonging to the category."},
+    "secondary_categories": {"type": "array", "maxItems": 2, "uniqueItems": true, "items": {"type": "string"}, "description": "Only when it truly fits elsewhere. Max 2."},
+    "resource_type": {
+      "enum": ["skill", "skill-collection", "plugin", "plugin-marketplace", "mcp-server", "cli", "desktop-app", "web-app", "mobile-app", "library", "framework", "runtime", "model", "specification", "directory", "documentation", "article", "report", "paper", "prompt", "template", "service", "dataset"],
+      "description": "What kind of artifact it is. A facet, not a category."
+    },
+    "tags": {"type": "array", "uniqueItems": true, "maxItems": 12, "items": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"}},
+    "lifecycle": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"enum": ["plan", "design", "build", "test", "secure", "ship", "operate", "learn"]},
+      "description": "Which stages of a software journey it helps with. Powers playbooks."
+    },
+    "source_class": {
+      "enum": ["official", "community", "experimental", "archived", "unverified"],
+      "description": "Provenance, not quality. official = published by the organisation that owns the product/spec. community = independent third party. experimental = research/pre-1.0/unproven. archived = archived, abandoned or superseded (overrides every other value). unverified = identity or URL not yet confirmed."
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["verified", "partially-verified", "pending", "failed"], "description": "verified = owner/URL identity confirmed against an independent signal."},
+        "method": {"type": "string", "description": "How identity was confirmed, e.g. 'owner matches vendor org page'."},
+        "checked_on": {"type": ["string", "null"], "format": "date"},
+        "notes": {"type": "string"}
+      }
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["spdx", "class"],
+      "properties": {
+        "spdx": {"type": "string", "description": "SPDX id, 'NOASSERTION' if unknown, or 'LicenseRef-Mixed' / 'LicenseRef-Custom'."},
+        "class": {"enum": ["permissive", "copyleft", "source-available", "noncommercial", "proprietary", "mixed", "unknown"]},
+        "notes": {"type": "string", "description": "e.g. split licensing, separate model/asset terms, hosted-service terms."}
+      }
+    },
+    "platforms": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hosts", "os"],
+      "properties": {
+        "hosts": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"enum": ["claude-code", "claude-desktop", "claude-ai", "codex", "cursor", "copilot", "gemini-cli", "opencode", "windsurf", "kiro", "any-mcp-client", "any-skills-host", "standalone", "unknown"]},
+          "description": "Agent/IDE hosts it works with."
+        },
+        "os": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["windows", "macos", "linux", "android", "ios", "web", "unknown"]}},
+        "requires": {"type": "array", "items": {"type": "string"}, "description": "Runtimes, accounts, API keys, hardware, e.g. 'Node.js 20+', 'OpenAI API key'."}
+      }
+    },
+    "install": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "methods": {"type": "array", "uniqueItems": true, "items": {"enum": ["marketplace", "npm", "pip", "cargo", "brew", "docker", "git-clone", "install-script", "app-installer", "hosted-signup", "none"]}},
+        "notes": {"type": "string"}
+      }
+    },
+    "risk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "flags"],
+      "properties": {
+        "level": {
+          "enum": ["unassessed", "low", "medium", "high", "critical"],
+          "description": "low = docs/specs/reference or sandboxed, no credentials. medium = runs local code or sends content to third-party model providers under your keys. high = shell/filesystem/browser-session/computer control, hooks, credentials, or a network-exposed service. critical = autonomous offensive/destructive capability or broad credential access with weak isolation. unassessed = nobody has reviewed it yet (counts as a to-do, not as safe)."
+        },
+        "flags": {
+          "type": "array", "uniqueItems": true,
+          "items": {"enum": ["executes-code", "shell-access", "filesystem-access", "installs-hooks", "network-egress", "sends-data-to-third-party", "handles-credentials", "browser-session-access", "computer-control", "network-exposed-service", "dual-use-offensive", "stores-user-data", "unverified-install-script"]}
+        },
+        "notes": {"type": "string", "description": "Concrete mitigation, e.g. 'restrict filesystem roots; review commands'."}
+      }
+    },
+    "health": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["active", "slow", "stale", "archived", "unknown"], "description": "stale = no commit/release in 12+ months (set by the checker, not by hand)."},
+        "last_commit": {"type": ["string", "null"], "format": "date"},
+        "latest_release": {"type": ["string", "null"]},
+        "checked_on": {"type": ["string", "null"], "format": "date"}
+      }
+    },
+    "claims": {
+      "type": "array",
+      "description": "Marketing/benchmark claims kept out of the summary.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim", "basis"],
+        "properties": {
+          "claim": {"type": "string"},
+          "basis": {"enum": ["upstream-reported", "independently-verified", "unverified"]}
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "description": "Cross-references. Target ids must exist (checked by scripts/validate.py).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "id"],
+        "properties": {
+          "type": {"enum": ["alternative-to", "works-with", "depends-on", "part-of", "successor-of", "forked-from", "documented-by"]},
+          "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"}
+        }
+      }
+    },
+    "dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["record_created", "last_verified"],
+      "properties": {
+        "record_created": {"type": "string", "format": "date"},
+        "last_verified": {"type": ["string", "null"], "format": "date"}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"source_class": {"const": "archived"}}, "required": ["source_class"]},
+      "then": {"properties": {"health": {"properties": {"status": {"const": "archived"}}}}}
+    },
+    {
+      "if": {"properties": {"health": {"properties": {"status": {"const": "archived"}}, "required": ["status"]}}, "required": ["health"]},
+      "then": {"properties": {"source_class": {"const": "archived"}}}
+    },
+    {
+      "if": {"properties": {"risk": {"properties": {"level": {"enum": ["high", "critical"]}}, "required": ["level"]}}, "required": ["risk"]},
+      "then": {"properties": {"risk": {"required": ["notes"], "properties": {"flags": {"minItems": 1}, "notes": {"minLength": 20}}}}}
+    }
+  ]
+}

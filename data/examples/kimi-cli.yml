@@ -1,0 +1,30 @@
+id: kimi-cli
+name: Kimi CLI
+summary: Python coding-agent command-line tool from Moonshot AI; the repository is archived.
+url: https://github.com/MoonshotAI/kimi-cli
+category: agent-harnesses-and-runtimes
+subcategory: coding-agent-clis
+resource_type: cli
+lifecycle: [build]
+source_class: archived
+verification:
+  status: partially-verified
+  method: Repository archived state noted in catalogue v1.16.
+  checked_on: null
+license:
+  spdx: NOASSERTION
+  class: unknown
+platforms:
+  hosts: [standalone]
+  os: [unknown]
+risk:
+  level: unassessed
+  flags: []
+health:
+  status: archived
+  last_commit: null
+  latest_release: null
+  checked_on: null
+dates:
+  record_created: "2026-11-13"
+  last_verified: null

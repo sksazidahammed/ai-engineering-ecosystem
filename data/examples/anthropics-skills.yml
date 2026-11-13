@@ -1,0 +1,36 @@
+id: anthropics-skills
+name: Anthropic Agent Skills
+summary: Official collection of agent skills published by Anthropic.
+url: https://github.com/anthropics/skills
+category: skills-plugins-and-instructions
+subcategory: skill-collections
+resource_type: skill-collection
+tags: [skills, claude]
+lifecycle: [build]
+source_class: official
+verification:
+  status: verified
+  method: Repository owner is the vendor organisation (anthropics).
+  checked_on: null
+  notes: Detailed review still pending in the v1.16 catalogue.
+license:
+  spdx: NOASSERTION
+  class: unknown
+  notes: Not yet recorded. Licenses may differ per skill - check each skill folder.
+platforms:
+  hosts: [unknown]
+  os: [unknown]
+risk:
+  level: unassessed
+  flags: []
+health:
+  status: unknown
+  last_commit: null
+  latest_release: null
+  checked_on: null
+# relations syntax (targets must exist as records):
+# relations:
+#   - {type: alternative-to, id: some-other-record-id}
+dates:
+  record_created: "2026-11-13"
+  last_verified: null

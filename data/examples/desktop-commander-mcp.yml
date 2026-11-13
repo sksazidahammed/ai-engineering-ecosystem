@@ -1,0 +1,33 @@
+id: desktop-commander-mcp
+name: Desktop Commander MCP
+summary: MCP server that gives an AI client filesystem and terminal access on the local desktop.
+url: https://github.com/wonderwhy-er/DesktopCommanderMCP
+category: research-browser-and-computer-use
+subcategory: desktop-and-device-automation
+secondary_categories: [models-inference-and-gateways]
+resource_type: mcp-server
+tags: [mcp, terminal, filesystem]
+lifecycle: [build, operate]
+source_class: community
+verification:
+  status: pending
+  method: Listed under "official source" in catalogue v1.16; identity check not recorded.
+  checked_on: null
+license:
+  spdx: NOASSERTION
+  class: unknown
+platforms:
+  hosts: [any-mcp-client]
+  os: [unknown]
+risk:
+  level: high
+  flags: [shell-access, filesystem-access, executes-code]
+  notes: Restrict filesystem roots and shell access, review every command, and keep sensitive files and long-lived credentials out of reach.
+health:
+  status: unknown
+  last_commit: null
+  latest_release: null
+  checked_on: null
+dates:
+  record_created: "2026-11-13"
+  last_verified: null

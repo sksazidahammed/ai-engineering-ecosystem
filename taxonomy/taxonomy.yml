@@ -1,0 +1,146 @@
+# Single source of truth for categories and subcategories.
+# Rules:
+#  1. Primary category = the main JOB the thing does for its user (not what it is made of).
+#  2. Resource type (skill, MCP server, CLI, ...) is a FACET in the record, never a category.
+#  3. If a record genuinely fits two places, pick one primary and list up to 2 in `secondary_categories`.
+#  4. Folders/pages are generated from this file; never hand-create a category elsewhere.
+version: 1
+categories:
+  - id: agent-harnesses-and-runtimes
+    number: "01"
+    name: Agent harnesses and runtimes
+    description: The agent itself - the CLI, desktop app, SDK or framework that runs a single coding/general agent.
+    replaces: [Coding agent CLIs and harnesses, Local AI and agent applications (agent apps only)]
+    subcategories:
+      - {id: coding-agent-clis, name: Coding agent CLIs}
+      - {id: desktop-and-mobile-agent-apps, name: Desktop and mobile agent apps}
+      - {id: agent-frameworks-and-sdks, name: Agent frameworks and SDKs}
+      - {id: agent-research-harnesses, name: Research harnesses}
+  - id: multi-agent-orchestration
+    number: "02"
+    name: Multi-agent orchestration and workspaces
+    description: Tools that coordinate, supervise, parallelise or monitor several agents.
+    replaces: [Agent frameworks and orchestration, Agent workspaces and orchestration]
+    subcategories:
+      - {id: agent-workspaces, name: Agent workspaces}
+      - {id: orchestration-layers, name: Orchestration layers}
+      - {id: agent-work-management, name: Agent work management}
+      - {id: supervision-and-monitoring, name: Supervision and monitoring}
+      - {id: parallel-work-tooling, name: Parallel-work tooling (worktrees etc.)}
+      - {id: swarm-simulation, name: Swarm simulation}
+  - id: skills-plugins-and-instructions
+    number: "03"
+    name: Skills, plugins and agent instructions
+    description: Reusable skill packs, plugin marketplaces, specs/installers, and tools for authoring or optimising skills.
+    replaces: [Coding and development, Skill engineering and agent instructions]
+    subcategories:
+      - {id: skill-collections, name: Skill collections}
+      - {id: skill-specs-and-installers, name: Skill specs and installers}
+      - {id: plugin-marketplaces, name: Plugin marketplaces}
+      - {id: skill-authoring-and-optimization, name: Skill authoring and optimisation}
+      - {id: instruction-and-style-packs, name: Instruction and style packs}
+  - id: spec-driven-development-and-planning
+    number: "04"
+    name: Spec-driven development and planning
+    description: Requirements, specifications, task planning and end-to-end AI development methodologies.
+    replaces: [Spec-driven development and planning]
+    subcategories:
+      - {id: spec-frameworks, name: Spec frameworks}
+      - {id: task-planning, name: Task planning}
+      - {id: methodologies-and-workflows, name: Methodologies and workflows}
+      - {id: agentic-ides, name: Agentic IDEs}
+  - id: context-memory-and-code-intelligence
+    number: "05"
+    name: Context, memory and code intelligence
+    description: Giving agents the right context cheaply - memory, compression, code graphs, context packing.
+    replaces: [Code intelligence and context engineering]
+    subcategories:
+      - {id: agent-memory, name: Agent memory}
+      - {id: context-compression-and-token-efficiency, name: Context compression and token efficiency}
+      - {id: code-knowledge-graphs, name: Code knowledge graphs}
+      - {id: context-packing, name: Context packing}
+  - id: security-and-guardrails
+    number: "06"
+    name: Security and guardrails
+    description: Security review, pentesting, reverse engineering, LLM red-teaming and agent safety controls.
+    replaces: [Cybersecurity and security auditing, Security review and agent guardrails]
+    subcategories:
+      - {id: code-security-review, name: Code security review}
+      - {id: offensive-security-and-pentest, name: Offensive security and pentest (authorised use)}
+      - {id: reverse-engineering, name: Reverse engineering}
+      - {id: llm-red-teaming, name: LLM red-teaming}
+      - {id: agent-safety-guardrails, name: Agent safety guardrails}
+      - {id: security-libraries, name: Security and crypto libraries}
+  - id: research-browser-and-computer-use
+    number: "07"
+    name: Research, browser and computer use
+    description: Web research and retrieval, browser automation, and desktop/device control by agents.
+    replaces: [Research and intelligence, Web research and browser automation, Media/device/mobile automation (device part)]
+    subcategories:
+      - {id: web-research-and-retrieval, name: Web research and retrieval}
+      - {id: research-synthesis, name: Research synthesis}
+      - {id: browser-automation, name: Browser automation}
+      - {id: desktop-and-device-automation, name: Desktop and device automation}
+  - id: design-ui-and-visualization
+    number: "08"
+    name: Design, UI and visualization
+    description: Interface design skills, design systems, UI frameworks, icons, diagrams, charts and presentations.
+    replaces: [Design and frontend, Design engineering and visualization]
+    subcategories:
+      - {id: design-skills-and-critique, name: Design skills and critique}
+      - {id: design-systems-and-formats, name: Design systems and formats}
+      - {id: ui-frameworks-and-icons, name: UI frameworks and icons}
+      - {id: diagrams-charts-and-presentations, name: Diagrams, charts and presentations}
+  - id: media-writing-and-content
+    number: "09"
+    name: Media, writing and content
+    description: Video, animation, audio/speech, writing, editing and marketing content tooling.
+    replaces: [Writing and content, Media, audio and video, Media/device/mobile automation (media part)]
+    subcategories:
+      - {id: video-and-animation, name: Video and animation}
+      - {id: audio-and-speech, name: Audio and speech}
+      - {id: writing-and-editing, name: Writing and editing}
+      - {id: marketing-and-growth, name: Marketing and growth}
+  - id: models-inference-and-gateways
+    number: "10"
+    name: Models, inference and gateways
+    description: Local inference runtimes, LLM gateways/routers, provider directories and auth/integration proxies.
+    replaces: [Model infrastructure and gateways, Model gateways and agent integrations, Local AI and agent applications (inference part)]
+    subcategories:
+      - {id: local-inference, name: Local inference}
+      - {id: llm-gateways-and-routing, name: LLM gateways and routing}
+      - {id: provider-directories, name: Provider and free-tier directories}
+      - {id: auth-and-integration-proxies, name: Auth and integration proxies}
+  - id: data-backend-and-infrastructure
+    number: "11"
+    name: Data, backend and infrastructure
+    description: Data ingestion, databases, backend platforms, messaging, integration platforms and cloud agent toolkits.
+    replaces: [Data platforms and infrastructure]
+    subcategories:
+      - {id: data-ingestion, name: Data ingestion}
+      - {id: databases, name: Databases}
+      - {id: backend-platforms, name: Backend platforms}
+      - {id: messaging-and-streaming, name: Messaging and streaming}
+      - {id: integration-platforms, name: Integration platforms}
+      - {id: cloud-agent-toolkits, name: Cloud agent toolkits}
+  - id: learning-and-reference
+    number: "12"
+    name: Learning and reference
+    description: Curated directories, example collections, principles/guides, terminology and papers. Not installable tools.
+    replaces: [AI project collections, AI engineering reference and learning]
+    subcategories:
+      - {id: curated-directories, name: Curated directories}
+      - {id: example-collections, name: Example collections}
+      - {id: principles-and-guides, name: Principles and guides}
+      - {id: terminology-and-papers, name: Terminology and papers}
+  - id: applications-and-utilities
+    number: "13"
+    name: Applications and utilities
+    description: "End-user AI applications and general utilities. SCOPE RULE: keep only if AI-related or directly usable by agents; otherwise out of scope."
+    replaces: [Productivity and workflows, Networking and system utilities]
+    subcategories:
+      - {id: ai-powered-applications, name: AI-powered applications}
+      - {id: knowledge-platforms, name: Knowledge platforms}
+      - {id: file-and-transfer-utilities, name: File and transfer utilities}
+      - {id: networking-utilities, name: Networking utilities}
+      - {id: business-tools, name: Business tools}
