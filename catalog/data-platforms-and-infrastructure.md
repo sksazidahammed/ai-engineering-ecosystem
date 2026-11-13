@@ -8,6 +8,8 @@
 | ingestr | CLI and Python library for data ingestion between sources and destinations | [bruin-data/ingestr](https://github.com/bruin-data/ingestr) | FSL-1.1-ALv2; Apache-2.0 future grant after two years |
 | HydraDB | Distributed graph database built on S3-compatible object storage | [hydra-db/hydradb](https://github.com/hydra-db/hydradb) | Elastic License 2.0; hosted-service restrictions apply |
 | Nhost | Open-source backend platform / Firebase alternative | [nhost/nhost](https://github.com/nhost/nhost) | MIT repository license; hosted and self-hosted operations differ |
+| FastStream | Asynchronous event-driven Python framework for Kafka, RabbitMQ, NATS, Redis and MQTT | [ag2ai/faststream](https://github.com/ag2ai/faststream) | README reviewed; verify broker/version compatibility and current license |
+
 
 ## ingestr
 
@@ -58,6 +60,20 @@
 - **Security:** GraphQL permissions, authentication configuration, storage access rules, database credentials, secrets and MCP tool permissions must be reviewed carefully. Do not give an agent broad production mutation access by default.
 
 - **Assessment:** Useful for building full-stack applications without assembling every backend service independently. Compare hosted limits and operational costs against self-hosting requirements before choosing it.
+
+## FastStream
+
+- **Project link:** [Official source](https://github.com/ag2ai/faststream)
+
+- **Type / Classification:** Asynchronous Python framework for event-driven applications.
+
+- **Purpose:** Provides a FastAPI-like developer experience for message brokers including Kafka, RabbitMQ, NATS, Redis and MQTT, with decorators, type-driven validation, dependency injection and generated documentation.
+
+- **Workflow / Requirements:** Python package with broker-specific integrations; use the official documentation to confirm supported broker versions, installation extras and deployment requirements.
+
+- **License / Cost:** Review the current upstream LICENSE. Broker infrastructure and hosted services may have separate costs.
+
+- **Assessment:** Useful backend infrastructure for event-driven systems and agent pipelines, but it is not itself an AI agent or orchestration framework.
 
 ## 📝 Note For Reader
 
