@@ -144,25 +144,19 @@
 
 - **Project link:** [Official source](https://github.com/ColeMurray/background-agents)
 
-- **Type / Classification:** Background coding-agent orchestration.
+- **Type / Classification:** Open-source background coding-agent system (Open-Inspect).
 
-- **Purpose:** Repository identity was not confirmed through the available README fetch; retained as a discovery candidate based on the submitted canonical URL.
+- **Purpose:** Runs coding tasks in hosted development environments and connects sessions to a web UI, Slack, GitHub pull requests, Linear issues and webhooks. It supports parallel child sessions, scheduled/event-driven automations and shared team collaboration.
 
-- **Workflow / Requirements:** README fetch was unavailable in this intake; do not infer implementation details from the name.
+- **Workflow / Architecture:** README describes a Cloudflare Workers/Durable Objects control plane, web client, sandbox runtime and selectable sandbox backends. Sandboxes include Node.js, Python, Git, browser automation and optional browser-based VS Code.
 
-- **License / Cost / Status:** Verification pending; confirm repository existence, purpose and license before relying on it.
+- **License:** MIT, stated in the upstream README.
 
-## LoopX
+- **Security / Privacy:** Upstream explicitly describes a single-tenant trusted-organization security model. Users share the GitHub App installation's repository access; the system does not validate per-user access to each repository before session creation. Deploy behind SSO/VPN, restrict the GitHub App to selected repositories, and review OAuth/token handling before use.
 
-- **Project link:** [Official source](https://github.com/huangruiteng/loopx)
+- **Assessment:** Useful for persistent background agent work and team workflows, but the documented single-tenant trust assumptions make it unsuitable as-is for an untrusted multi-tenant service.
 
-- **Type / Classification:** Agent orchestration candidate.
-
-- **Purpose:** Repository identity was not confirmed through the available README fetch; retained as an unresolved candidate.
-
-- **Workflow / Requirements:** README fetch was unavailable in this intake; project function is not asserted.
-
-- **License / Cost / Status:** Verification pending; distinguish from other projects with similar names.
+NaN
 
 ## Ouroboros (razzant)
 
