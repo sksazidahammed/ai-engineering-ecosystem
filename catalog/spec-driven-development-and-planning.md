@@ -10,7 +10,6 @@
 | Ouroboros (Q00) | Spec-first self-improving coding agent | [Q00/ouroboros](https://github.com/Q00/ouroboros) | MIT stated in README |
 | Claude Task Master | AI-assisted task decomposition and project tracking | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | Check current package and service terms |
 | Kiro | Spec-driven AI development environment | [kiro.dev](https://kiro.dev) | Hosted product terms, availability and pricing should be checked on the official site. |
-| Tessl | Specification and context platform for AI-assisted development | [tessl.io](https://tessl.io) | Hosted pricing, data handling and current feature scope require direct product review. |
 
 ## GitHub Spec Kit
 
@@ -73,22 +72,6 @@
 - **License / Cost:** Hosted/commercial product; current plans, limits and availability should be checked on the official pricing page.
 
 - **Assessment:** A complete product workflow for teams that want spec-first development integrated into their coding environment; it is not merely a repository template.
-
-## Tessl
-
-- **Project link:** [Official Tessl platform](https://tessl.io/)
-
-- **Type / Classification:** Agent-enablement platform and package manager for skills, plugins and other agent context.
-
-- **Purpose:** Provides a registry, versioning, install/update workflow, governance, security scanning, skill reviews, scenario evaluations and observability for agent skills and plugins across an organization.
-
-- **Workflow / Requirements:** The CLI initializes an existing repository and configures supported agents including Claude Code, Cursor, Codex, Gemini CLI and GitHub Copilot. Official documentation lists Node.js 22.17.0+ and macOS, Linux and Windows support.
-
-- **License / Cost:** Hosted service with a free tier and credit-based paid plans. The official pricing page currently lists 1,000 monthly credits on Free and a Team plan; credits and prices are volatile and should be checked before adoption. Publishing and installing skills are described as free.
-
-- **Security / Limitations:** Tessl provides skill/plugin scanning and governance controls, but its findings do not guarantee that a skill is safe. Review permissions, MCP servers, hooks and third-party content before installation.
-
-- **Assessment:** More than a skill directory: it manages the lifecycle, quality checks and organizational distribution of agent context.
 
 ## 📝 Note For Reader
 
