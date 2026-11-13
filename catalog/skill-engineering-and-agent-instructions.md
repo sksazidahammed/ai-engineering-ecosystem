@@ -11,6 +11,8 @@
 | agents-best-practices | Provider-neutral agent-harness design skill | [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | MIT stated in README |
 | benjamin-plus | Token-efficiency skill for coding agents | [JetBrains/benjamin-plus-skill](https://github.com/JetBrains/benjamin-plus-skill) | Upstream reports token/cost reductions |
 | OpenSpace | Skill-building / agent capability research candidate | [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) | Repository README could not be fetched; verification pending |
+| Claude Code Templates | Installable catalogue of Claude Code agents, commands, hooks, plugins and templates | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | MIT stated in README; component compatibility varies |
+
 
 ## book-to-skill
 
@@ -83,6 +85,20 @@
 - **Verification status:** README retrieval failed through the connected GitHub source. No capabilities, requirements or license are asserted until the repository can be inspected.
 
 - **Assessment:** Retained as a verification-pending discovery record rather than excluded or described by guesswork.
+
+## Claude Code Templates
+
+- **Project link:** [Official source](https://github.com/davila7/claude-code-templates)
+
+- **Type / Classification:** Installable catalogue and CLI for Claude Code components.
+
+- **Purpose:** Collects and distributes Claude Code agents, commands, hooks, plugins and related configuration templates.
+
+- **Workflow / Requirements:** README describes an npm CLI for browsing and installing selected components, with a companion web catalogue and documentation.
+
+- **License / Cost:** MIT stated in README; individual third-party dependencies and external services may have separate terms.
+
+- **Security / Limitations:** Components can add executable hooks, tools and agent permissions. Inspect each component and its source before installing it into a sensitive project.
 
 ## 📝 Note For Reader
 
