@@ -12,6 +12,8 @@
 | Claude Cookbooks | Official Anthropic developer examples | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | API use may incur charges |
 | AI Coding Dictionary | AI coding terminology reference | [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) | Reference material, not an executable tool |
 | FastStream | Asynchronous event-driven Python framework | [ag2ai/faststream](https://github.com/ag2ai/faststream) | Not an agent framework |
+| StoryScope paper | Research paper referenced by Sepia | [arXiv:2604.03136](https://arxiv.org/abs/2604.03136) | Research reference; not a software repository |
+
 
 ## Awesome Claude Skills
 
@@ -96,6 +98,18 @@
 - **Workflow / Requirements:** README describes a FastAPI-like developer experience, Python package distribution and broker integrations.
 
 - **License / Cost / Status:** Not an agent framework; classify as general backend/event infrastructure. Check its current license and broker-specific requirements.
+
+## StoryScope paper
+
+- **Project link:** [Primary research source](https://arxiv.org/abs/2604.03136)
+
+- **Type / Classification:** Research paper / technical reference.
+
+- **Purpose:** A research source cited by the submitted Sepia project; included as background reading rather than an installable tool.
+
+- **Usage:** Read the paper directly to understand the research context; do not treat the paper citation as proof that Sepia's implementation reproduces its findings.
+
+- **License / Status:** Repository-style software licensing does not apply; check the paper's own distribution and citation terms.
 
 ## 📝 Note For Reader
 
