@@ -53,6 +53,8 @@
 
 - **Assessment:** Useful when selecting individual, focused engineering workflows rather than adopting a single large agent framework.
 
+- **Submitted sub-skills:** [grill-with-docs](https://github.com/mattpocock/skills/tree/main/skills/engineering/grill-with-docs), [prototype](https://github.com/mattpocock/skills/tree/main/skills/engineering/prototype), [wayfinder](https://github.com/mattpocock/skills/tree/main/skills/engineering/wayfinder), and [writing-for-agents](https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md) are paths within this same repository, not separate repository records.
+
 ## Everything Claude Code (ECC)
 
 - **Project link:** [Official source](https://github.com/affaan-m/ECC)
