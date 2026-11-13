@@ -1,3 +1,19 @@
+## Version 1.16 — 2026-11-13 18:24 IST (UTC+05:30)
+
+### Added
+- Processed the submitted 17-section resource collection from the original Markdown source, extracting 112 unique URLs and distinguishing repositories, subdirectories, hosted products, papers, curator references and discovery channels.
+- Added 11 navigable category pages covering skill engineering, spec-driven development, code intelligence/context engineering, coding-agent CLIs, agent workspaces/orchestration, web research/browser automation, security review/guardrails, model gateways/integrations, design engineering/visualization, media/device automation, and reference/learning resources.
+- Added 74 new distinct catalogue records after reconciling submitted URLs against the existing master catalogue. Existing repositories and subdirectory links were not duplicated.
+- Preserved unresolved candidates such as HKUDS/OpenSpace, ColeMurray/background-agents and huangruiteng/loopx with verification-pending status rather than inventing descriptions.
+- Distinguished the two unrelated repositories named Ouroboros and documented the archived status of MoonshotAI/kimi-cli and its upstream successor.
+
+### Research and editorial notes
+- Official README files were fetched for the repositories that could be accessed through the connected GitHub source. Claims and benchmarks remain attributed to upstream.
+- No hands-on installation, functional, performance, security or legal testing was performed.
+- Subdirectory links under mattpocock/skills and anthropics/skills are treated as components of their parent repositories, not separate repositories.
+- License statements are recorded only where visible in upstream README material; unresolved license details remain caveated for direct LICENSE review.
+- Curator and Telegram links are classified as discovery references, not installable tools. The arXiv paper is treated as research material, not a software repository.
+
 # Changelog
 
 All notable directory changes are recorded here. Dates and times use India Standard Time (IST, UTC+05:30).
