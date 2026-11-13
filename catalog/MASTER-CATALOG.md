@@ -86,7 +86,6 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Hex | Local voice-dictation desktop application | [anomalyco/hex](https://github.com/anomalyco/hex) | License not confirmed in this intake |
 | DSH Go | Android client for DeepSeek Harness | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | AGPL-3.0 stated upstream |
 | Agent Desktop | Accessibility-tree-based desktop automation CLI/library | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Apache-2.0 stated upstream |
-| Agent Browser | Browser automation CLI for AI agents | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Apache-2.0 stated upstream |
 
 | Kimi K3 in C | Experimental C99 inference implementation; very large checkpoint | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | Apache-2.0 code; 1.56 TB checkpoint and performance claims unverified |
 ## Networking and system utilities
@@ -268,6 +267,7 @@ The type labels above are provisional unless the row is explicitly verified. A l
 | Ego Lite | Browser for AI-agent automation | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | Review browser profile isolation, cookies and authenticated session access before use. |
 | Chrome DevTools MCP | Chrome debugging and automation MCP/CLI | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Upstream explicitly warns that browser content and data are exposed to MCP clients. Do not use with sensitive sessions. |
 | NotebookLM Python | Unofficial NotebookLM/Gemini Notebook API and CLI | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | MIT stated in README |
+| Agent Browser | Browser automation CLI for AI agents | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Apache-2.0 stated upstream |
 
 ## Security Review and Agent Guardrails
 
