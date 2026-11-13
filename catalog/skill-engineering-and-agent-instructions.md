@@ -12,7 +12,6 @@
 | benjamin-plus | Token-efficiency skill for coding agents | [JetBrains/benjamin-plus-skill](https://github.com/JetBrains/benjamin-plus-skill) | Upstream reports token/cost reductions |
 | OpenSpace | Skill-building / agent capability research candidate | [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) | Repository README could not be fetched; verification pending |
 
-
 ## book-to-skill
 
 - **Project link:** [Official source](https://github.com/virgiliojr94/book-to-skill)
@@ -49,18 +48,6 @@
 
 - **License / Cost / Status:** MIT stated in README; research results and performance claims require independent reproduction.
 
-## benjamin-plus
-
-- **Project link:** [Official source](https://github.com/JetBrains/benjamin-plus-skill)
-
-- **Type / Classification:** Token-efficiency skill for coding agents.
-
-- **Purpose:** Encourages efficient repository reconnaissance, bounded file reads, batched environment checks and sensible polling.
-
-- **Workflow / Requirements:** Distributed as an agent skill; detailed rules are in the repository's RULESET.md.
-
-- **License / Cost / Status:** Upstream reports token/cost reductions; treat them as maintainer measurements, not independent benchmarks.
-
 ## agents-best-practices
 
 - **Project link:** [Official source](https://github.com/DenisSergeevitch/agents-best-practices)
@@ -72,6 +59,18 @@
 - **Workflow / Requirements:** README identifies a portable Agent Skill compatible with Codex and Claude Code.
 
 - **License / Cost / Status:** MIT stated upstream; examples are guidance, not a substitute for threat modelling or policy controls.
+
+## benjamin-plus
+
+- **Project link:** [Official source](https://github.com/JetBrains/benjamin-plus-skill)
+
+- **Type / Classification:** Token-efficiency skill for coding agents.
+
+- **Purpose:** Encourages efficient repository reconnaissance, bounded file reads, batched environment checks and sensible polling.
+
+- **Workflow / Requirements:** Distributed as an agent skill; detailed rules are in the repository's RULESET.md.
+
+- **License / Cost / Status:** Upstream reports token/cost reductions; treat them as maintainer measurements, not independent benchmarks.
 
 ## OpenSpace
 
