@@ -11,6 +11,8 @@
 | Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |
 | Sepia | Agent skill for structural and venue-aware rewriting of AI-generated text | [Nanako0129/sepia](https://github.com/Nanako0129/sepia) | MIT stated in README; evaluation claims are upstream-reported |
 
+| Deslop | Deletion-first code-cleanup skill for agent-maintained repositories | [MrZoyo/deslop-GPT](https://github.com/MrZoyo/deslop-GPT) | MIT stated in README; read-only by default |
+
 
 ## Humanizer
 
@@ -67,6 +69,20 @@
 - **Limitations:** Behavioral evaluation and quality claims are upstream-reported. Human review remains necessary, especially for factual, legal, technical or attributed writing.
 
 - **Research reference:** The project cites the StoryScope paper; see the research reference in the AI Engineering Reference and Learning category.
+
+## Deslop
+
+- **Project link:** [Official source](https://github.com/MrZoyo/deslop-GPT)
+
+- **Type / Classification:** Deletion-first Agent Skill for evidence-backed code cleanup.
+
+- **Purpose:** Audits complexity accumulated through repeated coding-agent changes and identifies redundant tests, duplicate checks and unnecessary fallback layers while aiming to preserve actual behavior.
+
+- **Workflow / Safety:** README describes a read-only-by-default workflow; removal is intended to occur only when explicitly authorized and supported by evidence.
+
+- **License / Cost:** MIT stated in README.
+
+- **Limitations:** Treat cleanup proposals as hypotheses. Run the project's tests and relevant behavioral checks after every authorized deletion; do not equate fewer lines or tests with better software.
 
 ## 📝 Note For Reader
 
