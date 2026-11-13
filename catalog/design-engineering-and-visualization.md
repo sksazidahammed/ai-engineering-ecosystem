@@ -9,7 +9,6 @@
 | UI Skills | Design-engineering skill registry | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | MIT stated in README |
 | Stitch Design Skills | Google Stitch agent-skill and plugin collection | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | Check each plugin's current permissions and license |
 | Flint Chart | Agent-oriented visualization language and MCP server | [microsoft/flint-chart](https://github.com/microsoft/flint-chart) | MIT stated in README |
-| Taste Skill | Design-focused agent skill | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | Do not confuse the skill repository with the separately presented desktop product |
 
 ## DESIGN.md
 
@@ -58,18 +57,6 @@
 - **Workflow / Requirements:** README describes an npm library and MCP server, plus a research paper.
 
 - **License / Cost / Status:** MIT stated in README; validate generated chart semantics, accessibility and numerical accuracy.
-
-## Taste Skill
-
-- **Project link:** [Official source](https://github.com/Leonxlnx/taste-skill)
-
-- **Type / Classification:** Design-focused agent skill.
-
-- **Purpose:** Provides design guidance for creating more distinctive websites and interfaces; upstream also advertises a desktop app named TasteCode.
-
-- **Workflow / Requirements:** README links official project sites and states MIT licensing.
-
-- **License / Cost / Status:** Do not confuse the skill repository with the separately presented desktop product; assess generated UI rather than relying on marketing examples.
 
 ## 📝 Note For Reader
 
