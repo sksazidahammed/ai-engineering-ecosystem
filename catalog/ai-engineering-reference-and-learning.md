@@ -11,7 +11,6 @@
 | 12-Factor Agents | Principles and reference material for reliable agents | [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | Code is Apache-2.0 and written content CC BY-SA 4.0 according to README |
 | Claude Cookbooks | Official Anthropic developer examples | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | API use may incur charges |
 | AI Coding Dictionary | AI coding terminology reference | [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) | Reference material, not an executable tool |
-| FastStream | Asynchronous event-driven Python framework | [ag2ai/faststream](https://github.com/ag2ai/faststream) | Not an agent framework |
 | StoryScope paper | Research paper referenced by Sepia | [arXiv:2604.03136](https://arxiv.org/abs/2604.03136) | Research reference; not a software repository |
 
 
@@ -86,18 +85,6 @@
 - **Workflow / Requirements:** README links a public dictionary website; repository marks its README as generated from source content.
 
 - **License / Cost / Status:** Reference material, not an executable tool; check the source project for contribution and content licensing details.
-
-## FastStream
-
-- **Project link:** [Official source](https://github.com/ag2ai/faststream)
-
-- **Type / Classification:** Asynchronous event-driven Python framework.
-
-- **Purpose:** Builds event-driven applications using familiar Python patterns with brokers such as Kafka, RabbitMQ, NATS, Redis and MQTT.
-
-- **Workflow / Requirements:** README describes a FastAPI-like developer experience, Python package distribution and broker integrations.
-
-- **License / Cost / Status:** Not an agent framework; classify as general backend/event infrastructure. Check its current license and broker-specific requirements.
 
 ## StoryScope paper
 
