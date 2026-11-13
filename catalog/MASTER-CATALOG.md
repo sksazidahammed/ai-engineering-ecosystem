@@ -209,8 +209,8 @@ The type labels above are provisional unless the row is explicitly verified. A l
 | OpenSpec | Change-centric specification framework | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | MIT stated in README |
 | Ouroboros (Q00) | Spec-first self-improving coding agent | [Q00/ouroboros](https://github.com/Q00/ouroboros) | MIT stated in README |
 | Claude Task Master | AI-assisted task decomposition and project tracking | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | Check current package and service terms |
-| Kiro | Spec-driven AI development environment | [kiro.dev](https://kiro.dev) | Hosted product terms, availability and pricing should be checked on the official site. |
-| Tessl | Specification and context platform for AI-assisted development | [tessl.io](https://tessl.io) | Hosted pricing, data handling and current feature scope require direct product review. |
+| Kiro | Agentic AI development environment with spec-driven IDE, CLI, web and mobile surfaces | [kiro.dev](https://kiro.dev) | Official product documentation reviewed; hosted plans and limits may change |
+| Tessl | Agent-enablement platform and package manager for skills/plugins, governance and evaluations | [tessl.io](https://tessl.io) | Official docs and pricing reviewed; credit plans are volatile |
 
 ## Code Intelligence and Context Engineering
 
@@ -255,8 +255,8 @@ The type labels above are provisional unless the row is explicitly verified. A l
 | OpenWork | Open-source desktop workspace for agents | [different-ai/openwork](https://github.com/different-ai/openwork) | MIT stated for desktop app |
 | cc-haha | Claude Code desktop and mobile workspace | [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | Community Source license badge |
 | jcode | Parallel coding-agent runtime | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Treat throughput and resource-efficiency claims as upstream claims until independently benchmarked. |
-| Background Agents | Background coding-agent orchestration | [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents) | Verification pending |
-| LoopX | Agent orchestration candidate | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | Verification pending |
+| Background Agents | Hosted background coding-agent system with sandboxed sessions, team integrations and automations | [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents) | README reviewed; single-tenant trust model is a material constraint |
+| LoopX | Provider-neutral stateful control plane for long-horizon agent work | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | README reviewed; license requires direct confirmation |
 | Ouroboros (razzant) | Self-evolving general-purpose agent and desktop/CLI runtime | [razzant/ouroboros](https://github.com/razzant/ouroboros) | MIT stated upstream; distinct from Q00/ouroboros |
 
 ## Web Research and Browser Automation
