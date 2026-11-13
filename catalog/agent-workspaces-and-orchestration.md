@@ -15,8 +15,8 @@
 | OpenWork | Open-source desktop workspace for agents | [different-ai/openwork](https://github.com/different-ai/openwork) | MIT stated for desktop app |
 | cc-haha | Claude Code desktop and mobile workspace | [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | Community Source license badge |
 | jcode | Parallel coding-agent runtime | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Treat throughput and resource-efficiency claims as upstream claims until independently benchmarked. |
-| Background Agents | Background coding-agent orchestration | [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents) | Verification pending |
-| LoopX | Agent orchestration candidate | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | Verification pending |
+| Background Agents | Hosted background coding-agent system with sandboxed sessions, team integrations and automations | [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents) | README reviewed; single-tenant trust model is a material constraint |
+| LoopX | Provider-neutral stateful control plane for long-horizon agent work | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | README reviewed; license requires direct confirmation |
 | Ouroboros (razzant) | Self-evolving general-purpose agent and desktop/CLI runtime | [razzant/ouroboros](https://github.com/razzant/ouroboros) | MIT stated in README; distinct from Q00/ouroboros |
 
 
@@ -156,7 +156,24 @@
 
 - **Assessment:** Useful for persistent background agent work and team workflows, but the documented single-tenant trust assumptions make it unsuitable as-is for an untrusted multi-tenant service.
 
-NaN
+
+## LoopX
+
+- **Project link:** [Official source](https://github.com/huangruiteng/loopx)
+
+- **Type / Classification:** Provider-neutral, stateful control plane for long-horizon agents.
+
+- **Purpose:** Preserves objectives, gates, todos, evidence, quotas and handoffs across turns, sessions and agent harnesses. It governs the state of long-running work rather than replacing the underlying coding agent.
+
+- **Workflow / Requirements:** README describes a local-first CLI and personal workspace, with Python 3.11+ and Node.js 22.18+ requirements. It integrates with Codex, Claude Code, Cursor and other agent harnesses.
+
+- **Capabilities:** Supports durable goal state, typed task ownership/leases, evidence-backed writeback, quota-aware scheduling, recovery and human approval gates.
+
+- **License / Cost:** License was not confirmed from the retrieved README; inspect the upstream LICENSE before reuse. Provider/model usage remains separate.
+
+- **Security / Limitations:** Upstream emphasizes that LoopX is not an autonomous production controller and does not grant credentials or approve destructive actions. Keep .loopx/, live goal state, private logs and credentials out of public commits.
+
+- **Assessment:** Relevant to multi-day engineering, research and operations work where state, evidence, ownership and review must survive across agent sessions.
 
 ## Ouroboros (razzant)
 
