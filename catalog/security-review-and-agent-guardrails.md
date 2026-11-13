@@ -15,7 +15,6 @@
 | Destructive Command Guard | Pre-execution destructive-command guard | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | Custom license stated upstream |
 | React Doctor | Deterministic React project auditor | [millionco/react-doctor](https://github.com/millionco/react-doctor) | Check the current package license and rule behavior |
 | tuicr | Terminal code-review interface | [agavra/tuicr](https://github.com/agavra/tuicr) | Review tokens and permissions before connecting hosted repositories |
-| Mindwalk | Coding-agent session forensics visualizer | [cosmtrek/mindwalk](https://github.com/cosmtrek/mindwalk) | Do not treat visualized activity as proof of correctness |
 
 ## Strix
 
@@ -136,18 +135,6 @@
 - **Workflow / Requirements:** README documents shell, Homebrew, Cargo, Nix and other installation routes.
 
 - **License / Cost / Status:** Review tokens and permissions before connecting hosted repositories; inspect current LICENSE.
-
-## Mindwalk
-
-- **Project link:** [Official source](https://github.com/cosmtrek/mindwalk)
-
-- **Type / Classification:** Coding-agent session forensics visualizer.
-
-- **Purpose:** Visualizes where an agent explored, read and edited a repository by replaying session logs on a 3D codebase map.
-
-- **Workflow / Requirements:** Local visualization reads session logs; optional session evaluation sends a summary to the user's configured model CLI.
-
-- **License / Cost / Status:** Do not treat visualized activity as proof of correctness; optional evaluation has an external model data flow.
 
 ## 📝 Note For Reader
 
