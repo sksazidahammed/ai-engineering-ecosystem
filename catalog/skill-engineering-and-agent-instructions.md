@@ -48,18 +48,6 @@
 
 - **License / Cost / Status:** MIT stated in README; research results and performance claims require independent reproduction.
 
-## agents-best-practices
-
-- **Project link:** [Official source](https://github.com/DenisSergeevitch/agents-best-practices)
-
-- **Type / Classification:** Provider-neutral agent-harness design skill.
-
-- **Purpose:** A reusable skill for designing, auditing, refactoring and explaining reliable agent harnesses across domains.
-
-- **Workflow / Requirements:** README documents installation through the Skills CLI or manual skill directories for Codex and Claude Code.
-
-- **License / Cost / Status:** MIT stated in README; generated architectures still need security and operational review.
-
 ## benjamin-plus
 
 - **Project link:** [Official source](https://github.com/JetBrains/benjamin-plus-skill)
