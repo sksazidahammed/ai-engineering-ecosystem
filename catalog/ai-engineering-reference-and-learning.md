@@ -105,7 +105,9 @@
 
 - **Type / Classification:** Research paper / technical reference.
 
-- **Purpose:** A research source cited by the submitted Sepia project; included as background reading rather than an installable tool.
+- **Purpose:** The paper investigates whether AI-generated fiction can be distinguished from human-written fiction using discourse-level narrative features rather than surface writing style. It introduces a StoryScope pipeline that analyzes features such as character agency and chronological structure.
+
+- **Relationship to Sepia:** Sepia cites this paper as research context; the citation does not establish that Sepia reproduces or validates the paper's methods or findings.
 
 - **Usage:** Read the paper directly to understand the research context; do not treat the paper citation as proof that Sepia's implementation reproduces its findings.
 
