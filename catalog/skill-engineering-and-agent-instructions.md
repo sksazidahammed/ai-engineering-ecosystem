@@ -10,9 +10,6 @@
 | SkillOpt | Research framework for optimizing agent skills | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | MIT stated in README |
 | agents-best-practices | Provider-neutral agent-harness design skill | [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | MIT stated in README |
 | benjamin-plus | Token-efficiency skill for coding agents | [JetBrains/benjamin-plus-skill](https://github.com/JetBrains/benjamin-plus-skill) | Upstream reports token/cost reductions |
-| writing-for-agents | Sub-skill: writing-for-agents | [mattpocock/skills](https://github.com/mattpocock/skills) | Use the parent repository's installation and license information |
-| wayfinder | Sub-skill: Wayfinder | [mattpocock/skills](https://github.com/mattpocock/skills) | Parent-repository license and install instructions apply |
-| grill-with-docs | Sub-skill: documentation-led requirements discovery | [mattpocock/skills](https://github.com/mattpocock/skills) | Not a separate repository record |
 | agents-best-practices | Agent design and harness guidance | [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | MIT stated upstream |
 
 ## book-to-skill
@@ -74,42 +71,6 @@
 - **Workflow / Requirements:** Distributed as an agent skill; detailed rules are in the repository's RULESET.md.
 
 - **License / Cost / Status:** Upstream reports token/cost reductions; treat them as maintainer measurements, not independent benchmarks.
-
-## writing-for-agents
-
-- **Project link:** [Official source](https://github.com/mattpocock/skills)
-
-- **Type / Classification:** Sub-skill: writing-for-agents.
-
-- **Purpose:** A skill within Matt Pocock's larger skills repository for writing content intended to be consumed by agents.
-
-- **Workflow / Requirements:** This is a file/subdirectory within the already-catalogued mattpocock/skills repository, not a separate repository record.
-
-- **License / Cost / Status:** Use the parent repository's installation and license information; do not count this path as a distinct project.
-
-## wayfinder
-
-- **Project link:** [Official source](https://github.com/mattpocock/skills)
-
-- **Type / Classification:** Sub-skill: Wayfinder.
-
-- **Purpose:** A spec/planning-oriented skill within Matt Pocock's larger engineering skills collection.
-
-- **Workflow / Requirements:** This is a subdirectory of the existing Matt Pocock Skills record, not an independent repository.
-
-- **License / Cost / Status:** Parent-repository license and install instructions apply; skill-specific behavior should be reviewed at the linked path.
-
-## grill-with-docs
-
-- **Project link:** [Official source](https://github.com/mattpocock/skills)
-
-- **Type / Classification:** Sub-skill: documentation-led requirements discovery.
-
-- **Purpose:** A skill in Matt Pocock Skills for interrogating and clarifying requirements before implementation.
-
-- **Workflow / Requirements:** The submitted URL points to a subdirectory of an existing repository; it is cross-listed conceptually under spec-driven development.
-
-- **License / Cost / Status:** Not a separate repository record; follow the parent project's current setup.
 
 ## agents-best-practices
 
