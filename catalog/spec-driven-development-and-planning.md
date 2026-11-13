@@ -62,27 +62,33 @@
 
 ## Kiro
 
-- **Project link:** [Official source](https://kiro.dev)
+- **Project link:** [Official Kiro product](https://kiro.dev/)
 
-- **Type / Classification:** Spec-driven AI development environment.
+- **Type / Classification:** Agentic AI development environment from AWS, available as an IDE, CLI, web interface and mobile app.
 
-- **Purpose:** An AWS development product that supports requirements/specification-led software development and agent-assisted implementation.
+- **Purpose:** Turns natural-language prompts into structured requirements, design and tasks, then uses agents to implement the resulting specification. It also supports agent hooks and background work.
 
-- **Workflow / Requirements:** Official product website; not a GitHub repository in the submitted list.
+- **Workflow / Integrations:** Kiro shares configuration and specifications across its IDE, CLI, web and mobile surfaces. Official documentation describes spec-driven development, bug-fix specifications and parallel agent work.
 
-- **License / Cost / Status:** Hosted product terms, availability and pricing should be checked on the official site.
+- **License / Cost:** Hosted/commercial product; current plans, limits and availability should be checked on the official pricing page.
+
+- **Assessment:** A complete product workflow for teams that want spec-first development integrated into their coding environment; it is not merely a repository template.
 
 ## Tessl
 
-- **Project link:** [Official source](https://tessl.io)
+- **Project link:** [Official Tessl platform](https://tessl.io/)
 
-- **Type / Classification:** Specification and context platform for AI-assisted development.
+- **Type / Classification:** Agent-enablement platform and package manager for skills, plugins and other agent context.
 
-- **Purpose:** A hosted platform centered on structured specifications and reusable software context for coding agents.
+- **Purpose:** Provides a registry, versioning, install/update workflow, governance, security scanning, skill reviews, scenario evaluations and observability for agent skills and plugins across an organization.
 
-- **Workflow / Requirements:** Official product website; repository-level implementation details are not applicable.
+- **Workflow / Requirements:** The CLI initializes an existing repository and configures supported agents including Claude Code, Cursor, Codex, Gemini CLI and GitHub Copilot. Official documentation lists Node.js 22.17.0+ and macOS, Linux and Windows support.
 
-- **License / Cost / Status:** Hosted pricing, data handling and current feature scope require direct product review.
+- **License / Cost:** Hosted service with a free tier and credit-based paid plans. The official pricing page currently lists 1,000 monthly credits on Free and a Team plan; credits and prices are volatile and should be checked before adoption. Publishing and installing skills are described as free.
+
+- **Security / Limitations:** Tessl provides skill/plugin scanning and governance controls, but its findings do not guarantee that a skill is safe. Review permissions, MCP servers, hooks and third-party content before installation.
+
+- **Assessment:** More than a skill directory: it manages the lifecycle, quality checks and organizational distribution of agent context.
 
 ## 📝 Note For Reader
 
