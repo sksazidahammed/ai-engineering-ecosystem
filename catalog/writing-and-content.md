@@ -9,6 +9,8 @@
 | I Have ADHD | Concise, action-first coding-agent response-style skill | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | Verified identity; not a clinical/diagnostic tool |
 | Marketing Skills | Marketing-focused agent skills for CRO, copywriting, SEO, analytics and growth | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Verified identity; MIT stated upstream |
 | Harper | Local-first English grammar checker and language tooling | [automattic/harper](https://github.com/automattic/harper) | Verified identity; English-only stated upstream |
+| Sepia | Agent skill for structural and venue-aware rewriting of AI-generated text | [Nanako0129/sepia](https://github.com/Nanako0129/sepia) | MIT stated in README; evaluation claims are upstream-reported |
+
 
 ## Humanizer
 
@@ -49,6 +51,22 @@
 - **Language support:** English only, according to the current README.
 
 - **Assessment:** Useful for proofreading and writing feedback; it is not a generative writing assistant or a general-purpose multilingual grammar checker.
+
+## Sepia
+
+- **Project link:** [Official source](https://github.com/Nanako0129/sepia)
+
+- **Type / Classification:** Portable Agent Skill for writing, reviewing, refactoring and recreating text.
+
+- **Purpose:** Focuses on deeper structural features of writing rather than only swapping words. It applies different guidance to fiction and professional documents such as release notes, PR replies, postmortems, tickets and technical articles.
+
+- **Workflow / Compatibility:** README describes a canonical SKILL.md with plugin packaging for several agent hosts and installation through the Skills CLI.
+
+- **License / Cost:** MIT stated in README.
+
+- **Limitations:** Behavioral evaluation and quality claims are upstream-reported. Human review remains necessary, especially for factual, legal, technical or attributed writing.
+
+- **Research reference:** The project cites the StoryScope paper; see the research reference in the AI Engineering Reference and Learning category.
 
 ## 📝 Note For Reader
 
