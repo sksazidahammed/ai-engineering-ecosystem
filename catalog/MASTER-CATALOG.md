@@ -64,6 +64,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | T3 Code | Open-source control plane for local coding agents | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | License not confirmed in this intake |
 | LearnHarness | Adaptive agent-assisted learning harness | [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness) | License not confirmed in this intake |
 | Harness² | Research framework for recursive agent harnessing | [google-research/harness2](https://github.com/google-research/harness2) | Apache-2.0 stated upstream |
+| AG2 | Multi-agent application framework for building agentic applications | [ag2ai/ag2](https://github.com/ag2ai/ag2) | README reviewed; AG2 Classic is maintained separately |
 
 ## Media, audio and video
 
@@ -175,6 +176,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | ingestr | CLI and Python library for data ingestion between sources and destinations | [bruin-data/ingestr](https://github.com/bruin-data/ingestr) | FSL-1.1-ALv2; Apache-2.0 future grant after two years |
 | HydraDB | Distributed graph database built on S3-compatible object storage | [hydra-db/hydradb](https://github.com/hydra-db/hydradb) | Elastic License 2.0; hosted-service restrictions apply |
 | Nhost | Open-source backend platform / Firebase alternative | [nhost/nhost](https://github.com/nhost) | MIT repository license; hosted and self-hosted operations differ |
+| FastStream | Asynchronous event-driven Python framework for Kafka, RabbitMQ, NATS, Redis and MQTT | [ag2ai/faststream](https://github.com/ag2ai/faststream) | README reviewed; verify broker/version compatibility and current license |
 
 ## Karpathy-inspired skills: provenance note
 
@@ -203,6 +205,7 @@ The type labels above are provisional unless the row is explicitly verified. A l
 | benjamin-plus | Token-efficiency skill for coding agents | [JetBrains/benjamin-plus-skill](https://github.com/JetBrains/benjamin-plus-skill) | Upstream reports token/cost reductions |
 | OpenSpace | Skill-building / agent capability research candidate | [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) | Verification pending; README could not be fetched |
 | Claude Code Templates | Installable catalogue of Claude Code agents, commands, hooks, plugins and templates | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | MIT stated in README; review each component's permissions |
+| Tessl | Agent-enablement platform and package manager for skills, plugins, governance and evaluations | [tessl.io](https://tessl.io) | Official docs and pricing reviewed; credit plans are volatile |
 
 ## Spec-Driven Development and Planning
 
@@ -213,7 +216,6 @@ The type labels above are provisional unless the row is explicitly verified. A l
 | Ouroboros (Q00) | Spec-first self-improving coding agent | [Q00/ouroboros](https://github.com/Q00/ouroboros) | MIT stated in README |
 | Claude Task Master | AI-assisted task decomposition and project tracking | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | Check current package and service terms |
 | Kiro | Agentic AI development environment with spec-driven IDE, CLI, web and mobile surfaces | [kiro.dev](https://kiro.dev) | Official product documentation reviewed; hosted plans and limits may change |
-| Tessl | Agent-enablement platform and package manager for skills/plugins, governance and evaluations | [tessl.io](https://tessl.io) | Official docs and pricing reviewed; credit plans are volatile |
 
 ## Code Intelligence and Context Engineering
 
@@ -248,7 +250,6 @@ The type labels above are provisional unless the row is explicitly verified. A l
 
 | Project / submission | Type | Official source | Status / caveat |
 |---|---|---|---|
-| AG2 | Multi-agent application framework | [ag2ai/ag2](https://github.com/ag2ai/ag2) | Check the framework version and AG2 Classic migration boundary |
 | Orca | Parallel coding-agent workspace | [stablyai/orca](https://github.com/stablyai/orca) | MIT stated in README |
 | Traycer | AI agent orchestration desktop app | [traycerai/traycer](https://github.com/traycerai/traycer) | Bring-your-own-provider subscriptions/keys may be required |
 | Oh My Claude Code | Claude Code multi-agent orchestration layer | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | MIT stated in README |
@@ -323,5 +324,4 @@ The type labels above are provisional unless the row is explicitly verified. A l
 | 12-Factor Agents | Principles and reference material for reliable agents | [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | Code is Apache-2.0 and written content CC BY-SA 4.0 according to README |
 | Claude Cookbooks | Official Anthropic developer examples | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | API use may incur charges |
 | AI Coding Dictionary | AI coding terminology reference | [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) | Reference material, not an executable tool |
-| FastStream | Asynchronous event-driven Python framework | [ag2ai/faststream](https://github.com/ag2ai/faststream) | Not an agent framework |
 | StoryScope paper | Research paper referenced by Sepia | [arXiv:2604.03136](https://arxiv.org/abs/2604.03136) | Research reference; not software |
