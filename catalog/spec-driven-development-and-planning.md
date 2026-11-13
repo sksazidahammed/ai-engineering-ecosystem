@@ -11,7 +11,6 @@
 | Claude Task Master | AI-assisted task decomposition and project tracking | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | Check current package and service terms |
 | Kiro | Spec-driven AI development environment | [kiro.dev](https://kiro.dev) | Hosted product terms, availability and pricing should be checked on the official site. |
 | Tessl | Specification and context platform for AI-assisted development | [tessl.io](https://tessl.io) | Hosted pricing, data handling and current feature scope require direct product review. |
-| Spec-driven skill paths | Spec/planning sub-skills within Matt Pocock Skills | [mattpocock/skills](https://github.com/mattpocock/skills) | Subdirectory URLs are not separate repository identities. |
 
 ## GitHub Spec Kit
 
@@ -84,18 +83,6 @@
 - **Workflow / Requirements:** Official product website; repository-level implementation details are not applicable.
 
 - **License / Cost / Status:** Hosted pricing, data handling and current feature scope require direct product review.
-
-## Spec-driven skill paths
-
-- **Project link:** [Official source](https://github.com/mattpocock/skills)
-
-- **Type / Classification:** Spec/planning sub-skills within Matt Pocock Skills.
-
-- **Purpose:** The submitted `grill-with-docs` and `wayfinder` paths are sub-skills within the existing Matt Pocock Skills repository.
-
-- **Workflow / Requirements:** Cross-reference the parent catalogue entry rather than duplicating the same repository.
-
-- **License / Cost / Status:** Subdirectory URLs are not separate repository identities.
 
 ## 📝 Note For Reader
 
