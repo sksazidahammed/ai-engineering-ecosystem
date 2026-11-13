@@ -11,10 +11,7 @@
 | 12-Factor Agents | Principles and reference material for reliable agents | [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | Code is Apache-2.0 and written content CC BY-SA 4.0 according to README |
 | Claude Cookbooks | Official Anthropic developer examples | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | API use may incur charges |
 | AI Coding Dictionary | AI coding terminology reference | [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) | Reference material, not an executable tool |
-| Anthropic Agent Skills | Official Anthropic skill collection | [anthropics/skills](https://github.com/anthropics/skills) | Repository identity already exists in the catalogue |
-| Nikita Pastukhov | Curator profile and discovery source | [Lancetnik](https://github.com/Lancetnik) | Not counted as a project record. |
 | FastStream | Asynchronous event-driven Python framework | [ag2ai/faststream](https://github.com/ag2ai/faststream) | Not an agent framework |
-| Agent tooling radar (Telegram) | Telegram discovery channel | [fastnewsdev](https://t.me/fastnewsdev) | Not counted as a project record |
 
 ## Awesome Claude Skills
 
@@ -88,30 +85,6 @@
 
 - **License / Cost / Status:** Reference material, not an executable tool; check the source project for contribution and content licensing details.
 
-## Anthropic Agent Skills
-
-- **Project link:** [Official source](https://github.com/anthropics/skills)
-
-- **Type / Classification:** Official Anthropic skill collection.
-
-- **Purpose:** Demonstrates Claude skills as folders of instructions, scripts and resources for repeatable specialized tasks.
-
-- **Workflow / Requirements:** The submitted `frontend-design` URL is a skill file within this same repository and should not be counted separately.
-
-- **License / Cost / Status:** Repository identity already exists in the catalogue; skill-level permissions and any external assets should be reviewed.
-
-## Nikita Pastukhov
-
-- **Project link:** [Official source](https://github.com/Lancetnik)
-
-- **Type / Classification:** Curator profile and discovery source.
-
-- **Purpose:** A curator/profile link supplied as provenance for the collection, not an installable AI engineering tool.
-
-- **Workflow / Requirements:** The curator's GitHub profile is a discovery reference only.
-
-- **License / Cost / Status:** Not counted as a project record.
-
 ## FastStream
 
 - **Project link:** [Official source](https://github.com/ag2ai/faststream)
@@ -123,18 +96,6 @@
 - **Workflow / Requirements:** README describes a FastAPI-like developer experience, Python package distribution and broker integrations.
 
 - **License / Cost / Status:** Not an agent framework; classify as general backend/event infrastructure. Check its current license and broker-specific requirements.
-
-## Agent tooling radar (Telegram)
-
-- **Project link:** [Official source](https://t.me/fastnewsdev)
-
-- **Type / Classification:** Telegram discovery channel.
-
-- **Purpose:** A community/news feed referenced by the curator for tracking agent tooling developments.
-
-- **Workflow / Requirements:** The submitted URL is a Telegram channel, not a GitHub repository.
-
-- **License / Cost / Status:** Not counted as a project record; posts are discovery leads, not verification evidence.
 
 ## 📝 Note For Reader
 
