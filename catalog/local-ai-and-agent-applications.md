@@ -13,7 +13,6 @@
 | Hex | Local voice-dictation desktop application | [anomalyco/hex](https://github.com/anomalyco/hex) | License not confirmed in this intake |
 | DSH Go | Android client for DeepSeek Harness | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | AGPL-3.0 stated upstream |
 | Agent Desktop | Accessibility-tree-based desktop automation CLI and library | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Apache-2.0 stated upstream |
-| Agent Browser | Browser automation CLI for AI agents | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Apache-2.0 stated upstream |
 | Kimi K3 in C | Experimental portable C99 inference implementation associated with a very large MoE model | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | Apache-2.0 stated upstream; model/checkpoint terms require separate review |
 
 ## Jan
@@ -129,20 +128,6 @@
 - **License / Cost:** Apache-2.0 stated upstream.
 
 - **Privacy / Security / Limitations:** Desktop automation can manipulate sensitive applications. Grant accessibility permissions only to trusted agents and require approval for consequential actions.
-
-## Agent Browser
-
-- **Project link:** [Official source](https://github.com/vercel-labs/agent-browser)
-
-- **Type / Classification:** Browser automation CLI for AI agents.
-
-- **Purpose / Capabilities:** Rust-based CLI lets agents open pages, inspect accessibility-tree snapshots and interact through stable element references.
-
-- **Installation / Requirements:** Install from npm, Homebrew or Cargo as documented; browser/runtime setup varies.
-
-- **License / Cost:** Apache-2.0 stated upstream.
-
-- **Privacy / Security / Limitations:** Authenticated browser sessions expose cookies and account privileges. Use isolated profiles and protect session state.
 
 ## Kimi K3 in C
 
