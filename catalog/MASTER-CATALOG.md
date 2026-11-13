@@ -1,7 +1,7 @@
 # Master Catalogue
 
-**Catalogue version:** 1.15
-**Last updated:** 2026-11-13 02:25 IST (UTC+05:30)
+**Catalogue version:** 1.16
+**Last updated:** 2026-11-13 18:24 IST (UTC+05:30)
 
 This index consolidates the initial user-submitted collection. A candidate status is intentional: it prevents an ambiguous name or unverified URL from being mistaken for an approved recommendation.
 
@@ -190,3 +190,132 @@ The master index currently contains 107 distinct project records. This is a uniq
 ## 📝 Note For Reader
 
 The type labels above are provisional unless the row is explicitly verified. A linked repository is not automatically the canonical project simply because its name looks plausible. GitHub search links are discovery aids, not official project links. Before installing anything, inspect the repository owner, README, recent commits/releases, license, dependency chain, required permissions, and installation scripts. See the [verification policy](../standards/verification-policy.md).
+
+## Skill Engineering and Agent Instructions
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| book-to-skill | Document-to-skill generation CLI | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | MIT stated in README |
+| Cangjie Skill | Knowledge-to-skill distillation toolkit | [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) | MIT stated in README |
+| SkillOpt | Research framework for optimizing agent skills | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | MIT stated in README |
+| agents-best-practices | Provider-neutral agent-harness design skill | [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | MIT stated in README |
+| benjamin-plus | Token-efficiency skill for coding agents | [JetBrains/benjamin-plus-skill](https://github.com/JetBrains/benjamin-plus-skill) | Upstream reports token/cost reductions |
+
+## Spec-Driven Development and Planning
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| GitHub Spec Kit | Spec-driven development toolkit | [github/spec-kit](https://github.com/github/spec-kit) | License badge links to upstream LICENSE |
+| OpenSpec | Change-centric specification framework | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | MIT stated in README |
+| Ouroboros (Q00) | Spec-first self-improving coding agent | [Q00/ouroboros](https://github.com/Q00/ouroboros) | MIT stated in README |
+| Claude Task Master | AI-assisted task decomposition and project tracking | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | Check current package and service terms |
+| Kiro | Spec-driven AI development environment | [kiro.dev](https://kiro.dev) | Hosted product terms, availability and pricing should be checked on the official site. |
+| Tessl | Specification and context platform for AI-assisted development | [tessl.io](https://tessl.io) | Hosted pricing, data handling and current feature scope require direct product review. |
+
+## Code Intelligence and Context Engineering
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| Serena | Semantic code retrieval and editing MCP server | [oraios/serena](https://github.com/oraios/serena) | GPL-3.0-or-later stated in README |
+| CodeGraph | Local semantic code intelligence engine | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) | MIT stated in README |
+| code-review-graph | Local code knowledge graph for review | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | MIT stated in README |
+| GitNexus | Codebase knowledge graph and explorer | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | PolyForm Noncommercial 1.0.0 stated in README |
+| jCodeMunch MCP | AST-based symbol retrieval MCP server | [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp) | README reports benchmark token savings |
+| Repomix | Codebase-to-context packer | [yamadashy/repomix](https://github.com/yamadashy/repomix) | Review ignore rules before sharing output |
+| Context Mode | Local context-compression plugin | [mksglu/context-mode](https://github.com/mksglu/context-mode) | ELv2 stated in README |
+| LeanCTX | Context gateway and policy layer | [yvgude/lean-ctx](https://github.com/yvgude/lean-ctx) | Mixed license stated in README |
+| AgentMemory | Cross-agent persistent memory | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | Review storage, synchronization, encryption and retention behavior before storing secrets or personal data. |
+| ai-memory | Cross-agent long-term workstream memory | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | MIT stated in README |
+| RTK | Coding-agent token and command-output optimizer | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | License is split between Apache-2.0 and BUSL-1.1 |
+| Mindwalk | Local coding-agent session visualizer | [cosmtrek/mindwalk](https://github.com/cosmtrek/mindwalk) | Optional session evaluation sends a session summary to the model behind the user's CLI |
+
+## Coding Agent CLIs and Harnesses
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| OpenAI Codex | Local coding-agent CLI | [openai/codex](https://github.com/openai/codex) | Provider authentication and model usage are subject to OpenAI account and product terms |
+| OpenCode | Open-source AI coding agent | [anomalyco/opencode](https://github.com/anomalyco/opencode) | Review provider configuration, shell/file permissions and current license before deployment. |
+| Forge | AI-enhanced terminal development environment | [tailcallhq/forgecode](https://github.com/tailcallhq/forgecode) | Review command execution permissions and configured model-provider data handling. |
+| Kimi CLI (archived) | Archived Python coding-agent CLI | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | Archived |
+| Open Interpreter | Local coding and computer-use agent | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | Code execution and computer interaction can affect local files and systems. Use least privilege and review commands. |
+| Pi | Minimal extensible coding-agent harness | [earendil-works/pi](https://github.com/earendil-works/pi) | Review third-party extensions and tool permissions |
+| Oh My Pi | IDE-integrated coding agent | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | Inspect its license and dependency/runtime requirements before installing |
+
+## Agent Workspaces and Orchestration
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| AG2 | Multi-agent application framework | [ag2ai/ag2](https://github.com/ag2ai/ag2) | Check the framework version and AG2 Classic migration boundary |
+| Orca | Parallel coding-agent workspace | [stablyai/orca](https://github.com/stablyai/orca) | MIT stated in README |
+| Traycer | AI agent orchestration desktop app | [traycerai/traycer](https://github.com/traycerai/traycer) | Bring-your-own-provider subscriptions/keys may be required |
+| Oh My Claude Code | Claude Code multi-agent orchestration layer | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | MIT stated in README |
+| Oh My Codex | Codex CLI orchestration layer | [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | MIT stated in README |
+| Paperclip | Agent-team management application | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | Agent management does not remove the need for credential isolation, spending controls and human approval. |
+| Multica | Self-hostable agent work-management workspace | [multica-ai/multica](https://github.com/multica-ai/multica) | Source-available wording is used upstream |
+| OpenWork | Open-source desktop workspace for agents | [different-ai/openwork](https://github.com/different-ai/openwork) | MIT stated for desktop app |
+| cc-haha | Claude Code desktop and mobile workspace | [NanmiCoder/cc-haha](https://github.com/NanmiCoder/cc-haha) | Community Source license badge |
+| jcode | Parallel coding-agent runtime | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Treat throughput and resource-efficiency claims as upstream claims until independently benchmarked. |
+| Background Agents | Background coding-agent orchestration | [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents) | Verification pending |
+| LoopX | Agent orchestration candidate | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | Verification pending |
+
+## Web Research and Browser Automation
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| Wigolo | Local-first web intelligence MCP server | [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) | AGPL-3.0 stated in README |
+| Ego Lite | Browser for AI-agent automation | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | Review browser profile isolation, cookies and authenticated session access before use. |
+| Chrome DevTools MCP | Chrome debugging and automation MCP/CLI | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Upstream explicitly warns that browser content and data are exposed to MCP clients. Do not use with sensitive sessions. |
+| NotebookLM Python | Unofficial NotebookLM/Gemini Notebook API and CLI | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | MIT stated in README |
+
+## Security Review and Agent Guardrails
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| Strix | Autonomous AI application penetration-testing tool | [usestrix/strix](https://github.com/usestrix/strix) | Apache-2.0 stated in README |
+| Reverse Skill | Cybersecurity and reverse-engineering skill router | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | Use only on software and systems you are authorized to analyze |
+| HexStrike AI | MCP cybersecurity automation platform | [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | MIT stated in README |
+| Vercel DeepSec | Agent-powered source-code vulnerability scanner | [vercel-labs/deepsec](https://github.com/vercel-labs/deepsec) | Apache-2.0 stated in README |
+| Trail of Bits Skills | Security-analysis plugin and skill marketplace | [trailofbits/skills](https://github.com/trailofbits/skills) | Review each plugin's code, tools and license individually |
+| Garak | LLM vulnerability scanner and red-team toolkit | [NVIDIA/garak](https://github.com/NVIDIA/garak) | Apache-2.0 stated in README |
+| OpenCodeReview | Automated code-review system | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Review data access and model-provider processing |
+| Destructive Command Guard | Pre-execution destructive-command guard | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | Custom license stated upstream |
+| React Doctor | Deterministic React project auditor | [millionco/react-doctor](https://github.com/millionco/react-doctor) | Check the current package license and rule behavior |
+| tuicr | Terminal code-review interface | [agavra/tuicr](https://github.com/agavra/tuicr) | Review tokens and permissions before connecting hosted repositories |
+
+## Model Gateways and Agent Integrations
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| Claude Code Router | Local model gateway and control plane | [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) | Inspect provider routing, credential storage and request logs |
+| OpenAI OAuth | OAuth integration and OpenAI-compatible proxy | [EvanZhouDev/openai-oauth](https://github.com/EvanZhouDev/openai-oauth) | Review account terms and credential handling carefully. Do not assume this is an official OpenAI SDK or an endorsed API entitlement. |
+| Corsair | Application integration and OAuth connection platform | [corsairdev/corsair](https://github.com/corsairdev/corsair) | Review connector scopes, token storage, webhook verification and hosted-service terms. |
+| Desktop Commander MCP | Desktop filesystem and terminal MCP server | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | High privilege: restrict filesystem roots and shell access, review commands and avoid exposing sensitive files or long-lived credentials. |
+| Agent Toolkit for AWS | Official AWS coding-agent toolkit | [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws) | Apache-2.0 stated in README |
+
+## Design Engineering and Agentic Visualization
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| DESIGN.md | Design-system description format and linter | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | Check current package/license terms |
+| UI Skills | Design-engineering skill registry | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | MIT stated in README |
+| Stitch Design Skills | Google Stitch agent-skill and plugin collection | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | Check each plugin's current permissions and license |
+| Flint Chart | Agent-oriented visualization language and MCP server | [microsoft/flint-chart](https://github.com/microsoft/flint-chart) | MIT stated in README |
+
+## Media, Device and Mobile Automation
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| Claude Video / Watch | Video evidence skill for coding agents | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | Optional transcription may send media or audio to external providers |
+| Agent Device | Cross-platform device automation layer | [callstack/agent-device](https://github.com/callstack/agent-device) | MIT stated in README |
+
+## AI Engineering Reference and Learning Resources
+
+| Project / submission | Type | Official source | Status / caveat |
+|---|---|---|---|
+| Awesome Claude Skills | Curated Claude skills directory | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Apache-2.0 badge in README applies to the collection repository, not automatically to every linked project. |
+| Build with Claude | Claude Code plugin marketplace and component catalogue | [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) | MIT stated in README |
+| Awesome GitHub Copilot | GitHub Copilot customization directory | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Review each community contribution before use |
+| 12-Factor Agents | Principles and reference material for reliable agents | [humanlayer/12-factor-agents](https://github.com/humanlayer/12-factor-agents) | Code is Apache-2.0 and written content CC BY-SA 4.0 according to README |
+| Claude Cookbooks | Official Anthropic developer examples | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | API use may incur charges |
+| AI Coding Dictionary | AI coding terminology reference | [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) | Reference material, not an executable tool |
+| FastStream | Asynchronous event-driven Python framework | [ag2ai/faststream](https://github.com/ag2ai/faststream) | Not an agent framework |
