@@ -165,6 +165,8 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Humanizer | Agent skill for editing AI-written prose toward more natural, direct language | [blader/humanizer](https://github.com/blader/humanizer) | Verified identity; does not claim reliable AI-detector evasion |
 | I Have ADHD | Coding-agent output-style skill emphasizing action-first, concise, structured responses | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | Verified identity; not a diagnostic or clinical tool |
 | Marketing Skills | Agent skills for CRO, copywriting, SEO, analytics and growth engineering | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Verified identity; MIT stated upstream |
+| Sepia | Agent skill for structural and venue-aware writing, review, refactoring and recreation | [Nanako0129/sepia](https://github.com/Nanako0129/sepia) | MIT stated upstream; evaluation claims are maintainer-reported |
+| Deslop | Deletion-first code-cleanup skill for agent-maintained repositories | [MrZoyo/deslop-GPT](https://github.com/MrZoyo/deslop-GPT) | MIT stated upstream; read-only by default |
 
 ## Data platforms and infrastructure
 
@@ -184,7 +186,7 @@ The submissions “Skills by Anthropic” and “Agent Skills” referred to the
 
 ## Count and deduplication
 
-The master index currently contains 184 distinct catalogue records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
+The master index currently contains 187 distinct catalogue records. This is a unique-record count, not a count of every link ever submitted: repeated submissions and aliases are merged. The original version history records submissions, not necessarily net-new unique records. The user-supplied recovery list was used to resolve several previously provisional identities and canonical repository links.
 
 ## 📝 Note For Reader
 
@@ -200,6 +202,7 @@ The type labels above are provisional unless the row is explicitly verified. A l
 | agents-best-practices | Provider-neutral agent-harness design skill | [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | MIT stated in README |
 | benjamin-plus | Token-efficiency skill for coding agents | [JetBrains/benjamin-plus-skill](https://github.com/JetBrains/benjamin-plus-skill) | Upstream reports token/cost reductions |
 | OpenSpace | Skill-building / agent capability research candidate | [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace) | Verification pending; README could not be fetched |
+| Claude Code Templates | Installable catalogue of Claude Code agents, commands, hooks, plugins and templates | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | MIT stated in README; review each component's permissions |
 
 ## Spec-Driven Development and Planning
 
