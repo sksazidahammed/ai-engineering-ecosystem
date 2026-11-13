@@ -121,6 +121,8 @@
 
 - **License and limitations:** Check the repository's current license and any skill-specific notices before reuse. A skill's presence in the collection does not establish that it is safe, maintained or suitable for every project.
 
+- **Submitted skill path:** [frontend-design](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) is a skill file inside this repository, not a separate repository record.
+
 ## Gentle-AI
 
 - **Project link:** [Official source](https://github.com/Gentleman-Programming/gentle-ai)
