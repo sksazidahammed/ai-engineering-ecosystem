@@ -1,8 +1,8 @@
 # Editorial and Maintenance Rulebook
 
 **Rulebook version:** 1.0  
-**Directory baseline:** 1.15  
-**Last updated:** 2026-11-13 02:25 IST (UTC+05:30)
+**Directory baseline:** 1.16  
+**Last updated:** 2026-11-13 18:24 IST (UTC+05:30)
 **Applies to:** Every category page, the master catalogue, README, changelog, and all future submissions.
 
 This document is the authoritative operating standard for maintaining the AI Engineering Ecosystem Directory. Follow it before researching, editing, adding, moving, correcting, or removing any catalogue record. If a future request conflicts with a rule here, preserve the established standard and ask for clarification before making a conflicting structural change.
@@ -168,6 +168,10 @@ Review execution privileges, shell access, filesystem access, browser/session ac
 Flag dual-use security tools and autonomous execution risks. Recommend authorization, least privilege, sandboxing, isolation, and operator review where appropriate. Never imply that a sandbox removes the need for authorization.
 
 ## 3. Record management
+
+- Treat repositories, subdirectories, individual skill files, hosted products, papers, curated directories, curator profiles and discovery channels as distinct resource types. Do not count a subdirectory or individual skill file as a new repository when its parent repository is already catalogued.
+- Keep discovery references in a clearly labelled reference category when they are useful, but do not describe them as installable software.
+- Distinguish repositories that share a name but have different owners or purposes; never merge them solely by name.
 
 - Preserve existing records and useful history.
 - Check for duplicates before adding a project. Merge duplicate submissions into one canonical record while preserving useful alternate names or context.
