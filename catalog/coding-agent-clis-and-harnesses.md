@@ -1,6 +1,6 @@
 # Coding Agent CLIs and Harnesses
 
-**Directory version:** 1.16  
+**Catalogue version:** 1.16  
 **Last updated:** 2026-11-13 18:24 IST (UTC+05:30)
 
 | Project | Classification | Official source | Status |
