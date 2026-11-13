@@ -17,6 +17,8 @@
 | jcode | Parallel coding-agent runtime | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Treat throughput and resource-efficiency claims as upstream claims until independently benchmarked. |
 | Background Agents | Background coding-agent orchestration | [ColeMurray/background-agents](https://github.com/ColeMurray/background-agents) | Verification pending |
 | LoopX | Agent orchestration candidate | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | Verification pending |
+| Ouroboros (razzant) | Self-evolving general-purpose agent and desktop/CLI runtime | [razzant/ouroboros](https://github.com/razzant/ouroboros) | MIT stated in README; distinct from Q00/ouroboros |
+
 
 ## AG2
 
@@ -161,6 +163,20 @@
 - **Workflow / Requirements:** README fetch was unavailable in this intake; project function is not asserted.
 
 - **License / Cost / Status:** Verification pending; distinguish from other projects with similar names.
+
+## Ouroboros (razzant)
+
+- **Project link:** [Official source](https://github.com/razzant/ouroboros)
+
+- **Type / Classification:** General-purpose self-evolving AI agent with desktop and headless CLI interfaces.
+
+- **Purpose:** Upstream describes an agent with persistent identity, durable memory and task history that can coordinate specialist agents and modify its own implementation.
+
+- **Workflow / Requirements:** README lists Python 3.10+, macOS 12+ and Linux/Windows support, with local state and remote model inference options.
+
+- **License / Caveat:** MIT badge is present in the README. Self-modifying agent behavior and remote inference require careful permission, data-flow and rollback controls.
+
+- **Assessment:** A distinct agent-runtime project; it must not be merged with `Q00/ouroboros`, which is a separate spec-first coding workflow.
 
 ## 📝 Note For Reader
 
