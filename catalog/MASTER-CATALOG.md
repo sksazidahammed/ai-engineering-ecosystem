@@ -42,6 +42,9 @@ This index consolidates the initial user-submitted collection. A candidate statu
 | Auto Ontology | Enterprise metadata-to-ontology and agent context library | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | Apache-2.0 stated upstream |
 
 | TokenEconomizer | Research implementation for coding-agent token/cost control | [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) | Apache-2.0; experimental results require reproduction |
+| Open India Law | Structured Indian primary-law corpus and data-extraction pipelines | [Vaquill-AI/open-india-law](https://github.com/Vaquill-AI/open-india-law) | Apache-2.0 repository; coverage and source-document terms require checking |
+| Repolyze | AI-assisted GitHub repository analysis and reporting web application | [OssiumOfficial/Repolyze](https://github.com/OssiumOfficial/Repolyze) | Ownership moved to Ossium; API keys and external model processing apply |
+
 ## Agent frameworks and orchestration
 
 | Project / submission | Type (provisional) | Official source or discovery link | Status |
@@ -175,7 +178,7 @@ This index consolidates the initial user-submitted collection. A candidate statu
 |---|---|---|---|
 | ingestr | CLI and Python library for data ingestion between sources and destinations | [bruin-data/ingestr](https://github.com/bruin-data/ingestr) | FSL-1.1-ALv2; Apache-2.0 future grant after two years |
 | HydraDB | Distributed graph database built on S3-compatible object storage | [hydra-db/hydradb](https://github.com/hydra-db/hydradb) | Elastic License 2.0; hosted-service restrictions apply |
-| Nhost | Open-source backend platform / Firebase alternative | [nhost/nhost](https://github.com/nhost) | MIT repository license; hosted and self-hosted operations differ |
+| Nhost | Open-source backend platform / Firebase alternative | [nhost/nhost](https://github.com/nhost/nhost) | MIT repository license; hosted and self-hosted operations differ |
 | FastStream | Asynchronous event-driven Python framework for Kafka, RabbitMQ, NATS, Redis and MQTT | [ag2ai/faststream](https://github.com/ag2ai/faststream) | README reviewed; verify broker/version compatibility and current license |
 
 ## Karpathy-inspired skills: provenance note
