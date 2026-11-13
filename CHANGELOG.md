@@ -4,7 +4,8 @@
 - Processed the submitted 17-section resource collection from the original Markdown source, extracting 112 unique URLs and distinguishing repositories, subdirectories, hosted products, papers, curator references and discovery channels.
 - Added 11 navigable category pages covering skill engineering, spec-driven development, code intelligence/context engineering, coding-agent CLIs, agent workspaces/orchestration, web research/browser automation, security review/guardrails, model gateways/integrations, design engineering/visualization, media/device automation, and reference/learning resources.
 - Added 77 new distinct catalogue records after reconciling submitted URLs against the existing master catalogue. Existing repositories and subdirectory links were not duplicated.
-- Preserved unresolved candidates such as HKUDS/OpenSpace, ColeMurray/background-agents and huangruiteng/loopx with verification-pending status rather than inventing descriptions.
+- Retained HKUDS/OpenSpace as verification pending; resolved ColeMurray/background-agents and huangruiteng/loopx through official README research, including their architecture and material deployment caveats.
+- Expanded official product research for Kiro and Tessl, including their actual agent surfaces, lifecycle capabilities, prerequisites and current pricing model.
 - Distinguished the two unrelated repositories named Ouroboros, retained HKUDS/OpenSpace as verification pending, and documented the archived status of MoonshotAI/kimi-cli and its upstream successor.
 - Included the StoryScope arXiv paper as research material rather than software, and retained the curator profile and Telegram channel as discovery references.
 
