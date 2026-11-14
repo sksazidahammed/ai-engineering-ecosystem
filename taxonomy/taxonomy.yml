@@ -136,7 +136,7 @@ categories:
   - id: applications-and-utilities
     number: "13"
     name: Applications and utilities
-    description: "End-user AI applications and general utilities. SCOPE RULE: keep only if AI-related or directly usable by agents; otherwise out of scope."
+    description: "End-user AI applications and general-purpose utilities. All catalogued items stay in scope, including utilities that are not AI-specific."
     replaces: [Productivity and workflows, Networking and system utilities]
     subcategories:
       - {id: ai-powered-applications, name: AI-powered applications}

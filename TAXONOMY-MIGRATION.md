@@ -31,14 +31,8 @@ Based on catalogue v1.16 as read from `MASTER-CATALOG.md`. Placements are judgem
 | Media, device and mobile automation | split | Claude Video → 09; Agent Device → 07 |
 | AI engineering reference and learning | 12 Learning and reference | — |
 
-## 2. Scope decisions you need to make
-
-Category 13 holds items that are not clearly "AI engineering": invoice builder, file converters, file-transfer tools, form builder, network utilities. Pick one rule and apply it to all of them:
-
-- **Keep** only if AI-related or directly usable by an agent, or
-- **Keep** everything and accept a broader "developer tools" scope.
-
-Anything that fails the chosen rule is removed (its record can stay in git history).
+## 2. Scope decision (made)
+Decision by the repository owner: every catalogued item stays in the repository, including general-purpose utilities that are not AI-specific (invoice builder, file converters, file-transfer tools, form builder, network utilities). There is no AI-only scope filter. Category 13 holds them.
 
 ## 3. Order of operations
 
